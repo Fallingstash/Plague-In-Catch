@@ -1,0 +1,94 @@
+{
+  "model": "multitask_GIN_pIC50_log1pSI",
+  "params": {
+    "encoder": "4-layer GIN, hidden_dim=128, dropout=0.3",
+    "heads": [
+      "pIC50",
+      "log1p_SI"
+    ],
+    "lambda_pic50": 1.0,
+    "lambda_log1p_si": 1.0,
+    "pIC50_target": "6 - log10(IC50_uM)",
+    "SI_target": "log1p(SI)",
+    "target_scaling": "per-fold StandardScaler",
+    "multitask_epochs": 40,
+    "vacv_finetune_epochs": 10,
+    "learning_rate": 0.001,
+    "fine_tuning_learning_rate": 0.0001,
+    "patience": 10,
+    "batch_size": 32,
+    "lambda_values": {
+      "pic50": 1.0,
+      "log1p_si": 1.0
+    },
+    "seed": 42,
+    "device": "cpu",
+    "chembl_source_rows": 454,
+    "chembl_unique_canonical": 383,
+    "fold_pretraining_chembl_unique": [
+      376,
+      373,
+      375,
+      371,
+      372
+    ]
+  },
+  "cvmetric": 4262599.597237473,
+  "metricname": "MSE_raw",
+  "foldmetrics": [
+    111448.04735404189,
+    17053.691637215383,
+    468794.7716747365,
+    20343666.94206298,
+    372034.53345838335
+  ],
+  "best_multitask_epochs": [
+    33,
+    8,
+    9,
+    14,
+    15
+  ],
+  "baseline_gnn_v2_mse": 4184684.657630082,
+  "baseline_lgbm_v2_mse": 4231074.186407227,
+  "delta_vs_gnn_v2": 77914.93960739113,
+  "delta_vs_lgbm_v2": 31525.410830246285,
+  "fold_task_scalers": [
+    {
+      "fold": 0,
+      "pic50_mean": 5.227004418979762,
+      "pic50_scale": 1.312907777953349,
+      "logsi_mean": 1.8201088473698541,
+      "logsi_scale": 2.0239377985084244
+    },
+    {
+      "fold": 1,
+      "pic50_mean": 5.222926522248804,
+      "pic50_scale": 1.3123928245285799,
+      "logsi_mean": 1.8585071417873944,
+      "logsi_scale": 2.0978872956228622
+    },
+    {
+      "fold": 2,
+      "pic50_mean": 5.237296357320481,
+      "pic50_scale": 1.3279102219163175,
+      "logsi_mean": 1.8601498599400734,
+      "logsi_scale": 2.0502760629957537
+    },
+    {
+      "fold": 3,
+      "pic50_mean": 5.24569214563757,
+      "pic50_scale": 1.3097758696141797,
+      "logsi_mean": 1.8627814687983952,
+      "logsi_scale": 2.0253317593906672
+    },
+    {
+      "fold": 4,
+      "pic50_mean": 5.223689771048138,
+      "pic50_scale": 1.2790173649836207,
+      "logsi_mean": 1.960769346542181,
+      "logsi_scale": 2.074160434303369
+    }
+  ],
+  "notes": "Mixed ChEMBL/VACV batches train the two task heads and shared encoder; the model is then fine-tuned on VACV-only batches for ten epochs. ChEMBL structures matching each validation fold are excluded from that fold's auxiliary task training."
+}

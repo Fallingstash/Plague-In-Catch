@@ -1,0 +1,15 @@
+{
+  "model": "RidgeStacking_v2",
+  "rows": 597,
+  "file_size_bytes": 9314,
+  "prediction_summary": {
+    "min": 0.0,
+    "max": 808.9225982470568,
+    "median": 0.0,
+    "mean": 154.7260543599786
+  },
+  "final_gnn_epochs": 6,
+  "final_lgbm_iterations": 6,
+  "final_classifier_iterations": 88,
+  "output": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\submission_ml_final_v2.csv"
+}

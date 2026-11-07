@@ -1,0 +1,9 @@
+{
+  "model": "combinedsoft_expanded",
+  "cvmetric": 16861614.954053003,
+  "metricname": "MSE_raw_349",
+  "mse_original_318": 16840074.196737804,
+  "mse_previous_exp05_318": 14313081.70438825,
+  "deltavsexp05_original_318": 2526992.492349554,
+  "notes": "Soft OOF blend; 349-row MSE includes Figshare additions; original-row MSE is supplied for comparable assessment."
+}

@@ -1,0 +1,57 @@
+{
+  "model": "lgbmclassifier_expanded_803",
+  "params": {
+    "n_estimators": 500,
+    "learning_rate": 0.03,
+    "num_leaves": 15,
+    "max_depth": 5,
+    "min_child_samples": 10,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "random_state": 42,
+    "verbose": -1,
+    "n_jobs": -1,
+    "class_weight": "balanced",
+    "early_stopping_rounds": 50,
+    "eval_metric": "auc"
+  },
+  "cvmetric": 0.8816481741938844,
+  "metricname": "ROCAUC_original_318",
+  "pr_auc_original_318": 0.9510938109459091,
+  "accuracy_original_318": 0.8742138364779874,
+  "confusion_matrix_original_318": [
+    [
+      61,
+      20
+    ],
+    [
+      20,
+      217
+    ]
+  ],
+  "roc_auc_all_803": 0.9032437331144625,
+  "foldmetrics": [
+    0.8619883040935673,
+    0.9663461538461539,
+    0.8785982478097621,
+    0.9348404255319149,
+    0.9808184143222506
+  ],
+  "bestiterations": [
+    10,
+    337,
+    203,
+    97,
+    9
+  ],
+  "canonical_duplicate_rows_purged_per_fold": [
+    2,
+    4,
+    3,
+    2,
+    3
+  ],
+  "notes": "Models train on 803 rows; primary ROC-AUC is OOF on the original 318 labels for comparability; canonical-SMILES duplicates are purged from each fold's training data; no IC50/CC50 features."
+}

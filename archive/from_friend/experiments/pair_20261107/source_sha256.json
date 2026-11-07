@@ -1,0 +1,10 @@
+{
+  "src/pair_research.py": "08467d9e3860278008cf9e3bc0d8f4bc0d57d172eb2ea96f9e776bba61ac856d",
+  "src/pair_nested.py": "8335f662dce13e51654bc579aa6c0aba91a8ca6834c727c039faa3dffc4685d2",
+  "src/pair_report.py": "22e6bb18712e1599fccfbe8f3ed10554c994af8b2fdba5f74a985d3052c82301",
+  "tests/test_pair_models.py": "1d9d1a708814447919ddf001dabee0e87ad8481f825f1f5ee043b01c1e77075c",
+  "src/validation.py": "3c4c9e84fafc076fb40faef8b99f28e97fa25e33e83aba3891a5112ed3445c14",
+  "src/features.py": "1d722e8e9b0addcb0562dbc5b7a361734b6787f506d49935f9d747f664deb350",
+  "vacv_cpu_improved.py": "f1c871d339cc092587ea577294435fc9d7813c48fed16ea0364fd195eea8ad39",
+  "versions/test/training.py": "208cc87c7b7af1229db099dec05cc6ae45706abb36817a2b8bd8ea40bd7f467f"
+}

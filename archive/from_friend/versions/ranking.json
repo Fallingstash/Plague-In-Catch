@@ -1,0 +1,15 @@
+{
+  "top1": {
+    "path": "versions/top1",
+    "public_mse": 886520.98398
+  },
+  "second_best_known": {
+    "path": "versions/candidates/historical_two_layer_70_30",
+    "public_mse": 898313.50898
+  },
+  "preserved_top2_folder": {
+    "path": "versions/top2",
+    "public_mse": 936601.51958,
+    "note": "Historical older top2, now third among reported results. Kept immutable."
+  }
+}

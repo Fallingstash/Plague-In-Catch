@@ -1,0 +1,15 @@
+{
+  "train.csv": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "test.csv": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+  "sample_submit.csv": "3eea4d23f5700361c09da24cd45be05c5dbbecf76cc29b022c3676835606884c",
+  "versions\\top1\\blend_model.joblib": "beeab6ffdb27f9a47e71bd39cf1a3e25f2d228f02d25939d19ebe4cd7f9907ff",
+  "versions\\top1\\cpu_model.joblib": "68ea5cc5d3973dc5157037d786019a19831618ea0cc0e291d446bf8ab2eb79f0",
+  "versions\\top1\\gcn_model.joblib": "339c194629f3296dcbb7fbe1d53bb22afa52bc7e20c761c6f5c70ae5fcc8688f",
+  "versions\\top1\\manifest.json": "2c352547a7c3838ed8a90501afa879a268df1e73fe42763586c860feb17386f9",
+  "versions\\top1\\submission.csv": "a201fd15bd04487de8c5b15cd2994c712b75a7acb8a3bdd73bcd247183895390",
+  "versions\\top2\\blend_model.joblib": "5799a462974aa5be3e2e87f2db0e71e495447b16e7d4a775a209b6bd5382d04e",
+  "versions\\top2\\cpu_model.joblib": "68ea5cc5d3973dc5157037d786019a19831618ea0cc0e291d446bf8ab2eb79f0",
+  "versions\\top2\\gcn_model.joblib": "339c194629f3296dcbb7fbe1d53bb22afa52bc7e20c761c6f5c70ae5fcc8688f",
+  "versions\\top2\\manifest.json": "17cf694546a48894bc548463844755192ce143a36b9c236404966930a0b9c44e",
+  "versions\\top2\\submission.csv": "6a57eab15680cab8d6c1323181531a254fb0304a38dc83a0ed9d16b9b8892a45"
+}

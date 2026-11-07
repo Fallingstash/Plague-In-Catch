@@ -1,0 +1,849 @@
+{
+  "model": "random_search_lgbm_raw_SI",
+  "cvmetric": 14138667.485061262,
+  "metricname": "MSE_raw",
+  "baseline_mse_raw": 14629351.430466052,
+  "best_mse_raw": 14138667.485061262,
+  "improved_over_baseline": true,
+  "best_params": {
+    "objective": "regression",
+    "n_estimators": 1500,
+    "learning_rate": 0.021637806378031636,
+    "num_leaves": 15,
+    "max_depth": 8,
+    "min_child_samples": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "random_state": 52,
+    "verbose": -1,
+    "n_jobs": -1
+  },
+  "best_iterations": [
+    129,
+    183,
+    31,
+    88,
+    102
+  ],
+  "trials_requested": 30,
+  "candidate_runs_including_baseline": 31,
+  "random_seed": 31,
+  "foldmetrics": [
+    12429730.120147202,
+    6187902.69579499,
+    16700389.289038818,
+    27462040.565655716,
+    8025941.10943471
+  ],
+  "trials": [
+    {
+      "trial": 0,
+      "mse_raw": 14629351.430466052,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1000,
+        "learning_rate": 0.03,
+        "num_leaves": 15,
+        "max_depth": 5,
+        "min_child_samples": 10,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 42,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        175,
+        238,
+        95,
+        75,
+        178
+      ]
+    },
+    {
+      "trial": 1,
+      "mse_raw": 14661946.156529384,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 600,
+        "learning_rate": 0.01028675147187845,
+        "num_leaves": 31,
+        "max_depth": 3,
+        "min_child_samples": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 32,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        600,
+        599,
+        176,
+        339,
+        539
+      ]
+    },
+    {
+      "trial": 2,
+      "mse_raw": 14897869.158343635,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 600,
+        "learning_rate": 0.013762297228929498,
+        "num_leaves": 47,
+        "max_depth": 3,
+        "min_child_samples": 10,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 33,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        200,
+        577,
+        272,
+        262,
+        375
+      ]
+    },
+    {
+      "trial": 3,
+      "mse_raw": 14868992.807490306,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 300,
+        "learning_rate": 0.014041102863813259,
+        "num_leaves": 7,
+        "max_depth": 8,
+        "min_child_samples": 10,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 34,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        300,
+        300,
+        288,
+        179,
+        280
+      ]
+    },
+    {
+      "trial": 4,
+      "mse_raw": 14244482.22700381,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1500,
+        "learning_rate": 0.017028218446015486,
+        "num_leaves": 31,
+        "max_depth": 8,
+        "min_child_samples": 10,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 35,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        516,
+        351,
+        499,
+        151,
+        221
+      ]
+    },
+    {
+      "trial": 5,
+      "mse_raw": 14939851.173624737,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 300,
+        "learning_rate": 0.0991616378981009,
+        "num_leaves": 7,
+        "max_depth": 3,
+        "min_child_samples": 20,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 36,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        158,
+        52,
+        10,
+        56,
+        78
+      ]
+    },
+    {
+      "trial": 6,
+      "mse_raw": 14627603.218575027,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1500,
+        "learning_rate": 0.021954989699477987,
+        "num_leaves": 23,
+        "max_depth": 4,
+        "min_child_samples": 15,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 37,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        231,
+        360,
+        116,
+        112,
+        146
+      ]
+    },
+    {
+      "trial": 7,
+      "mse_raw": 14520462.042896684,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 600,
+        "learning_rate": 0.039523616413526044,
+        "num_leaves": 15,
+        "max_depth": 4,
+        "min_child_samples": 20,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 38,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        242,
+        236,
+        120,
+        69,
+        92
+      ]
+    },
+    {
+      "trial": 8,
+      "mse_raw": 14867507.3983639,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 300,
+        "learning_rate": 0.038450407151898076,
+        "num_leaves": 7,
+        "max_depth": 7,
+        "min_child_samples": 10,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 39,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        281,
+        210,
+        225,
+        69,
+        112
+      ]
+    },
+    {
+      "trial": 9,
+      "mse_raw": 14939072.712411694,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1500,
+        "learning_rate": 0.022672745412979752,
+        "num_leaves": 15,
+        "max_depth": 4,
+        "min_child_samples": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 40,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        119,
+        170,
+        37,
+        82,
+        210
+      ]
+    },
+    {
+      "trial": 10,
+      "mse_raw": 14697617.737190546,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 600,
+        "learning_rate": 0.012193062996819019,
+        "num_leaves": 31,
+        "max_depth": 7,
+        "min_child_samples": 10,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 41,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        199,
+        381,
+        112,
+        188,
+        448
+      ]
+    },
+    {
+      "trial": 11,
+      "mse_raw": 14139794.312343897,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 600,
+        "learning_rate": 0.0626028741941623,
+        "num_leaves": 23,
+        "max_depth": 8,
+        "min_child_samples": 15,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 42,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        457,
+        84,
+        70,
+        33,
+        57
+      ]
+    },
+    {
+      "trial": 12,
+      "mse_raw": 14822785.34101232,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 300,
+        "learning_rate": 0.04374066576087812,
+        "num_leaves": 31,
+        "max_depth": 4,
+        "min_child_samples": 15,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 43,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        161,
+        103,
+        62,
+        73,
+        101
+      ]
+    },
+    {
+      "trial": 13,
+      "mse_raw": 14590819.419194264,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1500,
+        "learning_rate": 0.02167754223467031,
+        "num_leaves": 47,
+        "max_depth": 5,
+        "min_child_samples": 20,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 44,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        398,
+        267,
+        177,
+        165,
+        174
+      ]
+    },
+    {
+      "trial": 14,
+      "mse_raw": 14562668.573456062,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 600,
+        "learning_rate": 0.0443367260230961,
+        "num_leaves": 23,
+        "max_depth": -1,
+        "min_child_samples": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 45,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        41,
+        68,
+        14,
+        39,
+        48
+      ]
+    },
+    {
+      "trial": 15,
+      "mse_raw": 14954893.738708515,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1000,
+        "learning_rate": 0.06163786408907782,
+        "num_leaves": 15,
+        "max_depth": 5,
+        "min_child_samples": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 46,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        227,
+        67,
+        34,
+        26,
+        58
+      ]
+    },
+    {
+      "trial": 16,
+      "mse_raw": 14449814.807101216,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1000,
+        "learning_rate": 0.014913479924109104,
+        "num_leaves": 47,
+        "max_depth": 3,
+        "min_child_samples": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 47,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        394,
+        462,
+        105,
+        214,
+        423
+      ]
+    },
+    {
+      "trial": 17,
+      "mse_raw": 14956685.865295336,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 600,
+        "learning_rate": 0.046727596615539935,
+        "num_leaves": 23,
+        "max_depth": 5,
+        "min_child_samples": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 48,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        48,
+        112,
+        29,
+        42,
+        81
+      ]
+    },
+    {
+      "trial": 18,
+      "mse_raw": 14522501.865713108,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1500,
+        "learning_rate": 0.02849705896628286,
+        "num_leaves": 23,
+        "max_depth": -1,
+        "min_child_samples": 20,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 49,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        168,
+        590,
+        142,
+        94,
+        281
+      ]
+    },
+    {
+      "trial": 19,
+      "mse_raw": 14491409.824030595,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 300,
+        "learning_rate": 0.06150556503820595,
+        "num_leaves": 63,
+        "max_depth": 7,
+        "min_child_samples": 15,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 50,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        85,
+        78,
+        60,
+        40,
+        99
+      ]
+    },
+    {
+      "trial": 20,
+      "mse_raw": 14551610.574122148,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 600,
+        "learning_rate": 0.01255642328657824,
+        "num_leaves": 7,
+        "max_depth": 8,
+        "min_child_samples": 10,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 51,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        597,
+        587,
+        328,
+        204,
+        336
+      ]
+    },
+    {
+      "trial": 21,
+      "mse_raw": 14138667.485061262,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1500,
+        "learning_rate": 0.021637806378031636,
+        "num_leaves": 15,
+        "max_depth": 8,
+        "min_child_samples": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 52,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        129,
+        183,
+        31,
+        88,
+        102
+      ]
+    },
+    {
+      "trial": 22,
+      "mse_raw": 14249754.646769676,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1000,
+        "learning_rate": 0.03148818485308247,
+        "num_leaves": 47,
+        "max_depth": -1,
+        "min_child_samples": 15,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 53,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        954,
+        191,
+        121,
+        63,
+        173
+      ]
+    },
+    {
+      "trial": 23,
+      "mse_raw": 14445808.917762998,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 300,
+        "learning_rate": 0.0958209301116993,
+        "num_leaves": 63,
+        "max_depth": 6,
+        "min_child_samples": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 54,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        119,
+        39,
+        21,
+        18,
+        28
+      ]
+    },
+    {
+      "trial": 24,
+      "mse_raw": 14347930.050876431,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1500,
+        "learning_rate": 0.03057895096108232,
+        "num_leaves": 63,
+        "max_depth": -1,
+        "min_child_samples": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 55,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        104,
+        136,
+        19,
+        81,
+        87
+      ]
+    },
+    {
+      "trial": 25,
+      "mse_raw": 14341310.235909665,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1000,
+        "learning_rate": 0.01797852456264014,
+        "num_leaves": 31,
+        "max_depth": -1,
+        "min_child_samples": 10,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 56,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        220,
+        319,
+        226,
+        108,
+        287
+      ]
+    },
+    {
+      "trial": 26,
+      "mse_raw": 14516050.164267864,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1000,
+        "learning_rate": 0.010260925476236306,
+        "num_leaves": 47,
+        "max_depth": 6,
+        "min_child_samples": 20,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 57,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        766,
+        632,
+        139,
+        328,
+        336
+      ]
+    },
+    {
+      "trial": 27,
+      "mse_raw": 15774166.905294767,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 300,
+        "learning_rate": 0.015000761800372858,
+        "num_leaves": 15,
+        "max_depth": 3,
+        "min_child_samples": 30,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 58,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        299,
+        299,
+        72,
+        299,
+        300
+      ]
+    },
+    {
+      "trial": 28,
+      "mse_raw": 14855062.444727838,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 600,
+        "learning_rate": 0.07331458681829417,
+        "num_leaves": 47,
+        "max_depth": 3,
+        "min_child_samples": 10,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 59,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        144,
+        350,
+        79,
+        27,
+        66
+      ]
+    },
+    {
+      "trial": 29,
+      "mse_raw": 15071378.001423625,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 600,
+        "learning_rate": 0.08844316887764048,
+        "num_leaves": 23,
+        "max_depth": -1,
+        "min_child_samples": 30,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 60,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        98,
+        87,
+        14,
+        52,
+        65
+      ]
+    },
+    {
+      "trial": 30,
+      "mse_raw": 14505435.16212709,
+      "params": {
+        "objective": "regression",
+        "n_estimators": 1500,
+        "learning_rate": 0.028500427261387493,
+        "num_leaves": 47,
+        "max_depth": 8,
+        "min_child_samples": 10,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0,
+        "random_state": 61,
+        "verbose": -1,
+        "n_jobs": -1
+      },
+      "best_iterations": [
+        296,
+        171,
+        152,
+        90,
+        138
+      ]
+    }
+  ],
+  "notes": "30 random hyperparameter trials evaluated on the saved five folds; baseline included as trial 0. The best OOF is the full row-wise CV prediction from the best candidate."
+}

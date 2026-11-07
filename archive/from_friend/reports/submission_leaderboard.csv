@@ -1,0 +1,7 @@
+rank,blend,kaggle_public_mse,local_oof_mse_mean,status
+top1,CPU+GCN 70/30 (1 graph layer),886520.98398,4075410.5374393286,confirmed; exact uploaded submission saved
+top2,CPU+GCN 85/15 (1 graph layer),936601.51958,4130792.5368524548,confirmed score; submission reconstructed from saved components
+failed_graph_only,Pure GCN + Morgan (100%),3183221.94995,3877276.9503,previously tested; do not resubmit
+candidate,CPU+GCN 65/35 (one graph layer),,4057963.580942422,pending Kaggle; cautious follow-up after 52% worsened
+failed_52,CPU+GCN 48/52 (one graph layer),1159246.649,4002435.2041562116,user-reported Kaggle result; worse than top1/top2
+historical_second_best,CPU70 + two-layer GCN30 restored,898313.50898,,exact historical CSV and model restored; not newly uploaded

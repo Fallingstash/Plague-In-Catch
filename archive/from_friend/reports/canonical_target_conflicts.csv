@@ -1,0 +1,7 @@
+canonical,rows,min_SI,max_SI
+CC1(C)[C@@H]2CC[C@@]1(C)[C@H](NC(=O)CN1CCOCC1)C2,2,0.0,39.984
+COc1ccc(C(=O)NN2C(=O)[C@@H]3[C@@H]4C=C[C@@H]([C@H]5C[C@@H]45)[C@@H]3C2=O)cc1,2,45.4545454545455,45.455
+C[C@@H](NCc1cc(-c2ccccc2)on1)C12C[C@H]3C[C@@H](C1)C[C@@H](C2)C3,2,1.112,102.887
+O=C(NN1C(=O)[C@@H]2[C@@H]3C=C[C@@H]([C@H]4C[C@@H]34)[C@@H]2C1=O)c1ccccc1Br,2,43.478,43.4782608695652
+O=C(NN1C(=O)[C@@H]2[C@@H]3C=C[C@@H]([C@H]4C[C@@H]34)[C@@H]2C1=O)c1cccnc1,2,135.135,135.135135135135
+O=c1[nH]c(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1I,2,0.152,11.905

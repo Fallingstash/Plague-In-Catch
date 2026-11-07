@@ -1,0 +1,11 @@
+{
+  "model": "equal_weight_gnn_lgbm_raw_SI",
+  "cvmetric": 13520671.234680092,
+  "metricname": "MSEraw",
+  "error_correlation_pearson": 0.8794560933748746,
+  "mse_gnn": 14150686.090943513,
+  "mse_lgbm": 14629351.430466052,
+  "mse_ensemble": 13520671.234680092,
+  "mse_optional_blend": 14250756.711630119,
+  "notes": "Equal-weight arithmetic mean of OOF raw-SI predictions."
+}

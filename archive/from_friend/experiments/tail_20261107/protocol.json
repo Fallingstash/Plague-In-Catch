@@ -1,0 +1,23 @@
+{
+  "modes": [
+    "control_log",
+    "raw_mse",
+    "root_mse",
+    "weighted_log",
+    "log_raw1",
+    "log_raw10",
+    "dual_raw",
+    "mixture"
+  ],
+  "epochs": 80,
+  "scale": 5000.0,
+  "grouped_folds": 5,
+  "seeds": [
+    42,
+    43
+  ],
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "test_used": false,
+  "targets_modified": false,
+  "note": "Fixed configurations. Screening results are not independent after selecting a winner; no automatic submission or test-based clipping."
+}

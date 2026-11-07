@@ -1,0 +1,39 @@
+{
+  "model": "lgbmregressoron_log10",
+  "params": {
+    "n_estimators": 1000,
+    "learning_rate": 0.03,
+    "num_leaves": 15,
+    "max_depth": 5,
+    "min_child_samples": 10,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "random_state": 42,
+    "verbose": -1,
+    "n_jobs": -1,
+    "early_stopping_rounds": 50,
+    "eval_metric": "rmse"
+  },
+  "cvmetric": 21587574.24767739,
+  "metricname": "MSEraw",
+  "rmse_log": 1.124157529151737,
+  "r2_log": 0.5021550035649294,
+  "mae_raw": 2289.8021394928037,
+  "fold_metrics": [
+    21270423.00204244,
+    13432142.725780685,
+    22873201.537884995,
+    33931974.37553043,
+    16544208.25551861
+  ],
+  "best_iterations": [
+    105,
+    178,
+    63,
+    181,
+    98
+  ],
+  "notes": "baseline B; out-of-fold predictions on saved folds; log predictions clipped to [-2, 5] before exponentiation and scoring."
+}

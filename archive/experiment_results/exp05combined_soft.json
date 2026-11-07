@@ -1,0 +1,6 @@
+{
+  "model": "combinedsoft",
+  "cvmetric": 14313081.70438825,
+  "metricname": "MSE_raw",
+  "notes": "soft blend: (1-p)10000 + p10r"
+}

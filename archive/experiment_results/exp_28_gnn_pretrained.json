@@ -1,0 +1,43 @@
+{
+  "model": "GIN_ChEMBL_pretrained_finetuned_raw_SI",
+  "params": {
+    "encoder": "4-layer GINConv, hidden_dim=128, dropout=0.3",
+    "pretraining_target": "pIC50 = -log10(IC50_uM * 1e-6)",
+    "pretraining_epochs": 50,
+    "pretraining_optimizer": "Adam",
+    "pretraining_learning_rate": 0.001,
+    "chembl_raw_rows": 454,
+    "chembl_unique_canonical_molecules": 383,
+    "fine_tuning_target": "raw SI, RobustScaler fit on active fold-training rows",
+    "frozen_head_epochs": 20,
+    "unfrozen_fine_tuning_epochs": 20,
+    "fine_tuning_optimizer": "Adam",
+    "fine_tuning_learning_rate": 0.0001,
+    "active_training_rows_per_fold": [
+      192,
+      185,
+      190,
+      190,
+      191
+    ],
+    "fold_pretraining_unique_molecules": [
+      379,
+      371,
+      375,
+      368,
+      374
+    ],
+    "folds": "experiments/results/folds.json",
+    "seed": 42
+  },
+  "cvmetric": 28743309.615861807,
+  "metricname": "MSE_raw",
+  "foldmetrics": [
+    28688598.94798937,
+    18199763.789448645,
+    25487864.46820928,
+    45523868.59306708,
+    26036352.30665721
+  ],
+  "notes": "Fold-specific pretraining excludes ChEMBL canonical structures matching each validation fold to avoid exact-molecule target leakage. ChEMBL replicates were collapsed to the median pIC50 per canonical SMILES. OOF validation includes all rows; SI fine-tuning uses active training rows only."
+}

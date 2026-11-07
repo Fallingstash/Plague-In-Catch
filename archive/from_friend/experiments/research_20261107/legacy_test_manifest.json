@@ -1,0 +1,50 @@
+{
+  "status": "experimental_one_layer_35graph_pending_public_score",
+  "training_rows": 320,
+  "training_sha256_allowed_columns": "13fdc9eb7d97a63ae990f58a13dabec3058a1860e550e7c7cfcd1a01573fc00f",
+  "test_rows": 597,
+  "graph_weight": 0.35,
+  "blend": "65_percent_cpu_reference_model_plus_35_percent_one_layer_gcn_morgan",
+  "cross_validation": {
+    "split_seeds": [
+      42,
+      43
+    ],
+    "folds": 5,
+    "one_layer_mse": [
+      4006894.819057056,
+      3747659.081554602
+    ],
+    "two_layer_mse": [
+      4020129.6014918042,
+      3966375.639015219
+    ],
+    "one_layer_mae": [
+      231.98074036039912,
+      218.35568088714422
+    ],
+    "two_layer_mae": [
+      223.30387551497796,
+      214.75751390893257
+    ]
+  },
+  "submission_sha256": "d59ecdd6a3e9768916ad285f7cba1fb5e08d8f39f81b4ed84c9cd2a8af1761c6",
+  "model_sha256": "339c194629f3296dcbb7fbe1d53bb22afa52bc7e20c761c6f5c70ae5fcc8688f",
+  "public_score": null,
+  "previous_confirmed_reference_score": 886520.98398,
+  "failed_graph_only_score": 3183221.94995,
+  "note": "Candidate after the 52% GCN blend scored 1,159,246.64900. 35% is a cautious interpolation near the confirmed 30% record; score pending.",
+  "score_source": "user-reported Kaggle submission",
+  "score_to_beat": 886520.98398,
+  "graph_layers": 1,
+  "selection_constraint": "minimum mean paired OOF MSE among 1%-step blends with finite predictions and maximum test prediction <= 20000",
+  "max_test_prediction": 15347.853180387796,
+  "test_predictions_over_20000": 0,
+  "mean_oof_mse": 4057963.580942422,
+  "seed42_oof_mse": 4090707.5048284256,
+  "seed43_oof_mse": 4025219.6570564187,
+  "prediction_model_sha256": "6fe85f56da392ea0b9106617e617a31543b78bdd4b40444625a3d43bd5ce0cff",
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "prediction_model_path": "prediction_bundle.joblib",
+  "selection_note": "Legacy pending candidate; no new quality claim or test-based selection under the new protocol."
+}

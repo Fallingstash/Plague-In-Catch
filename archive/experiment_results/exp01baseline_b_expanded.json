@@ -1,0 +1,47 @@
+{
+  "model": "lgbmregressoron_log10_expanded",
+  "params": {
+    "n_estimators": 1000,
+    "learning_rate": 0.03,
+    "num_leaves": 15,
+    "max_depth": 5,
+    "min_child_samples": 10,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "random_state": 42,
+    "verbose": -1,
+    "n_jobs": -1,
+    "early_stopping_rounds": 50,
+    "eval_metric": "rmse"
+  },
+  "cvmetric": 21701263.95444608,
+  "metricname": "MSEraw",
+  "mse_original_318": 21980697.722635996,
+  "rmse_log": 1.1271613888277017,
+  "r2_log": 0.477880242018044,
+  "mae_raw": 2288.636896385524,
+  "fold_metrics": [
+    20417747.342542853,
+    11855685.610268723,
+    22705181.13410435,
+    33094698.675480645,
+    20414626.47440469
+  ],
+  "best_iterations": [
+    213,
+    187,
+    73,
+    133,
+    91
+  ],
+  "canonical_duplicate_rows_purged_per_fold": [
+    2,
+    4,
+    1,
+    2,
+    1
+  ],
+  "notes": "349-row OOF; original Kaggle validation folds retained; duplicate canonical structures are removed from each fold's training data; no IC50/CC50 features."
+}

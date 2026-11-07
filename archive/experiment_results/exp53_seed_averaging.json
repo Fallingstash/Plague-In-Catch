@@ -1,0 +1,88 @@
+{
+  "model": "FriendGraphNet_control_log_seed_average",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "folds_per_seed": 5,
+  "epochs": 80,
+  "training_rows": 320,
+  "test_rows": 597,
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "per_seed": {
+    "42": {
+      "oof_mse_raw_si": 4006894.6183433644,
+      "fold_mses": [
+        96592.60872760708,
+        710438.109135767,
+        9366.760097829967,
+        401553.5991315384,
+        18816522.01462408
+      ],
+      "oof_path": "experiments/results/exp53_gcn_seed_42_oof.npy",
+      "model_path": "experiments/results/exp53_gcn_seed_42_model.joblib"
+    },
+    "43": {
+      "oof_mse_raw_si": 3747659.110729686,
+      "fold_mses": [
+        88548.36989042196,
+        352125.10927576193,
+        57776.98896304695,
+        416294.7446043427,
+        17823550.34091486
+      ],
+      "oof_path": "experiments/results/exp53_gcn_seed_43_oof.npy",
+      "model_path": "experiments/results/exp53_gcn_seed_43_model.joblib"
+    },
+    "44": {
+      "oof_mse_raw_si": 4217813.754871856,
+      "fold_mses": [
+        52171.711385584225,
+        60629.27977082354,
+        20126887.115524944,
+        732197.9775324394,
+        117182.69014549495
+      ],
+      "oof_path": "experiments/results/exp53_gcn_seed_44_oof.npy",
+      "model_path": "experiments/results/exp53_gcn_seed_44_model.joblib"
+    },
+    "45": {
+      "oof_mse_raw_si": 4233252.649286188,
+      "fold_mses": [
+        335435.06071230135,
+        40330.2784929822,
+        91686.84828301203,
+        20330763.195548024,
+        373249.72982163454
+      ],
+      "oof_path": "experiments/results/exp53_gcn_seed_45_oof.npy",
+      "model_path": "experiments/results/exp53_gcn_seed_45_model.joblib"
+    },
+    "46": {
+      "oof_mse_raw_si": 3718516.1969046793,
+      "fold_mses": [
+        353246.3985132625,
+        63302.68214324858,
+        106653.4864267486,
+        354151.38988381263,
+        17715227.027556326
+      ],
+      "oof_path": "experiments/results/exp53_gcn_seed_46_oof.npy",
+      "model_path": "experiments/results/exp53_gcn_seed_46_model.joblib"
+    }
+  },
+  "mean_per_seed_oof_mse": 3984827.266027155,
+  "seed_averaged_oof_mse": 3948203.7702149823,
+  "seed_averaged_oof_path": "experiments/results/exp53_gcn_seed_avg_oof.npy",
+  "submission": {
+    "path": "submission_final_seed_avg.csv",
+    "rows": 597,
+    "prediction_min": 0.0,
+    "prediction_max": 32831.840625,
+    "prediction_mean": 160.8752465581044,
+    "prediction_median": 4.486042642593384
+  }
+}

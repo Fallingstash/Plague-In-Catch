@@ -1,0 +1,8 @@
+
+===== exp02_v2 started =====
+fold=0 classifier_v2 ROC-AUC=0.94141, trees=88
+fold=1 classifier_v2 ROC-AUC=0.86286, trees=43
+fold=2 classifier_v2 ROC-AUC=0.91927, trees=174
+fold=3 classifier_v2 ROC-AUC=0.94422, trees=158
+fold=4 classifier_v2 ROC-AUC=0.89545, trees=25
+===== exp02_v2 succeeded =====

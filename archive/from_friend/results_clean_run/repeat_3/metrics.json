@@ -1,0 +1,75 @@
+{
+  "OOF_MSE": {
+    "log": 4237198.183126688,
+    "hybrid": 4463351.1416413365
+  },
+  "selected": "log",
+  "mean_baseline_MSE": 4254704.745765567,
+  "CV": "canonical",
+  "original_n": 320,
+  "external_n": 0,
+  "folds": [
+    {
+      "fold": 1,
+      "original_validation": 64,
+      "external_training": 0,
+      "log_MSE": 80391.39353978408,
+      "hybrid_MSE": 84606.61150298308
+    },
+    {
+      "fold": 2,
+      "original_validation": 65,
+      "external_training": 0,
+      "log_MSE": 66264.72001943654,
+      "hybrid_MSE": 1076628.6229126651
+    },
+    {
+      "fold": 3,
+      "original_validation": 64,
+      "external_training": 0,
+      "log_MSE": 732960.2647759509,
+      "hybrid_MSE": 655569.9890616217
+    },
+    {
+      "fold": 4,
+      "original_validation": 64,
+      "external_training": 0,
+      "log_MSE": 20216588.978276096,
+      "hybrid_MSE": 20310322.182941083
+    },
+    {
+      "fold": 5,
+      "original_validation": 63,
+      "external_training": 0,
+      "log_MSE": 90158.9056730127,
+      "hybrid_MSE": 175548.93161174827
+    }
+  ],
+  "epochs": {
+    "log": [
+      56,
+      22,
+      45,
+      107,
+      6,
+      63,
+      57,
+      62,
+      18,
+      99
+    ],
+    "hybrid": [
+      128,
+      10,
+      153,
+      79,
+      38,
+      95,
+      111,
+      151,
+      54,
+      35
+    ]
+  },
+  "note": "Model selection using same folds is slightly optimistic; Kaggle result can differ. No test labels used."
+}

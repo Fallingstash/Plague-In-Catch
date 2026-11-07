@@ -1,0 +1,90 @@
+{
+  "model": "cross_fitted_ridge_stacking",
+  "features": [
+    "GIN_raw_SI",
+    "LGBM_raw_SI",
+    "exp10_calibrated_blend",
+    "P_active"
+  ],
+  "feature_shape": [
+    318,
+    4
+  ],
+  "meta_model": {
+    "type": "StandardScaler + Ridge",
+    "alpha": 1.0
+  },
+  "selected_lgbm_oof": "exp31 tuned",
+  "cvmetric": 13298524.296332609,
+  "metricname": "MSE_raw",
+  "comparison_mse": {
+    "stacking": 13298524.296332609,
+    "cross_fitted_optimized_ensemble": 13743314.95078403,
+    "weighted_gnn_lgbm_reference": 13504199.074496644
+  },
+  "foldmetrics": [
+    10782808.580040712,
+    6618682.898485371,
+    14226228.523363877,
+    27055378.36085336,
+    7940758.87903256
+  ],
+  "fold_coefficients": [
+    {
+      "fold": 0,
+      "standardized_coefficients": [
+        1140.6590324809035,
+        1030.7013783737013,
+        1659.6148070789582,
+        585.960474440044
+      ],
+      "intercept": 2687.086363325577,
+      "mse_raw": 10782808.580040712
+    },
+    {
+      "fold": 1,
+      "standardized_coefficients": [
+        1661.2102256641879,
+        1003.9537844431168,
+        1206.1095619765797,
+        606.2222841747598
+      ],
+      "intercept": 2971.4443494218644,
+      "mse_raw": 6618682.898485371
+    },
+    {
+      "fold": 2,
+      "standardized_coefficients": [
+        1360.1951165951036,
+        1613.9059092424502,
+        835.3621572446674,
+        391.2696199510648
+      ],
+      "intercept": 2760.7880870792033,
+      "mse_raw": 14226228.523363877
+    },
+    {
+      "fold": 3,
+      "standardized_coefficients": [
+        978.3215324737971,
+        949.1306600129213,
+        1228.7298703729075,
+        -106.21111786871752
+      ],
+      "intercept": 2644.13854279009,
+      "mse_raw": 27055378.36085336
+    },
+    {
+      "fold": 4,
+      "standardized_coefficients": [
+        1396.34404363296,
+        669.5215223293327,
+        1056.2565631658147,
+        -57.976261594767216
+      ],
+      "intercept": 2746.6275160661457,
+      "mse_raw": 7940758.87903256
+    }
+  ],
+  "notes": "Meta-model trained only on non-validation rows of the saved OOF feature matrix in each fold."
+}

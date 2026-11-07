@@ -1,0 +1,15 @@
+{
+  "family": "ridge_log",
+  "weights": [
+    0.0,
+    0.1,
+    0.3
+  ],
+  "inner_folds": 3,
+  "outer_folds": 5,
+  "seeds": [
+    42,
+    43
+  ],
+  "note": "Family selected after exploratory screening. Weight selection uses inner OOF only; this is a conditional follow-up, not independent validation of the entire exploratory family search."
+}

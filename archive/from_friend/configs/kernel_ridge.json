@@ -1,0 +1,6 @@
+{
+  "family": "krr",
+  "keys": ["morgan2_2048", "morgan3_2048"],
+  "alpha": 0.03,
+  "target": "log"
+}

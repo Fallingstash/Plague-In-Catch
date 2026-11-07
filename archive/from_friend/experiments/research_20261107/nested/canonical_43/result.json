@@ -1,0 +1,116 @@
+{
+  "cv": "canonical",
+  "seed": 43,
+  "metrics": {
+    "MSE": 4090572.649972205,
+    "RMSE": 2022.5164152540779,
+    "MAE": 224.41289773766493,
+    "MSE_zero": 3724.358634445794,
+    "MSE_positive": 5521831.7562212935,
+    "MSE_high": 185855603.29194832,
+    "max_target_error_share": 0.9496901350596296,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 206441.2865694044
+  },
+  "reference_metrics": {
+    "MSE": 4048200.0367813706,
+    "RMSE": 2012.0139255933022,
+    "MAE": 215.72001398812205,
+    "MSE_zero": 5577.238704471256,
+    "MSE_positive": 5463970.890116318,
+    "MSE_high": 184047569.5083298,
+    "max_target_error_share": 0.9540521087817139,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 186589.34662810565
+  },
+  "fold_metrics": {
+    "1": {
+      "MSE": 87736.08518723375,
+      "RMSE": 296.2027771430136,
+      "MAE": 87.60275279048068,
+      "MSE_zero": 11306.391999665231,
+      "MSE_positive": 115380.86782954576,
+      "MSE_high": 4995950.841820886,
+      "max_target_error_share": 0.8897334743949792,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 9827.914447017043
+    },
+    "2": {
+      "MSE": 358668.1004244377,
+      "RMSE": 598.889055188386,
+      "MAE": 156.2798576621143,
+      "MSE_zero": 5035.515611699799,
+      "MSE_positive": 486577.75876096,
+      "MSE_high": 20568113.341108043,
+      "max_target_error_share": 0.8960283074366104,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 37883.2553342218
+    },
+    "3": {
+      "MSE": 57315.594125515745,
+      "RMSE": 239.40675455282323,
+      "MAE": 60.57109161103095,
+      "MSE_zero": 349.7947751294979,
+      "MSE_positive": 77920.24495437885,
+      "MSE_high": 3201349.7448173948,
+      "max_target_error_share": 0.8727308950724706,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 7410.290146279573
+    },
+    "4": {
+      "MSE": 470745.54315214645,
+      "RMSE": 686.108987808895,
+      "MAE": 166.57544582299,
+      "MSE_zero": 1252.2392230737687,
+      "MSE_positive": 627243.311128504,
+      "MSE_high": 14183992.45614722,
+      "max_target_error_share": 0.7760299186302115,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 107106.45597892218
+    },
+    "5": {
+      "MSE": 19478397.926971693,
+      "RMSE": 4413.433802264592,
+      "MAE": 651.0353408017087,
+      "MSE_zero": 332.93740746335095,
+      "MSE_positive": 25971086.25682643,
+      "MSE_high": 621927912.1017987,
+      "max_target_error_share": 0.9972012346672745,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 55380.789694010185
+    }
+  },
+  "selections": [
+    {
+      "model": "catboost_d4_raw",
+      "mode": "similarity",
+      "weight": 0.2,
+      "inner_mse": 5259358.693741243,
+      "outer_fold": 1
+    },
+    {
+      "model": "krr_morgan2_2048_raw",
+      "mode": "static",
+      "weight": 0.2,
+      "inner_mse": 5218759.899948556,
+      "outer_fold": 2
+    },
+    {
+      "model": "reference",
+      "mode": "static",
+      "weight": 0.0,
+      "inner_mse": 4984527.051853233,
+      "outer_fold": 3
+    },
+    {
+      "model": "krr_mix_0.03",
+      "mode": "static",
+      "weight": 1.0,
+      "inner_mse": 5214456.268354547,
+      "outer_fold": 4
+    },
+    {
+      "model": "krr_morgan2_2048_raw",
+      "mode": "similarity",
+      "weight": 0.3,
+      "inner_mse": 250031.41414371075,
+      "outer_fold": 5
+    }
+  ],
+  "seconds": 140.98456090013497,
+  "train_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "note": "Family, regularization, gate and weights selected on inner OOF only. Outer targets used only for final scoring. Historical baseline recipe was developed previously on this same dataset, so this is not a new independent dataset."
+}

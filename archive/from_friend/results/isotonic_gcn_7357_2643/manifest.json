@@ -1,0 +1,19 @@
+{
+  "status": "pending_user_kaggle_check",
+  "public_mse": null,
+  "cpu_weight": 0.7357,
+  "gcn_weight": 0.2643,
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "test_sha256": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+  "submission_sha256": "7d1c0dbcde228fc17aa7e41d823657f4e0a4f5120eb2562753fec0591fc5c9d4",
+  "prediction_model_sha256": "9725d77b3b609d64a61184d86ab35a6c18c1c3d81b9daf5beb6238c422000d3f",
+  "prediction_model_path": "C:\\vscode\\chumahack\\results\\isotonic_gcn_7357_2643\\prediction_bundle.joblib",
+  "oof_seeds": [
+    42,
+    43
+  ],
+  "oof_folds": 5,
+  "epochs": 80,
+  "test_used_for_model_selection": false,
+  "note": "OOF isotonic GCN blend; external score not yet known."
+}

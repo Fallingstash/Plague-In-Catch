@@ -1,0 +1,17 @@
+{
+  "config": {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "l2": 1.0636066512540283,
+    "lr": 0.09591442461979317,
+    "target": "raw",
+    "tabular_keys": [
+      "morgan2_1024",
+      "maccs",
+      "desc"
+    ]
+  },
+  "screening_mse": 4218502.68100318,
+  "note": "Three-fold training-only tuning; not an independent assessment."
+}

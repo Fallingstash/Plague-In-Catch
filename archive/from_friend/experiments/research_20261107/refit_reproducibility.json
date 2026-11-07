@@ -1,0 +1,6 @@
+{
+  "baseline350_fold1_refit_max_abs_delta": 2.842170943040401e-14,
+  "seconds": 14.028989000013098,
+  "krr_mix_0.03_refit_max_abs_delta": 0.0,
+  "catboost_d4_log_refit_max_abs_delta": 0.0
+}

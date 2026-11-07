@@ -1,0 +1,39 @@
+{
+  "model": "combinedsoftwithstrain",
+  "cvmetric": 14125791.71853303,
+  "metricname": "MSE_raw",
+  "msebaseexp05": 14313081.70438825,
+  "deltavsexp05": -187289.9858552199,
+  "rocauc": 0.9156118143459916,
+  "rmselog": 0.7320245582960909,
+  "classifier_fold_auc": [
+    0.8842105263157896,
+    0.9759615384615384,
+    0.8623279098873592,
+    0.961436170212766,
+    0.9360613810741688
+  ],
+  "regressor_fold_rmse_log": [
+    0.7288559217521381,
+    0.6799323822984771,
+    0.7943404941364298,
+    0.767191378161108,
+    0.6873721942578824
+  ],
+  "classifier_best_iterations": [
+    120,
+    165,
+    61,
+    81,
+    58
+  ],
+  "regressor_best_iterations": [
+    62,
+    58,
+    118,
+    847,
+    178
+  ],
+  "onehot_feature_count_per_fold": 56,
+  "notes": "soft blend with fold-local one-hot encoding of Culture and strain; delta is exp06 MSE minus exp05 MSE."
+}

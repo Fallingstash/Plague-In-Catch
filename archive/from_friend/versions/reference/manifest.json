@@ -1,0 +1,18 @@
+{
+  "status": "confirmed_reference_submission",
+  "public_mse": 886520.98398,
+  "score_source": "user-reported Kaggle submission",
+  "submission_sha256": "a201fd15bd04487de8c5b15cd2994c712b75a7acb8a3bdd73bcd247183895390",
+  "train_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "test_sha256": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+  "previous_best_public_mse": 936601.51958,
+  "blend": {
+    "type": "exact_uploaded_candidate_70_30",
+    "reported_graph_weight": 0.3,
+    "submission_file": "submission.csv",
+    "candidate_model_sha256": "339c194629f3296dcbb7fbe1d53bb22afa52bc7e20c761c6f5c70ae5fcc8688f",
+    "historical_generator_base": "versions/reference/model.joblib; exact submission is authoritative"
+  },
+  "model_sha256": "339c194629f3296dcbb7fbe1d53bb22afa52bc7e20c761c6f5c70ae5fcc8688f",
+  "prior_reference_generator_sha256": "a8389a32fb06cd5ea393aa7eaafb87dbe24eb10dbfd9455c437e8a10c85b18d2"
+}

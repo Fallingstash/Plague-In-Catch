@@ -1,0 +1,119 @@
+{
+  "model": "FriendGraphNet_strategy_C",
+  "architecture": {
+    "encoder": "10 atom features -> Linear(10,64) -> normalized adjacency aggregation -> Linear(64,64); masked mean pooling",
+    "molecular_features": "Morgan fp2 + MACCS + standardized RDKit descriptors",
+    "classifier_loss": "BCEWithLogitsLoss",
+    "regressor_loss": "MSE on log1p(SI), active rows only",
+    "blend": "P(active) * expm1(regressor_log1p)"
+  },
+  "rows": 320,
+  "active_rows": 239,
+  "inactive_rows": 81,
+  "group_cv": {
+    "seeds": [
+      42,
+      43
+    ],
+    "folds": 5,
+    "epochs": 80
+  },
+  "baseline_mse_raw_si": 3831981.8649830604,
+  "classifier_roc_auc": 0.9138385247171859,
+  "classifier_accuracy_at_0_5": 0.8625,
+  "regressor_oof_mse_log1p_active": 2.832269711049242,
+  "regressor_oof_rmse_log1p_active": 1.682934850506472,
+  "regressor_oof_mse_raw_si_active": 5600623.633513939,
+  "soft_blend_oof_mse_raw_si": 4182717.6327077867,
+  "hard_blend_oof_mse_raw_si": 4183548.35147088,
+  "difference_from_baseline": 350735.76772472635,
+  "relative_improvement": -0.09152855626217239,
+  "folds": [
+    {
+      "seed": 42,
+      "fold": 1,
+      "classifier_train_rows": 256,
+      "regressor_train_active_rows": 192,
+      "validation_rows": 64,
+      "validation_active_rows": 47
+    },
+    {
+      "seed": 42,
+      "fold": 2,
+      "classifier_train_rows": 256,
+      "regressor_train_active_rows": 192,
+      "validation_rows": 64,
+      "validation_active_rows": 47
+    },
+    {
+      "seed": 42,
+      "fold": 3,
+      "classifier_train_rows": 256,
+      "regressor_train_active_rows": 192,
+      "validation_rows": 64,
+      "validation_active_rows": 47
+    },
+    {
+      "seed": 42,
+      "fold": 4,
+      "classifier_train_rows": 256,
+      "regressor_train_active_rows": 191,
+      "validation_rows": 64,
+      "validation_active_rows": 48
+    },
+    {
+      "seed": 42,
+      "fold": 5,
+      "classifier_train_rows": 256,
+      "regressor_train_active_rows": 189,
+      "validation_rows": 64,
+      "validation_active_rows": 50
+    },
+    {
+      "seed": 43,
+      "fold": 1,
+      "classifier_train_rows": 256,
+      "regressor_train_active_rows": 191,
+      "validation_rows": 64,
+      "validation_active_rows": 48
+    },
+    {
+      "seed": 43,
+      "fold": 2,
+      "classifier_train_rows": 256,
+      "regressor_train_active_rows": 192,
+      "validation_rows": 64,
+      "validation_active_rows": 47
+    },
+    {
+      "seed": 43,
+      "fold": 3,
+      "classifier_train_rows": 256,
+      "regressor_train_active_rows": 192,
+      "validation_rows": 64,
+      "validation_active_rows": 47
+    },
+    {
+      "seed": 43,
+      "fold": 4,
+      "classifier_train_rows": 256,
+      "regressor_train_active_rows": 190,
+      "validation_rows": 64,
+      "validation_active_rows": 49
+    },
+    {
+      "seed": 43,
+      "fold": 5,
+      "classifier_train_rows": 256,
+      "regressor_train_active_rows": 191,
+      "validation_rows": 64,
+      "validation_active_rows": 48
+    }
+  ],
+  "oof_files": {
+    "classifier_probability": "experiments/results/exp51_classifier_oof_probs.npy",
+    "regressor_log1p": "experiments/results/exp51_regressor_oof_log1p.npy",
+    "soft_blend_raw_si": "experiments/results/exp51_strategy_c_oof_raw_si.npy"
+  },
+  "submission": null
+}

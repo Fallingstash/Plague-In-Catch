@@ -1,0 +1,55 @@
+{
+  "baseline": {
+    "status": "matched",
+    "baseline_mse": 3831981.8649830604,
+    "expected_mse": 3831981.9529758967,
+    "difference": -0.08799283625558019,
+    "relative_difference": -2.296274808581638e-08,
+    "oof_path": "experiments\\results\\exp49_gcn_baseline_oof.npy"
+  },
+  "experiment_a": {
+    "exp_a_mse": 4131909.286834673,
+    "difference_from_baseline": 299927.4218516126,
+    "relative_improvement": -0.07826953060304696,
+    "fold_sizes_seed_42": [
+      {
+        "fold": 1,
+        "train_rows": 281,
+        "validation_rows": 70,
+        "validation_original_rows": 64,
+        "validation_figshare_rows": 6
+      },
+      {
+        "fold": 2,
+        "train_rows": 281,
+        "validation_rows": 70,
+        "validation_original_rows": 62,
+        "validation_figshare_rows": 8
+      },
+      {
+        "fold": 3,
+        "train_rows": 280,
+        "validation_rows": 71,
+        "validation_original_rows": 66,
+        "validation_figshare_rows": 5
+      },
+      {
+        "fold": 4,
+        "train_rows": 281,
+        "validation_rows": 70,
+        "validation_original_rows": 64,
+        "validation_figshare_rows": 6
+      },
+      {
+        "fold": 5,
+        "train_rows": 281,
+        "validation_rows": 70,
+        "validation_original_rows": 64,
+        "validation_figshare_rows": 6
+      }
+    ],
+    "oof_path": "experiments\\results\\exp49_gcn_figshare_oof.npy",
+    "interpretation": "Negative transfer: Figshare does not improve the OOF MSE.",
+    "final_model": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "scores_mse": {
+    "raw": 5486185.635872515,
+    "log": 4221065.868899249,
+    "hurdle": 5888113.006968818,
+    "knn": 4624163.671035641,
+    "extra_trees": 4357005.538257735
+  },
+  "ensemble_mse": 4190501.4484928744,
+  "baseline_mse": 4254704.745765567,
+  "weights": {
+    "raw": 0.0,
+    "log": 0.7,
+    "hurdle": 0.0,
+    "knn": 0.0,
+    "extra_trees": 0.3
+  },
+  "cv": "canonical",
+  "seeds": 2,
+  "epochs": 60,
+  "warning": "CV reflects selection of blend weights on the same folds; Kaggle score unknown",
+  "public_mse": 1076308.29676,
+  "blend_graph_weight": 0.05,
+  "previous_best_public_mse": 1178057.61138
+}

@@ -1,0 +1,105 @@
+{
+  "training_rows": 320,
+  "teammate_oof_rows": 320,
+  "canonical_row_alignment": "matched by canonical SMILES and SI; duplicate keys consumed one-to-one",
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "architecture": {
+    "model": "GraphNet used by TailRegressor(control_log)",
+    "graph": "one normalized adjacency aggregation layer; 10 atom features; untyped bonds",
+    "pooling": "masked mean pooling",
+    "head": "Linear(64,64) + GELU + Dropout(0.2) + Linear(64,1)",
+    "additional_features": "Morgan fingerprints, MACCS keys, standardized RDKit descriptors",
+    "target": "log1p(SI VACV), decoded with expm1",
+    "oof_protocol": "canonical-grouped 5-fold OOF averaged over seeds 42 and 43"
+  },
+  "leakage_audit": {
+    "uses_test_IC50_CC50_columns": false,
+    "evidence": "competition_data.read_competition_csv drops ic50/cc50-prefixed columns; current GCN pipeline trains on SMILES and SI VACV only.",
+    "historical_caveat": "The project audit documents an older test-max-based sweep; it is excluded from the current documented selection protocol."
+  },
+  "oof": {
+    "mse": {
+      "friend_gcn": 3831981.9529758967,
+      "our_lgbm": 4231074.186407227,
+      "our_gin": 4184684.657630082,
+      "gcn_lgbm_50_50": 4001116.6263197064,
+      "gcn_gin_50_50": 3975914.0232262327,
+      "equal_thirds": 4045059.7213443927,
+      "crossfit_optimized": 4066391.489776512
+    },
+    "residual_correlation": {
+      "friend_gcn_vs_our_lgbm": 0.9884279374072552,
+      "friend_gcn_vs_our_gin": 0.9849962465081564
+    },
+    "crossfit_weights": [
+      {
+        "fold": 0,
+        "weights_gcn_lgbm_gin": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "validation_mse": 44984.12094423036
+      },
+      {
+        "fold": 1,
+        "weights_gcn_lgbm_gin": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "validation_mse": 62313.950089395505
+      },
+      {
+        "fold": 2,
+        "weights_gcn_lgbm_gin": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "validation_mse": 409571.31705350557
+      },
+      {
+        "fold": 3,
+        "weights_gcn_lgbm_gin": [
+          0.3801418086417386,
+          0.4011454652831451,
+          0.21871272607511633
+        ],
+        "validation_mse": 19322031.72473229
+      },
+      {
+        "fold": 4,
+        "weights_gcn_lgbm_gin": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "validation_mse": 493056.3360631374
+      }
+    ],
+    "full_oof_weights_descriptive_only": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "selected_test_weights_gcn_lgbm_gin": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "selected_model_reason": "GCN has the lowest standalone OOF MSE; tested blends did not improve it."
+  },
+  "submission": {
+    "path": "submission_ensemble_gcn.csv",
+    "rows": 597,
+    "prediction_min": 0.0,
+    "prediction_max": 39703.4052734375,
+    "prediction_mean": 191.3941632614643,
+    "weights_gcn_lgbm_gin": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  }
+}

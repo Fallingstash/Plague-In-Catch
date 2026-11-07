@@ -1,0 +1,77 @@
+{
+  "model": "LGBM_v2_with_ChEMBL_pIC50_feature",
+  "chembl_unique_structures": 383,
+  "chembl_source_rows": 454,
+  "chembl_cv": {
+    "method": "5-fold GroupKFold by canonical SMILES",
+    "pic50_oof_mse": 0.7072543094795181,
+    "foldmetrics": [
+      0.6342632230965709,
+      0.8013027026369768,
+      1.0024139206887734,
+      0.4893918676469508,
+      0.6047390844074797
+    ]
+  },
+  "vacv_cv": {
+    "folds": 5,
+    "leakage_control": "Auxiliary model excludes ChEMBL structures matching each validation fold.",
+    "selected_vacv_target": "log1p",
+    "smearing_applied": false,
+    "smearing_factor": null,
+    "fold_auxiliary_fit_counts": [
+      {
+        "fold": 0,
+        "chembl_unique_train": 376,
+        "excluded_canonical_overlap_count": 7
+      },
+      {
+        "fold": 1,
+        "chembl_unique_train": 373,
+        "excluded_canonical_overlap_count": 10
+      },
+      {
+        "fold": 2,
+        "chembl_unique_train": 375,
+        "excluded_canonical_overlap_count": 8
+      },
+      {
+        "fold": 3,
+        "chembl_unique_train": 371,
+        "excluded_canonical_overlap_count": 12
+      },
+      {
+        "fold": 4,
+        "chembl_unique_train": 372,
+        "excluded_canonical_overlap_count": 11
+      }
+    ],
+    "foldmetrics_transformed_target": [
+      2.3911657217585867,
+      1.9917838331190925,
+      2.503344873192984,
+      2.821960438324901,
+      2.3435479096814515
+    ],
+    "best_iterations": [
+      185,
+      79,
+      429,
+      190,
+      323
+    ],
+    "cvmetric": 4246188.655475404,
+    "metricname": "MSE_raw",
+    "baseline_mse_raw": 4231074.186407227,
+    "delta_vs_baseline": 15114.469068177044,
+    "improved_over_baseline": false
+  },
+  "outputs": {
+    "chembl_oof_pic50": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp36chembl_oof_pic50.npy",
+    "vacv_oof_pic50": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp36_vacv_pic50_oof.npy",
+    "test_pic50": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp36_test_pic50.npy",
+    "test_pic50_csv": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\test_predicted_pic50_chembl.csv",
+    "vacv_augmented_oof_si": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp36_vacv_oof_raw_si.npy"
+  },
+  "notes": "Duplicate ChEMBL canonical structures were collapsed by median pIC50. Each VACV validation fold receives pIC50 features from a ChEMBL model that excluded exact canonical overlaps with that validation fold."
+}

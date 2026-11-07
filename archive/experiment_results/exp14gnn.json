@@ -1,0 +1,36 @@
+{
+  "model": "GINRegressor_raw_SI",
+  "params": {
+    "num_layers": 4,
+    "hidden_dim": 128,
+    "global_pooling": "mean",
+    "dropout": 0.3,
+    "target_scaler": "RobustScaler, fit on each training fold only",
+    "loss": "MSELoss on normalized SI",
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "batch_size": 32,
+    "max_epochs": 300,
+    "early_stopping_patience": 30,
+    "seed": 42,
+    "device": "cpu"
+  },
+  "cvmetric": 14150686.090943513,
+  "metricname": "MSEraw",
+  "foldmetrics": [
+    11102929.201263506,
+    9247438.34904663,
+    14378206.276782047,
+    26164086.567746963,
+    9983365.05108061
+  ],
+  "best_epochs": [
+    39,
+    12,
+    6,
+    12,
+    23
+  ],
+  "notes": "Five-fold OOF raw-SI regression; fold IDs from train_graphs.pt; validation MSE computed after RobustScaler inverse transform."
+}

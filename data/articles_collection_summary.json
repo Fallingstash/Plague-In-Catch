@@ -1,0 +1,71 @@
+{
+  "source_status": {
+    "figshare": {
+      "status": "ok",
+      "doi": "10.1021/acs.jmedchem.5c00863.s002",
+      "supplementary_file": "jm5c00863_si_002.csv",
+      "rows_parsed": 31,
+      "censored_cc50_rows": 6,
+      "censored_ec50_rows_skipped": 1
+    },
+    "pmc6335999": {
+      "status": "metadata_only_no_numeric_table",
+      "doi": "10.1039/c8md00442k",
+      "table_rows_with_resolvable_smiles": 0,
+      "allowed_compounds": [
+        "Cidofovir"
+      ],
+      "note": "Table page was blocked by the site's browser challenge."
+    },
+    "pmc7651861": {
+      "status": "metadata_only_no_numeric_table",
+      "doi": "10.1039/d0md00108b",
+      "table_rows_with_resolvable_smiles": 0,
+      "allowed_compounds": [
+        "Cidofovir",
+        "ST-246"
+      ],
+      "note": "Table page was blocked by the site's browser challenge."
+    },
+    "pubchem_names": {
+      "Cidofovir": "resolved",
+      "ST-246": "resolved",
+      "Nigericin": "resolved",
+      "Monensin": "resolved",
+      "Concanamycin A": "resolved",
+      "Concanamycin B": "resolved",
+      "Concanamycin C": "resolved"
+    },
+    "sciencedirect": {
+      "status": "metadata_only_no_numeric_table",
+      "doi": "10.1016/j.antiviral.2010.10.001",
+      "numeric_tables_found": 0,
+      "note": "The Elsevier/ScienceDirect response did not expose a numeric table."
+    }
+  },
+  "candidate_rows_by_source": {
+    "Figshare 30655366 (VACV)": 31,
+    "PMC6335999": 0,
+    "PMC7651861": 0,
+    "ScienceDirect S0166354210007424": 0
+  },
+  "final_rows_by_source": {
+    "Figshare 30655366 (VACV)": 31,
+    "PMC6335999": 0,
+    "PMC7651861": 0,
+    "ScienceDirect S0166354210007424": 0
+  },
+  "candidate_rows": 31,
+  "valid_smiles_before_deduplication": 31,
+  "invalid_smiles": 0,
+  "duplicates_with_train": 0,
+  "duplicates_within_articles": 0,
+  "censored_rows": 6,
+  "final_rows": 31,
+  "si_distribution": {
+    "min": 2.6141692150866462,
+    "max": 10000.0,
+    "median": 37.50205761316872
+  },
+  "note": "Figshare censored CC50 measurements are represented by SI=10000; the requested final schema has no is_censored column."
+}

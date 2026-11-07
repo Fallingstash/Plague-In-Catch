@@ -1,0 +1,73 @@
+{
+  "task": "TASK 31 train_v2 pipeline",
+  "completed_at": "2026-11-07T08:12:16.613823+00:00",
+  "steps": [
+    {
+      "step": "prep_v2",
+      "status": "success",
+      "error": null,
+      "started_at": "2026-11-07T08:10:53.407352+00:00",
+      "completed_at": "2026-11-07T08:10:53.441470+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\prep_v2.log"
+    },
+    {
+      "step": "features_v2",
+      "status": "success",
+      "error": null,
+      "started_at": "2026-11-07T08:10:53.443022+00:00",
+      "completed_at": "2026-11-07T08:10:59.799262+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\features_v2.log"
+    },
+    {
+      "step": "exp08_v2",
+      "status": "success",
+      "error": null,
+      "started_at": "2026-11-07T08:10:59.800299+00:00",
+      "completed_at": "2026-11-07T08:11:00.576863+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp08_v2.log"
+    },
+    {
+      "step": "exp02_v2",
+      "status": "success",
+      "error": null,
+      "started_at": "2026-11-07T08:11:00.578175+00:00",
+      "completed_at": "2026-11-07T08:11:01.557288+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp02_v2.log"
+    },
+    {
+      "step": "exp14_v2",
+      "status": "success",
+      "error": null,
+      "started_at": "2026-11-07T08:11:01.558306+00:00",
+      "completed_at": "2026-11-07T08:12:13.324433+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp14_v2.log"
+    },
+    {
+      "step": "exp30_v2",
+      "status": "success",
+      "error": null,
+      "started_at": "2026-11-07T08:12:13.327242+00:00",
+      "completed_at": "2026-11-07T08:12:13.421649+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp30_v2.log"
+    },
+    {
+      "step": "submission_v2",
+      "status": "success",
+      "error": null,
+      "started_at": "2026-11-07T08:12:13.422667+00:00",
+      "completed_at": "2026-11-07T08:12:16.613519+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\submission_v2.log"
+    }
+  ],
+  "all_steps_succeeded": true,
+  "source_rows": 320,
+  "outputs": [
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\train_clean_v2.csv",
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\folds_v2.json",
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp08_v2.json",
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp02_v2.json",
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp14_v2.json",
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp30_v2.json",
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\submission_ml_final_v2.csv"
+  ]
+}

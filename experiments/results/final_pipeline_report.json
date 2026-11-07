@@ -1,0 +1,280 @@
+{
+  "model": "five_seed_GCN_classifier_regressor_with_OOF_isotonic_probability_calibration",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "folds_per_seed": 5,
+  "fold_splitter": "StratifiedGroupKFold(shuffle=True), SI bins [0.001, 10, 100, 1000], canonical SMILES groups",
+  "epochs": 80,
+  "training_rows": 320,
+  "positive_si_regression_rows": 237,
+  "zero_si_rows": 83,
+  "calibration": {
+    "method": "IsotonicRegression(increasing=True, y_min=0, y_max=1)",
+    "input": "Mean of five-seed GroupKFold OOF classifier probabilities",
+    "target": "Binary positive-SI activity labels",
+    "fit_protocol": "OOF calibration fit on all training OOF predictions for test; diagnostic calibrated OOF scores use calibrators fitted only on other stratified group folds.",
+    "friend_code_note": "The teammate's CrossFitCalibrator actually calibrates raw SI regression predictions to continuous SI targets, not classifier probabilities. This pipeline reuses its isotonic method/order on the requested classifier probabilities; it does not claim to reuse the teammate's fitted regression calibrator."
+  },
+  "classifier_roc_auc": 0.91195160388389,
+  "regressor_mse_log1p_positive_si": 2.5137369250501944,
+  "regressor_mse_raw_si_positive_rows": 5641095.231010529,
+  "seed_oof_blend_mse_raw_si": {
+    "42": 4228227.558370062,
+    "43": 4158313.188446908,
+    "44": 4218709.226099193,
+    "45": 4214528.127847678,
+    "46": 4271917.541894322
+  },
+  "uncalibrated_soft_blend_mse_raw_si": 4178310.8181337393,
+  "cross_fitted_calibrated_blend_mse_raw_si": 4180985.092268502,
+  "final_submission": {
+    "path": "submission\\submission_final.csv",
+    "rows": 597,
+    "min": 0.0,
+    "max": 25330.497506764175,
+    "max_target_9000_met": false,
+    "mean": 139.11652705487927,
+    "median": 5.830423681744733,
+    "calibrated_probability_min": 0.0,
+    "calibrated_probability_max": 1.0,
+    "regressor_si_max": 26109.897430049226,
+    "model_path": "experiments\\results\\final_strategy_c_models.joblib"
+  },
+  "fold_metrics": [
+    {
+      "seed": 42,
+      "fold": 1,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 133692.43247157356
+    },
+    {
+      "seed": 42,
+      "fold": 2,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 301198.59377610567
+    },
+    {
+      "seed": 42,
+      "fold": 3,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 15789.516072786346
+    },
+    {
+      "seed": 42,
+      "fold": 4,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 189,
+      "validation_rows": 64,
+      "active_validation_rows": 48,
+      "regressor_raw_si_mse_active": 514328.8342887641
+    },
+    {
+      "seed": 42,
+      "fold": 5,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 189,
+      "validation_rows": 64,
+      "active_validation_rows": 48,
+      "regressor_raw_si_mse_active": 27229677.318807486
+    },
+    {
+      "seed": 43,
+      "fold": 1,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 113981.9262018432
+    },
+    {
+      "seed": 43,
+      "fold": 2,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 473861.3031356584
+    },
+    {
+      "seed": 43,
+      "fold": 3,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 83387.92935956443
+    },
+    {
+      "seed": 43,
+      "fold": 4,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 189,
+      "validation_rows": 64,
+      "active_validation_rows": 48,
+      "regressor_raw_si_mse_active": 971853.8412251725
+    },
+    {
+      "seed": 43,
+      "fold": 5,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 189,
+      "validation_rows": 64,
+      "active_validation_rows": 48,
+      "regressor_raw_si_mse_active": 26142886.08344933
+    },
+    {
+      "seed": 44,
+      "fold": 1,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 56454.50212928234
+    },
+    {
+      "seed": 44,
+      "fold": 2,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 81318.40161843333
+    },
+    {
+      "seed": 44,
+      "fold": 3,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 27468370.390676882
+    },
+    {
+      "seed": 44,
+      "fold": 4,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 189,
+      "validation_rows": 64,
+      "active_validation_rows": 48,
+      "regressor_raw_si_mse_active": 968473.4183316124
+    },
+    {
+      "seed": 44,
+      "fold": 5,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 189,
+      "validation_rows": 64,
+      "active_validation_rows": 48,
+      "regressor_raw_si_mse_active": 121429.09379140985
+    },
+    {
+      "seed": 45,
+      "fold": 1,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 386494.29426273925
+    },
+    {
+      "seed": 45,
+      "fold": 2,
+      "classifier_train_rows": 255,
+      "regressor_train_rows": 189,
+      "validation_rows": 65,
+      "active_validation_rows": 48,
+      "regressor_raw_si_mse_active": 32994.11435075859
+    },
+    {
+      "seed": 45,
+      "fold": 3,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 84702.43759687622
+    },
+    {
+      "seed": 45,
+      "fold": 4,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 189,
+      "validation_rows": 64,
+      "active_validation_rows": 48,
+      "regressor_raw_si_mse_active": 27106986.481578227
+    },
+    {
+      "seed": 45,
+      "fold": 5,
+      "classifier_train_rows": 257,
+      "regressor_train_rows": 190,
+      "validation_rows": 63,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 501603.10891992814
+    },
+    {
+      "seed": 46,
+      "fold": 1,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 484815.4227056597
+    },
+    {
+      "seed": 46,
+      "fold": 2,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 89245.42711170176
+    },
+    {
+      "seed": 46,
+      "fold": 3,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 190,
+      "validation_rows": 64,
+      "active_validation_rows": 47,
+      "regressor_raw_si_mse_active": 247244.10886829256
+    },
+    {
+      "seed": 46,
+      "fold": 4,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 189,
+      "validation_rows": 64,
+      "active_validation_rows": 48,
+      "regressor_raw_si_mse_active": 1579184.487818578
+    },
+    {
+      "seed": 46,
+      "fold": 5,
+      "classifier_train_rows": 256,
+      "regressor_train_rows": 189,
+      "validation_rows": 64,
+      "active_validation_rows": 48,
+      "regressor_raw_si_mse_active": 26168764.47348846
+    }
+  ],
+  "oof_files": {
+    "classifier_probability": "experiments/results/final_classifier_oof_probs.npy",
+    "regressor_log1p": "experiments/results/final_regressor_oof_log1p.npy",
+    "calibrated_blend": "experiments/results/final_crossfitted_calibrated_oof.npy"
+  }
+}

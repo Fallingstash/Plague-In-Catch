@@ -1,0 +1,93 @@
+{
+  "model": "krr_atom_pair_raw",
+  "cv": "canonical",
+  "seed": 42,
+  "config": {
+    "family": "krr",
+    "keys": [
+      "atom_pair"
+    ],
+    "alpha": 1.0,
+    "target": "raw"
+  },
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "seconds": 0.14183069998398423,
+  "metrics": {
+    "MSE": 4482656.658037546,
+    "RMSE": 2117.228532312359,
+    "MAE": 394.46688032484866,
+    "MSE_zero": 119437.53975272436,
+    "MSE_positive": 6010703.859799739,
+    "MSE_high": 190105377.51478505,
+    "max_target_error_share": 0.8937238895681199,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 477892.72879528446
+  },
+  "fold_metrics": {
+    "1": {
+      "MSE": 144129.03875927848,
+      "RMSE": 379.64330464171036,
+      "MAE": 212.98506729720467,
+      "MSE_zero": 39790.942409376265,
+      "MSE_positive": 181868.35020498777,
+      "MSE_high": 262085.0646012437,
+      "max_target_error_share": 0.02841258895255629,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 142256.7208887711
+    },
+    "2": {
+      "MSE": 340685.23171722965,
+      "RMSE": 583.682475081469,
+      "MAE": 287.90759662423784,
+      "MSE_zero": 97742.74897474624,
+      "MSE_positive": 428558.04462408536,
+      "MSE_high": 2088482.547884432,
+      "max_target_error_share": 0.09578501435536076,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 312942.41717489314
+    },
+    "3": {
+      "MSE": 360996.2166343542,
+      "RMSE": 600.8296069888319,
+      "MAE": 262.65915844251515,
+      "MSE_zero": 344638.8691802328,
+      "MSE_positive": 366912.7040113769,
+      "MSE_high": 3335685.6738722473,
+      "max_target_error_share": 0.1443784900024181,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 313778.92366232414
+    },
+    "4": {
+      "MSE": 1177987.091126373,
+      "RMSE": 1085.3511372483897,
+      "MAE": 454.0858083594735,
+      "MSE_zero": 105029.45000329614,
+      "MSE_positive": 1535639.6381673983,
+      "MSE_high": 11960512.80201059,
+      "max_target_error_share": 0.28522693377780917,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 855358.4204135182
+    },
+    "5": {
+      "MSE": 20389485.711950492,
+      "RMSE": 4515.471814987941,
+      "MAE": 754.6967709008121,
+      "MSE_zero": 2244.4418643339495,
+      "MSE_positive": 27185232.801979214,
+      "MSE_high": 650565181.8565582,
+      "max_target_error_share": 0.9824321713204457,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 363884.6901351222
+    }
+  },
+  "code_sha256": {
+    "src\\artifacts.py": "bdf851607b4fc92461bc97aa3cce0ae67ac173117b2405f28cc02effa3e52864",
+    "src\\cli.py": "8b7644e0dac5e29a250889a798dd66927d5dd919d1164403175255fddce733d1",
+    "src\\features.py": "1d722e8e9b0addcb0562dbc5b7a361734b6787f506d49935f9d747f664deb350",
+    "src\\inference.py": "79c891369bb6d2f6a21f1821b234a948018c95c088a55747ae6859c714f9e50d",
+    "src\\models.py": "b5f8b2cbbe2eeacb18d7f1c980c98690f23038891e707b1472c57819f93ee3d4",
+    "src\\neural_models.py": "7175b59d1047876155dc93ef3d15c04916b3a1a7d1e4d17636b2190b7f34f64e",
+    "src\\research.py": "8906c3706be568f1f7feaaab6a72885edfdc8ad66cf79fe5e20a46ac51b9c27c",
+    "src\\validation.py": "065320a5182e06f16377bf477479c5cefded4beced063e1eaa2c04e8471248eb",
+    "src\\__init__.py": "d717a1306ccf343f98d15afa433513e157c5cbbb46f75bd4819f90126805a7af",
+    "competition_data.py": "228a0909f561f2cf7a7886c70665958da74a5fb747917fbb2feaf43034557138",
+    "vacv_cpu_improved.py": "4a4bc08c1e28af17f89d933825605ad9ce746593ef4b35c4b992ff232542cb06",
+    "versions\\test\\training.py": "562dbbd2f11a2e76b6753ea9160ef6d48522f8420e1c91ade9a4b0aa8b39b9fe"
+  },
+  "feature_version": "rdkit-2026.09.1-smiles-only-v1",
+  "selection_note": "Screening OOF only; not an independent estimate after selecting a configuration."
+}

@@ -1,0 +1,107 @@
+{
+  "documents": [
+    {
+      "abstract": "The double-stranded DNA (dsDNA) viruses represented by adenovirus and monkeypox virus, have attracted widespread attention due to their high infectivity. In 2022, the global outbreak of mpox (or monkeypox) has led to the declaration of a Public Health Emergency of International Concern. However, to date therapeutics approved for dsDNA virus infections remain limited and there are still no available treatments for some of these diseases. The development of new therapies for treating dsDNA infection is in urgent need. In this study, we designed and synthesized a series of novel disulfide-incorporated lipid conjugates of cidofovir (CDV) as potential candidates against dsDNA viruses including vaccinia virus (VACV) and adenovirus (AdV) 5. The structure-activity relationship analyses revealed that the optimum linker moiety was C<sub>2</sub>H<sub>4</sub> and the optimum aliphatic chain length was 18 or 20 atoms. Among the synthesized conjugates, 1c exhibited more potency against VACV (IC<sub>50</sub> = 0.0960 μM in Vero cells; IC<sub>50</sub> = 0.0790 μM in A549 cells) and AdV5 (IC<sub>50</sub> = 0.1572 μM in A549 cells) than brincidofovir (BCV). The transmission electron microscopy (TEM) images revealed that the conjugates could form micelles in phosphate buffer. The stability studies in the GSH environment demonstrated that the formation of micelles in phosphate buffer might protect the disulfide bond from glutathione (GSH) reduction. The dominant means of the synthetic conjugates to liberate the parent drug CDV was by enzymatic hydrolysis. Furthermore, the synthetic conjugates remained sufficiently stable in simulated gastric fluid (SGF), simulated intestinal fluid (SIF), and pooled human plasma, which indicated the possibility for oral administration. These results indicated 1c may be a broad-spectrum antiviral candidate against dsDNA viruses with potential oral administration. Moreover, modification of the aliphatic chain attached to the nucleoside phosphonate group was involved as an efficient prodrug strategy for the development of potent antiviral candidates.",
+      "authors": "Wang B, Cao B, Bei ZC, Xu L, Zhang D, Zhao L, Song Y, Wang H.",
+      "chembl_release": {
+        "chembl_release": "CHEMBL_36",
+        "creation_date": "2025-07-28"
+      },
+      "contact": null,
+      "doc_type": "PUBLICATION",
+      "document_chembl_id": "CHEMBL5625166",
+      "doi": "10.1016/j.ejmech.2023.115601",
+      "doi_chembl": null,
+      "first_page": "115601",
+      "issue": null,
+      "journal": "Eur J Med Chem",
+      "journal_full_title": "European journal of medicinal chemistry.",
+      "last_page": "115601",
+      "patent_id": null,
+      "pubmed_id": 37390509,
+      "src_id": 1,
+      "title": "Disulfide-incorporated lipid prodrugs of cidofovir: Synthesis, antiviral activity, and release mechanism.",
+      "volume": "258",
+      "year": 2023
+    },
+    {
+      "abstract": "",
+      "authors": null,
+      "chembl_release": {
+        "chembl_release": "CHEMBL_36",
+        "creation_date": "2025-07-28"
+      },
+      "contact": null,
+      "doc_type": "PATENT",
+      "document_chembl_id": "CHEMBL5725833",
+      "doi": null,
+      "doi_chembl": null,
+      "first_page": null,
+      "issue": null,
+      "journal": null,
+      "journal_full_title": null,
+      "last_page": null,
+      "patent_id": "US-10112895-B2",
+      "pubmed_id": null,
+      "src_id": 37,
+      "title": "Antivirals against molluscum contagiosum virus",
+      "volume": null,
+      "year": 2018
+    },
+    {
+      "abstract": "Scientific interest in orthopoxvirus infections and search for new highly effective compounds possessing antiviral activity against orthopoxviruses have significantly increased as a result of worldwide mpox outbreak in 2022. The present work deals with the synthesis of new 2-arylimidazoles exhibiting <i>in vitro</i> activity not only against the vaccinia virus, cowpox virus and ectromelia (mousepox) virus but also against the variola virus. Among the imidazole derivatives under consideration (1-hydroxyimidazoles, 1-methoxyimidazoles, 1-benzyloxyimidazoles, and imidazole <i>N</i>-oxides), the most promising antiviral activity is demonstrated by 1-hydroxyimidazoles, which may exist as two prototropic tautomers. Both of these tautomers may be manifested in different crystal structures of these compounds, according to single-crystal X-ray diffraction analysis, while predominantly one of them (<i>N</i>-hydroxy-tautomeric form) is present in DMSO-<i>d</i> <sub>6</sub> solutions and in the gaseous state, as shown by NMR spectroscopy and quantum-chemical calculations. The leader compound 1-hydroxy-2-(4-nitrophenyl)imidazole 4a demonstrated the highest selectivity indices against the vaccinia virus (SI = 1072) and the variola virus (SI = 373).",
+      "authors": "Basanova EI, Kulikova EA, Bormotov NI, Serova OA, Shishkina LN, Ovchinnikova AS, Odnoshevskiy DA, Pyankov OV, Agafonov AP, Yarovaya OI, Borisevich SS, Ilyina MG, Kolybalov DS, Arkhipov SG, Bogdanov NE, Pavlova MA, Salakhutdinov NF, Perevalov VP, Nikitina PA.",
+      "chembl_release": {
+        "chembl_release": "CHEMBL_37",
+        "creation_date": "2026-05-01"
+      },
+      "contact": null,
+      "doc_type": "PUBLICATION",
+      "document_chembl_id": "CHEMBL6092128",
+      "doi": "10.1039/d4md00181h",
+      "doi_chembl": null,
+      "first_page": "3196",
+      "issue": "9",
+      "journal": "RSC Med Chem",
+      "journal_full_title": "RSC medicinal chemistry.",
+      "last_page": "3211",
+      "patent_id": null,
+      "pubmed_id": 39165907,
+      "src_id": 1,
+      "title": "2-Aryl-1-hydroxyimidazoles possessing antiviral activity against a wide range of orthopoxviruses, including the variola virus.",
+      "volume": "15",
+      "year": 2024
+    },
+    {
+      "abstract": "Nucleoside analogs (NAs), as antiviral drugs, play a significant role in clinical medicine, constituting approximately 50 % of all antiviral therapies in current use. Nucleoside inhibitors function by mimicking the structure of natural nucleosides, integrating themselves into viral genetic material during replication, and subsequently inhibiting the virus's ability to reproduce. They are used to treat a variety of viral infections, including herpes simplex, hepatitis B, and acquired immunodeficiency syndrome (AIDS). This review offers the development and mechanisms of atypical nucleoside antiviral agents that target novel sites on viral polymerase and other antiviral targets of nucleoside molecules, highlighting their significance in response to emerging viral threats like severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).",
+      "authors": "Xu H, Li B, Tang K, Yang J, Zhan P.",
+      "chembl_release": {
+        "chembl_release": "CHEMBL_37",
+        "creation_date": "2026-05-01"
+      },
+      "contact": null,
+      "doc_type": "PUBLICATION",
+      "document_chembl_id": "CHEMBL6114962",
+      "doi": "10.1016/j.bmcl.2025.130110",
+      "doi_chembl": null,
+      "first_page": "130110",
+      "issue": null,
+      "journal": "Bioorg Med Chem Lett",
+      "journal_full_title": "Bioorganic & medicinal chemistry letters.",
+      "last_page": "130110",
+      "patent_id": null,
+      "pubmed_id": 39864529,
+      "src_id": 1,
+      "title": "Nucleoside antiviral agents with atypical structures and new targets.",
+      "volume": "119",
+      "year": 2025
+    }
+  ],
+  "page_meta": {
+    "limit": 100,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 4
+  }
+}

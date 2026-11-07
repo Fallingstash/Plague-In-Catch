@@ -1,0 +1,9 @@
+{
+  "src/tail_research.py": "f14d427dc1a71a0972173984864aa11f7f0023595de37b1a530b8d29e24839c7",
+  "src/tail_calibration.py": "d07b449836056ffd7efbd64116aea9149303f9c94bf68ab594fcd479650c0243",
+  "src/tail_report.py": "21894fa94779f4baaeffe05f5cc6777557e3140c7632ed47e10cf8d2105d355f",
+  "tests/test_tail_models.py": "f625cd7f2c0756448ca6a60d5eaeb4129ec98d218485665156f52710299eeed2",
+  "src/validation.py": "3c4c9e84fafc076fb40faef8b99f28e97fa25e33e83aba3891a5112ed3445c14",
+  "versions/test/training.py": "208cc87c7b7af1229db099dec05cc6ae45706abb36817a2b8bd8ea40bd7f467f",
+  "vacv_cpu_improved.py": "f1c871d339cc092587ea577294435fc9d7813c48fed16ea0364fd195eea8ad39"
+}

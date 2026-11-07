@@ -1,0 +1,13 @@
+Using tuned LGBM OOF (MSE 1.41387e+07 < 1.46294e+07)
+fold=0 stacking MSE_raw=1.07828e+07
+fold=1 stacking MSE_raw=6.61868e+06
+fold=2 stacking MSE_raw=1.42262e+07
+fold=3 stacking MSE_raw=2.70554e+07
+fold=4 stacking MSE_raw=7.94076e+06
+MSE comparison: {
+  "stacking": 13298524.296332609,
+  "cross_fitted_optimized_ensemble": 13743314.95078403,
+  "weighted_gnn_lgbm_reference": 13504199.074496644
+}
+Saved meta-model: C:\Users\sashk\OneDrive\Desktop\PlagueIn\experiments\results\exp30_meta_model.joblib
+Saved result: C:\Users\sashk\OneDrive\Desktop\PlagueIn\experiments\results\exp30stacking.json

@@ -1,0 +1,76 @@
+{
+  "model": "cross_fitted_simplex_ensemble",
+  "feature_models": [
+    "GIN",
+    "LGBM_raw",
+    "exp10_calibrated_blend"
+  ],
+  "constraints": "nonnegative weights summing to one",
+  "cvmetric": 13743314.95078403,
+  "metricname": "MSE_raw",
+  "comparison_mse": {
+    "equal_50_50_gnn_lgbm": 13520671.234680092,
+    "fixed_0.5688_0.4312_gnn_lgbm": 13504199.076735286,
+    "cross_fitted_optimized_3_model": 13743314.95078403
+  },
+  "full_data_optimal_weights": [
+    0.46662541560233006,
+    0.22908776577804105,
+    0.3042868186196289
+  ],
+  "fold_weights": [
+    {
+      "fold": 0,
+      "weights": [
+        0.3784911957967769,
+        0.21269170958444675,
+        0.40881709461877636
+      ],
+      "mse_raw": 11274436.158942893
+    },
+    {
+      "fold": 1,
+      "weights": [
+        0.5908756521241634,
+        0.31019207355490036,
+        0.09893227432093632
+      ],
+      "mse_raw": 7810973.981246311
+    },
+    {
+      "fold": 2,
+      "weights": [
+        0.4786394141868438,
+        0.32998960830255497,
+        0.19137097751060128
+      ],
+      "mse_raw": 13907759.043402962
+    },
+    {
+      "fold": 3,
+      "weights": [
+        0.37783992532427546,
+        0.252762456190055,
+        0.3693976184856695
+      ],
+      "mse_raw": 26666552.557856694
+    },
+    {
+      "fold": 4,
+      "weights": [
+        0.507377920158016,
+        0.01768609216557398,
+        0.4749359876764101
+      ],
+      "mse_raw": 9187595.48340399
+    }
+  ],
+  "foldmetrics": [
+    11274436.158942893,
+    7810973.981246311,
+    13907759.043402962,
+    26666552.557856694,
+    9187595.48340399
+  ],
+  "notes": "For each validation fold, weights are optimized using only the other folds' OOF predictions and labels. Equal/fixed baselines use GIN and raw LightGBM."
+}

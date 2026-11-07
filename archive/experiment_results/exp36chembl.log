@@ -1,0 +1,27 @@
+ChEMBL pIC50 fold=0 MSE=0.634263; train=306, val=77
+ChEMBL pIC50 fold=1 MSE=0.801303; train=306, val=77
+ChEMBL pIC50 fold=2 MSE=1.00241; train=306, val=77
+ChEMBL pIC50 fold=3 MSE=0.489392; train=307, val=76
+ChEMBL pIC50 fold=4 MSE=0.604739; train=307, val=76
+VACV fold=0 pIC50 feature ready; ChEMBL train=376, excluded overlap=7
+VACV fold=1 pIC50 feature ready; ChEMBL train=373, excluded overlap=10
+VACV fold=2 pIC50 feature ready; ChEMBL train=375, excluded overlap=8
+VACV fold=3 pIC50 feature ready; ChEMBL train=371, excluded overlap=12
+VACV fold=4 pIC50 feature ready; ChEMBL train=372, excluded overlap=11
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+VACV augmented fold=0 transformed-target MSE=2.39117
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+VACV augmented fold=1 transformed-target MSE=1.99178
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+VACV augmented fold=2 transformed-target MSE=2.50334
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+VACV augmented fold=3 transformed-target MSE=2.82196
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+VACV augmented fold=4 transformed-target MSE=2.34355
+ChEMBL feature MSE=4.24619e+06; baseline=4.23107e+06; delta=15114.5; target=log1p
+Saved result: C:\Users\sashk\OneDrive\Desktop\PlagueIn\experiments\results\exp36chembl.json

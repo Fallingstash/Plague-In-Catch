@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "test_used": false,
+  "targets_modified": false,
+  "model_configurations": 7,
+  "split_seeds": [
+    42,
+    43
+  ],
+  "folds": 5,
+  "fixed_pair10_mean_MSE": 4040092.576178002,
+  "reference_mean_MSE": 4074346.070124016,
+  "conditional_nested_mean_MSE": 4105226.4178675767,
+  "improvement_confirmed": false,
+  "recommended_submission": "versions/top1/submission.csv",
+  "source_sha256": {
+    "src/pair_research.py": "08467d9e3860278008cf9e3bc0d8f4bc0d57d172eb2ea96f9e776bba61ac856d",
+    "src/pair_nested.py": "8335f662dce13e51654bc579aa6c0aba91a8ca6834c727c039faa3dffc4685d2",
+    "src/pair_report.py": "22e6bb18712e1599fccfbe8f3ed10554c994af8b2fdba5f74a985d3052c82301"
+  },
+  "pytest": {
+    "tests": 13,
+    "failures": 0,
+    "errors": 0
+  },
+  "restart_prediction_max_delta": 0.0
+}

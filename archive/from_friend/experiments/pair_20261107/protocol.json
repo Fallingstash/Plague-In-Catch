@@ -1,0 +1,29 @@
+{
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "modes": [
+    "anchor_mean",
+    "ridge_log",
+    "ridge_raw",
+    "kernel_log",
+    "kernel_raw",
+    "neural_log",
+    "neural_raw"
+  ],
+  "seeds": [
+    42,
+    43
+  ],
+  "folds": 5,
+  "epochs": 60,
+  "pair_neighbors": 8,
+  "random_pairs_per_molecule": 2,
+  "query_anchors": 5,
+  "anchor_weight_power": 4,
+  "test_used": false,
+  "predeclared_comparisons": [
+    "standalone pair",
+    "90% reference + 10% pair",
+    "70% CPU + 30% pair"
+  ],
+  "note": "Pairs are correlated transformations of 320 original labels, not new independent observations. No test-derived tuning."
+}

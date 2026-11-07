@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\train_v2.csv",
+  "rows": 320,
+  "active": 239,
+  "inactive": 81,
+  "zero_si": 83,
+  "active_zero_si": 2,
+  "inactive_si_all_zero": true,
+  "fold_counts": [
+    64,
+    64,
+    64,
+    64,
+    64
+  ],
+  "outputs": [
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\train_clean_v2.csv",
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\folds_v2.json"
+  ],
+  "note": "Original train.csv and existing feature/fold artifacts were not replaced."
+}

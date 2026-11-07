@@ -1,0 +1,52 @@
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+raw-SI fold=0 MSE_raw=132206, trees=1
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+raw-SI fold=1 MSE_raw=59906.8, trees=1
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+raw-SI fold=2 MSE_raw=359917, trees=125
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+raw-SI fold=3 MSE_raw=2.02002e+07, trees=137
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+raw-SI fold=4 MSE_raw=403109, trees=6
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+log1p-SI fold=0 MSE_raw=2.72477, trees=106
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+log1p-SI fold=1 MSE_raw=2.08831, trees=88
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+log1p-SI fold=2 MSE_raw=2.69864, trees=408
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+log1p-SI fold=3 MSE_raw=2.43509, trees=198
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+log1p-SI fold=4 MSE_raw=2.42368, trees=281
+Outlier: {"index": 14, "title": "8e-as-555-15-16", "IC50_uM_VACV": 0.03, "CC50_uM": 1082.0, "SI_VACV": 36066.667, "CC50_div_IC50": 36066.66666666667, "consistent": true}
+Global smearing factor: 6.607602
+MSE comparison: {
+  "raw_si": {
+    "mse_all": 4231074.186407227,
+    "mse_without_outlier": 205773.91909132892
+  },
+  "log1p_backtransform": {
+    "mse_all": 4251600.345281983,
+    "mse_without_outlier": 201132.49556030787
+  },
+  "log1p_global_smearing": {
+    "mse_all": 4174809.454259054,
+    "mse_without_outlier": 201946.21997456046
+  },
+  "log1p_fold_cross_fitted_smearing": {
+    "mse_all": 4183929.083230981,
+    "mse_without_outlier": 191267.32587553104
+  }
+}
+Selected target: log1p_global_smearing
+Saved result: C:\Users\sashk\OneDrive\Desktop\PlagueIn\experiments\results\exp35outlier.json

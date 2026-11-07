@@ -1,0 +1,1161 @@
+{
+  "search_terms": {
+    "vaccinia[All Fields]": {
+      "matching_records": 3200,
+      "fetched": 500
+    },
+    "VACV[All Fields]": {
+      "matching_records": 1050,
+      "fetched": 500
+    },
+    "orthopox[All Fields]": {
+      "matching_records": 84,
+      "fetched": 84
+    }
+  },
+  "unique_aids_retrieved": 1050,
+  "candidate_assays": 157,
+  "assays_downloaded": 156,
+  "usable_ic50_cc50_measurements": 295,
+  "paired_rows": 26,
+  "unique_paired_canonical_smiles": 25,
+  "novel_pair_rows_vs_known_data": 0,
+  "unique_novel_structures_vs_known_data": 0,
+  "pairs_already_in_train_or_collections": 26,
+  "assay_status": [
+    {
+      "aid": "2242649",
+      "assayname": "Antiviral activity against Vaccinia virus",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "2221755",
+      "assayname": "Selectivity index, ratio of CC50 for cytotoxicity against African green monkey Vero cells to IC50 for antiviral activity against Vaccinia virus Copenhagen infected in African green monkey Vero cells",
+      "downloaded_rows": 24,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "2221754",
+      "assayname": "Cytotoxicity against African green monkey Vero cells assessed as cell destruction incubated for 4 days by neutral red dye uptake based spectrophotometric analysis",
+      "downloaded_rows": 29,
+      "usable_concentration_measurements": 27,
+      "status": "ok"
+    },
+    {
+      "aid": "2221753",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in African green monkey Vero cells assessed as inhibition of virus-induced cytotoxicity incubated for 4 days by neutral red dye uptake based spectrophotometric analysis",
+      "downloaded_rows": 29,
+      "usable_concentration_measurements": 25,
+      "status": "ok"
+    },
+    {
+      "aid": "2135803",
+      "assayname": "Antiviral activity against VACV infected in A549 cells assessed as reduction in cytopathic effect incubated for 96 hrs by neutral red based spectrophotometric analysis",
+      "downloaded_rows": 21,
+      "usable_concentration_measurements": 18,
+      "status": "ok"
+    },
+    {
+      "aid": "2135800",
+      "assayname": "Antiviral activity against VACV infected in Vero cells assessed as reduction in cytopathic effect incubated for 96 hrs by neutral red based spectrophotometric analysis",
+      "downloaded_rows": 21,
+      "usable_concentration_measurements": 19,
+      "status": "ok"
+    },
+    {
+      "aid": "2076334",
+      "assayname": "Antiviral activity against Vaccinia virus strain YS/R infected in human HEL cells assessed as reduction in plaque formation measured after 3 days",
+      "downloaded_rows": 12,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996862",
+      "assayname": "Antiviral activity against wild type Vaccinia virus IHD infected in monkey Vero cells assessed as reduction in plaque formation measured after 7 days",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996861",
+      "assayname": "Antiviral activity against Vaccinia virus IHD infected in African green monkey Vero cells assessed as reduction in plaque formation measured after 7 days",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996860",
+      "assayname": "Antiviral activity against wild type Vaccinia virus infected in human HFF cells assessed as reduction in viral replication measured after 5 days by microscopic analysis",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996858",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in human HFF cells assessed as reduction in viral replication measured after 3 days",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996857",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HFF cells assessed as reduction in plaque formation measured after 7 days by colorimetric assay",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996856",
+      "assayname": "Antiviral activity against Vaccinia virus GFP infected in green monkey HT-1080 cells assessed as reduction in plaque formation measured after 2.5 days by microscopic analysis",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996855",
+      "assayname": "Antiviral activity against Vaccinia virus GFP infected in green monkey CV-1 cells assessed as reduction in plaque formation measured after 2.5 days by microscopic analysis",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996854",
+      "assayname": "Antiviral activity against Vaccinia virus WR-GFP infected in BSC40 cells assessed as reduction in plaque formation measured after 72 hrs by crystal violet staining based analysis",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 1,
+      "status": "ok"
+    },
+    {
+      "aid": "1996853",
+      "assayname": "Antiviral activity against Vaccinia virus IHD-J infected in BSC40 cells assessed as reduction in plaque formation measured after 72 hrs by crystal violet staining based analysis",
+      "downloaded_rows": 6,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996849",
+      "assayname": "Antiviral activity against Vaccinia virus VG9 infected in African green monkey BSC-1 cells",
+      "downloaded_rows": 12,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996848",
+      "assayname": "Antiviral activity against Vaccinia virus infected in African green monkey BSC-1 cells",
+      "downloaded_rows": 12,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996846",
+      "assayname": "Antiviral activity against Vaccinia virus infected in African green monkey CV-1 cells assessed as reduction in virus-induced cytopathic effect incubated for 5 days by colorimetric analysis",
+      "downloaded_rows": 15,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996845",
+      "assayname": "Antiviral activity against Vaccinia virus infected in African green monkey Vero cells incubated for 24 hrs",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996842",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in human HFF cells assessed as assessed as reduction in virus-induced cytopathic effect incubated for 7 days by microscopic analysis",
+      "downloaded_rows": 8,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996841",
+      "assayname": "Antiviral activity against Vaccinia virus infected in monkey BSC40 cells assessed as reduction in virus-induced cytopathic effect",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996840",
+      "assayname": "Antiviral activity against Vaccinia virus infected in African green monkey BSC-1 cells incubated for 24 hrs by microscopic analysis",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996836",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HEL cells",
+      "downloaded_rows": 11,
+      "usable_concentration_measurements": 9,
+      "status": "ok"
+    },
+    {
+      "aid": "1996835",
+      "assayname": "Antiviral activity against Vaccinia virus infected in African green monkey Vero cells",
+      "downloaded_rows": 6,
+      "usable_concentration_measurements": 4,
+      "status": "ok"
+    },
+    {
+      "aid": "1996831",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in African green monkey Vero cells",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996829",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in African green monkey Vero cells measured after 4 days by colorimetric assay",
+      "downloaded_rows": 21,
+      "usable_concentration_measurements": 13,
+      "status": "ok"
+    },
+    {
+      "aid": "1996828",
+      "assayname": "Antiviral activity against Vaccinia virus infected in Vero cells measured after 4 days by colorimetric assay",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996824",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HFF cells",
+      "downloaded_rows": 6,
+      "usable_concentration_measurements": 2,
+      "status": "ok"
+    },
+    {
+      "aid": "1996823",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HFF cells measured after 4 days by colorimetric assay",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996820",
+      "assayname": "Antiviral activity against Vaccinia virus Lister infected in human HEL cells assessed as virus-induced cytopathic effect measured after 5 days by microscopic analysis",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996819",
+      "assayname": "Antiviral activity against tecovirimat-resistant Vaccinia virus infected in African monkey Vero cells measured after 5 days by MTT assay",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 1,
+      "status": "ok"
+    },
+    {
+      "aid": "1996818",
+      "assayname": "Antiviral activity against cidofovir-resistant Vaccinia virus infected in African monkey Vero cells measured after 5 days by MTT assay",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 1,
+      "status": "ok"
+    },
+    {
+      "aid": "1996816",
+      "assayname": "Antiviral activity against wild type Vaccinia virus infected in African monkey Vero cells measured after 5 days by MTT assay",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1996815",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in HFF cells measured after 3 days by colorimetric assay",
+      "downloaded_rows": 5,
+      "usable_concentration_measurements": 1,
+      "status": "ok"
+    },
+    {
+      "aid": "1996814",
+      "assayname": "Antiviral activity against Vaccinia virus infected in African green monkey Vero cells assessed as reduction virus induced cytopathic effect incubated for 24 hrs by MTT assay",
+      "downloaded_rows": 11,
+      "usable_concentration_measurements": 3,
+      "status": "ok"
+    },
+    {
+      "aid": "1979323",
+      "assayname": "Antiviral activity against Vaccinia virus assessed as reduction in virus-induced cytopathic effect",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1959909",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human E6SM cells",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1959881",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human MT4 cells measured after 5 days by MTT assay",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1922314",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in Vero cells measured after 4 days by colorimetric assay",
+      "downloaded_rows": 22,
+      "usable_concentration_measurements": 12,
+      "status": "ok"
+    },
+    {
+      "aid": "1893958",
+      "assayname": "In vivo antiviral activity against Vaccinia virus infected in mouse assessed as reduction in virus severity of virus induced tail lesion at 250 mg/kg, po measured after 24 to 48 hrs relative to control",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1876164",
+      "assayname": "Antiviral activity against vaccinia virus infected in cells assessed as viral infection at 10 uM",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1876083",
+      "assayname": "Antiviral activity against VACV",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1875898",
+      "assayname": "Antiviral activity against vaccinia virus infected in human HepG2 cells assessed as reduction in plaque formation",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1854968",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL cells assessed as reduction in virus-induced cytopathic effect by microscopic analysis",
+      "downloaded_rows": 8,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "246367",
+      "assayname": "Effective concentration required to inhibit vaccinia virus plaque formation in human foreskin fibroblast (HFF) cells",
+      "downloaded_rows": 9,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "244635",
+      "assayname": "Ratio of Effective concentration to inhibit vaccinia virus plaque formation to that of half maximal cytotoxic concentration in human foreskin fibroblast (HFF) cells",
+      "downloaded_rows": 6,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1922315",
+      "assayname": "Selectivity index, ratio of CC50 for African green monkey Vero cells to IC50 for Vaccinia virus Copenhagen infected in Vero cells",
+      "downloaded_rows": 11,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1695473",
+      "assayname": "Selectivity index, ratio of CC50 for African green monkey Vero cells to IC50 for Vaccinia virus Copenhagen infected in African green monkey Vero cells assessed as reduction in cell survival incubated for 4 days by neutral dye based colorimetric analysis",
+      "downloaded_rows": 19,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1695471",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in African green monkey Vero cells assessed as reduction in cell survival incubated for 4 days by neutral red dye based colorimetric analysis",
+      "downloaded_rows": 22,
+      "usable_concentration_measurements": 20,
+      "status": "ok"
+    },
+    {
+      "aid": "1610166",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HELF cells assessed as reduction in virus-induced cytopathogenicity incubated for 7 days by microscopic analysis",
+      "downloaded_rows": 20,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1571467",
+      "assayname": "Selectivity index, ratio of CC50 for African green monkey Vero cells to IC50 for Vaccinia virus Copenhagen infected in African green monkey Vero cells",
+      "downloaded_rows": 5,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1571465",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in African green monkey Vero cells assessed as inhibition of viral replication after 4 days by neural red dye-based spectrophotometric method",
+      "downloaded_rows": 17,
+      "usable_concentration_measurements": 6,
+      "status": "ok"
+    },
+    {
+      "aid": "1498116",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL cells assessed as inhibition of virus-induced cytopathicity",
+      "downloaded_rows": 22,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1462038",
+      "assayname": "Antiviral activity against Vaccinia virus Lederle infected in HEL cells assessed as inhibition of virus-induced cytopathic effect",
+      "downloaded_rows": 22,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1422441",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HEL cells assessed as inhibition of virus-induced cytopathic effect after 3 days by microscopic method",
+      "downloaded_rows": 36,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1414041",
+      "assayname": "Selectivity index, ratio of TC50 for African green monkey Vero cells to IC50 for Vaccinia virus Copenhagen",
+      "downloaded_rows": 10,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1414039",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in African green monkey Vero cells assessed as inhibition of viral reproduction after 4 days by neural red dye-based assay",
+      "downloaded_rows": 21,
+      "usable_concentration_measurements": 14,
+      "status": "ok"
+    },
+    {
+      "aid": "1407614",
+      "assayname": "Antiviral activity against Vaccinia virus Lederle infected in HELF cells assessed as inhibition of virus-induced cytopathogenicity",
+      "downloaded_rows": 11,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1391789",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in HFF cells",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1382174",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL cells assessed as reduction in viral cytopathic effect",
+      "downloaded_rows": 15,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1325059",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL cells assessed as inhibition of virus-induced cytopathicity",
+      "downloaded_rows": 30,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1230105",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL cells assessed as reduction of virus-induced cytopathogenicity",
+      "downloaded_rows": 10,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1183090",
+      "assayname": "Antiviral activity against Vaccinia virus Lister ATCC VR-1549 infected in Vero 76 cells after 3 days by plaque reduction assays",
+      "downloaded_rows": 21,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1113468",
+      "assayname": "Antiviral activity against Vaccinia virus infected human HEL cells assessed as reduction of virus-induced cytopathic effect after 3 days by colorimetric formazan-based MTS assay",
+      "downloaded_rows": 16,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1095323",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL cells assessed as inhibition of virus-induced cytopathic effect after 3 days by MTT assay",
+      "downloaded_rows": 10,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "768202",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HEL cells assessed as reduction of virus-induced cytopathogenicity",
+      "downloaded_rows": 13,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "766698",
+      "assayname": "Antiviral activity against Vaccinia virus Lederle infected in human HEL cells assessed as reduction in virus-induced cytopathogenicity",
+      "downloaded_rows": 14,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "749438",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HEL cells assessed as reduction of virus-induced cytopathicity measured at day 3 by microscopic analysis",
+      "downloaded_rows": 8,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "728979",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in African green monkey BSC1 cells after overnight incubation by crystal violet staining-based plaque reduction assay",
+      "downloaded_rows": 60,
+      "usable_concentration_measurements": 32,
+      "status": "ok"
+    },
+    {
+      "aid": "728974",
+      "assayname": "Antiviral activity against 5 MOI of Vaccinia virus WR infected in African green monkey BSC1 cells assessed as decrease in virus-induced cytopathicity at 1 uM after 8 hrs relative to vehicle-treated control",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "728973",
+      "assayname": "Antiviral activity against 5 MOI of Vaccinia virus WR infected in African green monkey BSC1 cells assessed as decrease in virus-induced cytopathicity at 1 uM after 8 hrs relative to cidofovir",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "726629",
+      "assayname": "Antiviral activity against Vaccinia virus WR expressing luciferase reporter virus v3 infected in rabbit RK13 cells assessed as inhibition of early stages of VACV replication at 10 uM incubated for 30 mins prior to inoculation measured after 2 hrs by luciferase reporter gene assay relative to control",
+      "downloaded_rows": 21,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "726628",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in african green monkey BSC1 cells after 4 days by plaque reduction assay",
+      "downloaded_rows": 11,
+      "usable_concentration_measurements": 9,
+      "status": "ok"
+    },
+    {
+      "aid": "718736",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL cells assessed as inhibition of virus-induced cytopathic effect",
+      "downloaded_rows": 17,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "687660",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL assessed as inhibition of virus-induced cytopathicity after 3 days",
+      "downloaded_rows": 22,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "675220",
+      "assayname": "Antiviral activity against Vaccinia virus Lederie infected in HEL cells by viral CPE assay",
+      "downloaded_rows": 18,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "658619",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL cells assessed as inhibition of virus-induced cytopathogenicity after 4 days",
+      "downloaded_rows": 14,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "636696",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in HFF cells incubated for 3 days by plaque reduction assay",
+      "downloaded_rows": 21,
+      "usable_concentration_measurements": 17,
+      "status": "ok"
+    },
+    {
+      "aid": "634749",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HEL cells assessed as inhibition of viral plaque formation at 250 uM",
+      "downloaded_rows": 28,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "611623",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL cells assessed as protection against virus-induced cytopathicity",
+      "downloaded_rows": 22,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "609643",
+      "assayname": "Selectivity index, ratio CC50 for human HEL cells to EC50 for Vaccinia virus Lederle",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "609579",
+      "assayname": "Antiviral activity against Vaccinia virus Lederle assessed as reduction of virus induced cytopathicity by cell based assay",
+      "downloaded_rows": 20,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "607910",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HEL cells assessed as inhibition of virus-induced cytopathic effect after 4 days by microscopic analysis",
+      "downloaded_rows": 16,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "606843",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in HFF cells assessed as reduction in plaque formation up to 100 uM after 3 days",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "606840",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in HFF cells assessed as reduction in plaque formation after 3 days",
+      "downloaded_rows": 8,
+      "usable_concentration_measurements": 4,
+      "status": "ok"
+    },
+    {
+      "aid": "596264",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in human HFF cells after 3 days by plaque reduction assay",
+      "downloaded_rows": 13,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "595593",
+      "assayname": "Selectivity index, ratio of CC50 for human HFF cells infected with Cowpox virus (Brighton Red) to EC50 for Vaccinia virus Copenhagen",
+      "downloaded_rows": 5,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "595591",
+      "assayname": "Cytotoxicity against human HFF cells infected with Vaccinia virus Copenhagen assessed as viable cells by neutral red uptake assay",
+      "downloaded_rows": 8,
+      "usable_concentration_measurements": 1,
+      "status": "ok"
+    },
+    {
+      "aid": "595589",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in human HFF cells assessed as reduction in viral-induced cytopathic effect by neutral red uptake assay",
+      "downloaded_rows": 18,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "569238",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL cells assessed as inhibition of virus-induced cytopathic effect",
+      "downloaded_rows": 23,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "553340",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HEL cells assessed as reduction of virus-induced cytopathogenicity after 7 days",
+      "downloaded_rows": 9,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "548426",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL cells assessed as inhibition of virus induced cytopathicity after 2 to 4 days by MTS assay",
+      "downloaded_rows": 23,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "543560",
+      "assayname": "Antiviral activity against J2R gene deficient Vaccinia virus harboring VVTK::luc infected in HFF assessed as reduction of plaque formation after 3 days",
+      "downloaded_rows": 6,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "543559",
+      "assayname": "Antiviral activity against ST-246-resistant Vaccinia virus VV911 harboring DNA polymerase E13L mutant infected in HFF assessed as reduction of plaque formation after 3 days",
+      "downloaded_rows": 6,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "543558",
+      "assayname": "Antiviral activity against cidofovir-resistant Vaccinia virus 15A harboring DNA polymerase E9L mutant infected in HFF assessed as reduction of plaque formation after 3 days",
+      "downloaded_rows": 6,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "543546",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in BALB/c mouse assessed as reduction of lung viral titer at 15 mg/kg, ip qd for 5 days administered 24 hrs after infection",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "543545",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in BALB/c mouse assessed as reduction of kidney viral titer at 15 mg/kg, po bid for 5 days administered 24 hrs after infection",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "543544",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in BALB/c mouse assessed as reduction of spleen viral titer at 15 mg/kg, po bid for 5 days administered 24 hrs after infection",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "543543",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in BALB/c mouse assessed as reduction of liver viral titer at 15 mg/kg, po bid for 5 days administered 24 hrs after infection",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542548",
+      "assayname": "Antiviral activity against Vaccinia virus WR harboring HIV gag gene infected in HeLaS3 cells compound administered as bolus infusion equivalent to 100 uM continuous infusion in hollow-fiber infection model after 72 hrs by ELISA",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542547",
+      "assayname": "Antiviral activity against Vaccinia virus WR harboring HIV gag gene infected in HeLaS3 cells at 30 uM administered as intermittent infusion over 1 hr measured in hollow-fiber infection model after 72 hrs by ELISA",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542546",
+      "assayname": "Antiviral activity against Vaccinia virus WR harboring HIV gag gene infected in HeLaS3 cells at 30 uM as continuous infusion in hollow-fiber infection model after 72 hrs by ELISA",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542541",
+      "assayname": "Antiviral activity against Vaccinia virus WR harboring HIV gag gene infected in HeLaS3 cells at 100 uM administered as intermittent infusion over 1 hr measured in hollow-fiber infection model after 72 hrs by ELISA",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542540",
+      "assayname": "Antiviral activity against Vaccinia virus WR harboring HIV gag gene infected in HeLaS3 cells at 100 uM as continuous infusion in hollow-fiber infection model after 72 hrs by ELISA",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542538",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in cynomolgus monkey with probenecid assessed as decrease in plasma viral titer at 5 dose regimen of 2.5 mg/kg for 13 days",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542537",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in cynomolgus monkey with probenecid assessed as decrease in plasma viral titer at 6 dose regimen of 2.5 mg/kg for 13 days",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542533",
+      "assayname": "Antiviral activity against Vaccinia virus WR harboring HIV gag gene infected in HeLaS3 cells at 3 uM administered as intermittent infusion over 1 hr measured after 72 hrs in hollow-fiber infection model by ELISA",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542532",
+      "assayname": "Antiviral activity against Vaccinia virus WR harboring HIV gag gene infected in HeLaS3 cells at 3 uM as continuous infusion in hollow-fiber infection model after 72 hrs by ELISA",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542531",
+      "assayname": "Antiviral activity against Vaccinia virus WR harboring the HIV gag gene infected in HeLaS3 cells assessed as inhibition of viral replication in hollow-fiber infection model by plaque assay",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 1,
+      "status": "ok"
+    },
+    {
+      "aid": "542530",
+      "assayname": "Antiviral activity against Vaccinia virus WR harboring the HIV gag gene infected in HeLaS3 cells assessed as inhibition of viral replication in hollow-fiber infection model at >= 50 uM as continuous infusion by plaque assay",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542529",
+      "assayname": "Antiviral activity against Vaccinia virus IHD-W ATCC VR-1441 infected in HeLaS3 cells after 3 to 5 days by plaque assay",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542528",
+      "assayname": "Antiviral activity against Vaccinia virus IHD-J ATCC VR-156 infected in HeLaS3 cells after 3 to 5 days by plaque assay",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542527",
+      "assayname": "Antiviral activity against Vaccinia virus WR harboring the HIV gag gene infected in HeLaS3 cells after 3 to 5 days by plaque assay",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542166",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in HFF assessed as reduction of plaque formation after 3 days",
+      "downloaded_rows": 12,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542165",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen infected in HFF assessed as reduction of plaque formation after 3 days",
+      "downloaded_rows": 10,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542159",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in BALB/c mouse assessed as reduction of liver viral titer at 15 mg/kg, ip qd for 5 days administered 24 hrs after infection",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542158",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in BALB/c mouse assessed as reduction of lung viral titer at 15 mg/kg, po bid for 5 days administered 24 hrs after infection",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542157",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in BALB/c mouse assessed as reduction of spleen viral titer at 15 mg/kg, ip qd for 5 days administered 24 hrs after infection",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542156",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in BALB/c mouse assessed as reduction of kidney viral titer at 15 mg/kg, ip qd for 5 days administered 24 hrs after infection",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542154",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in HFF assessed as inhibition of DNA synthesis after 24 hrs by PCR analysis",
+      "downloaded_rows": 6,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "542153",
+      "assayname": "Antiviral activity against Vaccinia virus WR infected in BALB/c mouse assessed as uncured animal at 15 mg/kg, ip qd for 5 days administered 24 hrs after infection relative to control",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "539917",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HEL cells assessed as protection against virus-induced cytopathogenicity after 2 days",
+      "downloaded_rows": 15,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "516958",
+      "assayname": "Antiviral activity against Vaccinia virus infected in HEL assessed as reduction in virus-induce cytopathicity",
+      "downloaded_rows": 22,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "481140",
+      "assayname": "Antiviral activity against GFP-expressing Vaccinia virus WR infected in human HT1080 cells after 2.5 days by fluorescence assay",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "481139",
+      "assayname": "Antiviral activity against GFP-expressing Vaccinia virus WR infected in african green monkey CV1 cells after 2.5 days by fluorescence assay",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "432215",
+      "assayname": "Antiviral activity against Vaccinia virus",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "432194",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "432171",
+      "assayname": "Antiviral activity against Vaccinia virus infected in in human HEL cells assessed as inhibition of virus-induced cytopathicity after 3 days",
+      "downloaded_rows": 23,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "419594",
+      "assayname": "Antiviral activity against Vaccinia virus infected in human HEL cells assessed as reduction in virus-induced cytopathogenicity after 3 days",
+      "downloaded_rows": 17,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "416775",
+      "assayname": "Antiviral activity against Vaccinia virus Lederle in human HEL cells assessed as protection against virus-induced cytopathicity",
+      "downloaded_rows": 33,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "392536",
+      "assayname": "Antiviral activity against Vaccinia virus",
+      "downloaded_rows": 47,
+      "usable_concentration_measurements": 45,
+      "status": "ok"
+    },
+    {
+      "aid": "390741",
+      "assayname": "Antiviral activity against Vaccinia virus WR in BSC1 cells assessed as retention of antiviral potency by measuring exogenous double stranded DNA trapping",
+      "downloaded_rows": 29,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "390737",
+      "assayname": "Selectivity index, TC50 for african green monkey BSC1 cells after 20 hrs to EC50 for Vaccinia virus WR in BSC1 cells after 20 hrs by cell protection assay",
+      "downloaded_rows": 29,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "390733",
+      "assayname": "Antiviral activity against Vaccinia virus WR in BSC1 cells assessed as protection from virus-induced lysis of cell monolayer after 20 hrs",
+      "downloaded_rows": 32,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "390732",
+      "assayname": "Antiviral activity against Vaccinia virus WR in BSC1 cells assessed as reduction in plaque formation after 20 hrs",
+      "downloaded_rows": 62,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "373737",
+      "assayname": "Antiviral activity against Vaccinia virus Copenhagen in HFF cells assessed as inhibition of viral replication after 7 days",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1487328",
+      "assayname": "Antiviral activity against Vaccinia virus LIVP harboring GFP infected in African green monkey CV1 cells assessed as virus titer preincubated with cells for 4 hrs followed by viral infection measured after 48 hrs by gentian violet staining-based microscopic analysis",
+      "downloaded_rows": 7,
+      "usable_concentration_measurements": 4,
+      "status": "ok"
+    },
+    {
+      "aid": "726625",
+      "assayname": "Selectivity index, ratio of CC50 for african green monkey BSC1 cells to IC50 for Vaccinia virus-WR",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "726624",
+      "assayname": "Cytotoxicity against african green monkey BSC1 cells infected with Vaccinia virus-WR luciferase reporter virus v3 assessed as visible cytotoxic effect at 10 uM incubated for 30 mins prior to inoculation measured after 2 hrs by phase contrast microscopic analysis",
+      "downloaded_rows": 20,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "726623",
+      "assayname": "Cytotoxicity against african green monkey BSC1 cells infected with Vaccinia virus-WR after 4 days",
+      "downloaded_rows": 7,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1487334",
+      "assayname": "Antiviral activity against Vaccinia virus LIVP harboring GFP infected in African green monkey CV1 cells assessed as inhibition of GFP expression at 30 to 50 uM preincubated for 4 hrs with cells followed by viral infection measured after 24 hrs by flow cytometric analysis relative to control",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1487329",
+      "assayname": "Selectivity index, ratio of CC50 for African green monkey CV1 cells to IC50 for Vaccinia virus LIVP harboring GFP infected in African green monkey CV1 cells",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1487322",
+      "assayname": "Antiviral activity against Vaccinia virus LIVP harboring GFP infected in African green monkey CV1 cells assessed as virus titer at 30 uM preincubated with cells for 4 hrs followed by viral infection measured after 48 hrs by gentian violet staining-based microscopic analysis (Rvb = 3.3 +/- 0.1 log10PFU/ml)",
+      "downloaded_rows": 1,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1487321",
+      "assayname": "Antiviral activity against Vaccinia virus LIVP harboring GFP infected in African green monkey CV1 cells assessed as virus titer at 5 uM preincubated with cells for 4 hrs followed by viral infection measured after 48 hrs by gentian violet staining-based microscopic analysis (Rvb = 3.3 +/- 0.1 log10PFU/ml)",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1487320",
+      "assayname": "Antiviral activity against Vaccinia virus LIVP harboring GFP infected in African green monkey CV1 cells assessed as virus titer at 50 uM preincubated with cells for 4 hrs followed by viral infection measured after 48 hrs by gentian violet staining-based microscopic analysis (Rvb = 3.3 +/- 0.1 log10PFU/ml)",
+      "downloaded_rows": 2,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1487319",
+      "assayname": "Antiviral activity against Vaccinia virus LIVP harboring GFP infected in African green monkey CV1 cells assessed as virus titer at 10 uM preincubated with cells for 4 hrs followed by viral infection measured after 48 hrs by gentian violet staining-based microscopic analysis (Rvb = 3.3 +/- 0.1 log10PFU/ml)",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1487318",
+      "assayname": "Antiviral activity against Vaccinia virus LIVP harboring GFP infected in African green monkey CV1 cells assessed as virus titer at 1 uM preincubated with cells for 4 hrs followed by viral infection measured after 48 hrs by gentian violet staining-based microscopic analysis (Rvb = 3.3 +/- 0.1 log10PFU/ml)",
+      "downloaded_rows": 4,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1487317",
+      "assayname": "Antiviral activity against Vaccinia virus LIVP harboring GFP infected in African green monkey CV1 cells assessed as GFP expression at 10 uM preincubated for 4 hrs with cells followed by viral infection measured after 24 hrs by flow cytometric analysis relative to control",
+      "downloaded_rows": 39,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1778688",
+      "assayname": "Selectivity index, ratio of CC50 for African green monkey Vero cells to IC50 for inhibition of p37 in Vaccinia virus Copenhagen infected in African green monkey Vero cells",
+      "downloaded_rows": 18,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "756358",
+      "assayname": "Antiviral activity against Vaccinia virus infected in african green monkey Vero 76 cells assessed as inhibition of virus-induced cytopathic effect after 3 days by microscopic analysis",
+      "downloaded_rows": 5,
+      "usable_concentration_measurements": 3,
+      "status": "ok"
+    },
+    {
+      "aid": "245965",
+      "assayname": "Cytotoxic concentration against cowpox, monkeypox and vaccinia virus in vero 76 cells",
+      "downloaded_rows": 0,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "100236",
+      "assayname": "Cytotoxicity was measured against Vaccinia virus VAC in LLC-MK2 (ATCC CRL 7) cell",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 2,
+      "status": "ok"
+    },
+    {
+      "aid": "100231",
+      "assayname": "Antiviral activity was measured against Vaccinia virus VAC in LLC-MK2 (ATCC CRL 7) cell",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "218028",
+      "assayname": "Cytotoxicity was measured against Vaccinia virus VAC in Vero 76 (ATCC CRL 1587) cell",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 1,
+      "status": "ok"
+    },
+    {
+      "aid": "218023",
+      "assayname": "Antiviral activity was measured against Vaccinia virus VAC in Vero 76 (ATCC CRL 1587) cell",
+      "downloaded_rows": 3,
+      "usable_concentration_measurements": 0,
+      "status": "ok"
+    },
+    {
+      "aid": "1117274",
+      "status": "missing_required_columns",
+      "columns": [
+        "PUBCHEM_RESULT_TAG",
+        "PUBCHEM_SID",
+        "PUBCHEM_CID",
+        "PUBCHEM_EXT_DATASOURCE_SMILES",
+        "PUBCHEM_ACTIVITY_OUTCOME",
+        "PUBCHEM_ACTIVITY_SCORE",
+        "PUBCHEM_ACTIVITY_URL",
+        "PUBCHEM_ASSAYDATA_COMMENT",
+        "AC50_Qualifier",
+        "AC50_uM",
+        "pAC50_M",
+        "Hill_Slope",
+        "S0_(%)",
+        "Sinf_(%)",
+        "Num_Points",
+        "Max_Activity_(%)",
+        "Max_Activity_Conc_uM",
+        "Max_Concentration_uM",
+        "Activity_at_0.1uM_(%)",
+        "Activity_at_0.3uM_(%)",
+        "Activity_at_0.6uM_(%)",
+        "Activity_at_1uM_(%)",
+        "Activity_at_2.6uM_(%)",
+        "Activity_at_3.5uM_(%)",
+        "Activity_at_5uM_(%)",
+        "Activity_at_10uM_(%)",
+        "Activity_at_19.5uM_(%)",
+        "Activity_at_38uM_(%)",
+        "Activity_at_80uM_(%)"
+      ],
+      "downloaded_rows": 9
+    }
+  ],
+  "outputs": {
+    "paired_csv": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\data\\pubchem_collected.csv",
+    "raw_measurements_csv": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\data\\pubchem_assay_measurements_raw.csv",
+    "assay_manifest": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\data\\pubchem_assay_manifest.json"
+  },
+  "retrieved_at": "2026-11-07T08:58:49.283916+00:00"
+}

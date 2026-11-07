@@ -1,0 +1,7 @@
+{
+  "rows": 597,
+  "submission_sha256": "d59ecdd6a3e9768916ad285f7cba1fb5e08d8f39f81b4ed84c9cd2a8af1761c6",
+  "schema_valid": true,
+  "model_reproduced": true,
+  "max_abs_delta": 1.1368683772161603e-13
+}

@@ -1,0 +1,31 @@
+{
+  "model": "GINRegressor_raw_SI_v2",
+  "params": {
+    "num_layers": 4,
+    "hidden_dim": 128,
+    "dropout": 0.3,
+    "target_normalization": "SI / 10000",
+    "max_epochs": 300,
+    "early_stopping_patience": 30,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "device": "cpu"
+  },
+  "cvmetric": 4184684.657630082,
+  "metricname": "MSE_raw",
+  "foldmetrics": [
+    136065.74961418033,
+    32519.547967989332,
+    467170.93199127296,
+    19880416.223368842,
+    407250.83520813537
+  ],
+  "best_epochs": [
+    6,
+    4,
+    5,
+    10,
+    33
+  ],
+  "rows": 320
+}

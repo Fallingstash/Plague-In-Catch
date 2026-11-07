@@ -1,0 +1,128 @@
+{
+  "anchor_mean_add10": {
+    "mean_squared_error_delta": 16128.503843727241,
+    "group_bootstrap_95_low": -2109.0781429761837,
+    "group_bootstrap_95_high": 42102.806563889375,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "anchor_mean_replace30": {
+    "mean_squared_error_delta": 146707.2199171178,
+    "group_bootstrap_95_low": 7088.450779053385,
+    "group_bootstrap_95_high": 380888.4068134265,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "anchor_mean_standalone": {
+    "mean_squared_error_delta": 605282.7810758514,
+    "group_bootstrap_95_low": 155677.61574380752,
+    "group_bootstrap_95_high": 1304850.704132738,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "kernel_log_add10": {
+    "mean_squared_error_delta": 11835.713150785978,
+    "group_bootstrap_95_low": -4300.33823624244,
+    "group_bootstrap_95_high": 39182.46558695062,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "kernel_log_replace30": {
+    "mean_squared_error_delta": 117983.97424826841,
+    "group_bootstrap_95_low": -18113.40422933244,
+    "group_bootstrap_95_high": 370476.5449194035,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "kernel_log_standalone": {
+    "mean_squared_error_delta": 139904.00773293394,
+    "group_bootstrap_95_low": -13423.180404365805,
+    "group_bootstrap_95_high": 416956.5733181629,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "kernel_raw_add10": {
+    "mean_squared_error_delta": 18598.75033992173,
+    "group_bootstrap_95_low": -1101.560884539468,
+    "group_bootstrap_95_high": 47059.03738948951,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "kernel_raw_replace30": {
+    "mean_squared_error_delta": 167622.72201441985,
+    "group_bootstrap_95_low": 14376.031623458508,
+    "group_bootstrap_95_high": 411183.8745896458,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "kernel_raw_standalone": {
+    "mean_squared_error_delta": 847915.6386928431,
+    "group_bootstrap_95_low": 186196.1214563261,
+    "group_bootstrap_95_high": 1839893.549606182,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "neural_log_add10": {
+    "mean_squared_error_delta": -10765.052212323022,
+    "group_bootstrap_95_low": -101777.13388609896,
+    "group_bootstrap_95_high": 54889.272420804955,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "neural_log_replace30": {
+    "mean_squared_error_delta": 118576.57587350156,
+    "group_bootstrap_95_low": -49337.99474925067,
+    "group_bootstrap_95_high": 386259.2009641256,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "neural_log_standalone": {
+    "mean_squared_error_delta": 1270645.8219181532,
+    "group_bootstrap_95_low": -642787.5970621477,
+    "group_bootstrap_95_high": 4226181.223889841,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "neural_raw_add10": {
+    "mean_squared_error_delta": 27342.060553285635,
+    "group_bootstrap_95_low": -8509.331531886075,
+    "group_bootstrap_95_high": 84091.27799199818,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "neural_raw_replace30": {
+    "mean_squared_error_delta": 254476.3071647527,
+    "group_bootstrap_95_low": 7172.407109218364,
+    "group_bootstrap_95_high": 588517.1533398635,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "neural_raw_standalone": {
+    "mean_squared_error_delta": 2010457.686502464,
+    "group_bootstrap_95_low": 130906.77717435642,
+    "group_bootstrap_95_high": 5109624.624465976,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "ridge_log_add10": {
+    "mean_squared_error_delta": -34253.493946014976,
+    "group_bootstrap_95_low": -132882.91673501668,
+    "group_bootstrap_95_high": 24239.06214310165,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "ridge_log_replace30": {
+    "mean_squared_error_delta": -23209.4795032862,
+    "group_bootstrap_95_low": -145904.77625367645,
+    "group_bootstrap_95_high": 58538.66497795867,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "ridge_log_standalone": {
+    "mean_squared_error_delta": -74919.4243900473,
+    "group_bootstrap_95_low": -1165588.489693283,
+    "group_bootstrap_95_high": 721057.3515687037,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "ridge_raw_add10": {
+    "mean_squared_error_delta": 55113.23309865578,
+    "group_bootstrap_95_low": 6440.519576724818,
+    "group_bootstrap_95_high": 139016.347440157,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "ridge_raw_replace30": {
+    "mean_squared_error_delta": 461417.87734358676,
+    "group_bootstrap_95_low": 133452.00815639726,
+    "group_bootstrap_95_high": 996780.9629385953,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "ridge_raw_standalone": {
+    "mean_squared_error_delta": 4193254.567128805,
+    "group_bootstrap_95_low": 1194154.1213902738,
+    "group_bootstrap_95_high": 9419942.265128003,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  }
+}

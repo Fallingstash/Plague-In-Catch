@@ -1,0 +1,8 @@
+{
+  "family": "catboost",
+  "depth": 4,
+  "iterations": 180,
+  "lr": 0.05,
+  "l2": 5.0,
+  "target": "log"
+}

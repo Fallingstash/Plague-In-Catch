@@ -1,0 +1,9 @@
+
+===== submission_v2 started =====
+final GNN epoch=001/6 train_mse_norm=0.053320
+final GNN epoch=002/6 train_mse_norm=0.048852
+final GNN epoch=003/6 train_mse_norm=0.044199
+final GNN epoch=004/6 train_mse_norm=0.045142
+final GNN epoch=005/6 train_mse_norm=0.044078
+final GNN epoch=006/6 train_mse_norm=0.043288
+===== submission_v2 succeeded =====

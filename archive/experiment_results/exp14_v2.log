@@ -1,0 +1,32 @@
+
+===== exp14_v2 started =====
+fold=0 epoch=001 train_mse_norm=0.063257 val_mse_raw=912126 best=912126
+fold=0 epoch=010 train_mse_norm=0.051395 val_mse_raw=493501 best=136066
+fold=0 epoch=020 train_mse_norm=0.044525 val_mse_raw=205379 best=136066
+fold=0 epoch=030 train_mse_norm=0.050695 val_mse_raw=438168 best=136066
+fold=0 GNN_v2 best_epoch=6 MSE_raw=136066
+fold=1 epoch=001 train_mse_norm=0.055766 val_mse_raw=195482 best=195482
+fold=1 epoch=010 train_mse_norm=0.047393 val_mse_raw=1.06428e+06 best=32519.5
+fold=1 epoch=020 train_mse_norm=0.045091 val_mse_raw=707795 best=32519.5
+fold=1 epoch=030 train_mse_norm=0.041112 val_mse_raw=1.16686e+06 best=32519.5
+fold=1 GNN_v2 best_epoch=4 MSE_raw=32519.5
+fold=2 epoch=001 train_mse_norm=0.065904 val_mse_raw=489175 best=489175
+fold=2 epoch=010 train_mse_norm=0.052058 val_mse_raw=588154 best=467171
+fold=2 epoch=020 train_mse_norm=0.049078 val_mse_raw=524294 best=467171
+fold=2 epoch=030 train_mse_norm=0.043607 val_mse_raw=1.32975e+06 best=467171
+fold=2 GNN_v2 best_epoch=5 MSE_raw=467171
+fold=3 epoch=001 train_mse_norm=0.010156 val_mse_raw=2.01333e+07 best=2.01333e+07
+fold=3 epoch=010 train_mse_norm=0.002939 val_mse_raw=1.98804e+07 best=1.98804e+07
+fold=3 epoch=020 train_mse_norm=0.002626 val_mse_raw=2.00876e+07 best=1.98804e+07
+fold=3 epoch=030 train_mse_norm=0.002475 val_mse_raw=2.0227e+07 best=1.98804e+07
+fold=3 epoch=040 train_mse_norm=0.002270 val_mse_raw=2.01381e+07 best=1.98804e+07
+fold=3 GNN_v2 best_epoch=10 MSE_raw=1.98804e+07
+fold=4 epoch=001 train_mse_norm=0.065771 val_mse_raw=680476 best=680476
+fold=4 epoch=010 train_mse_norm=0.053983 val_mse_raw=645333 best=407333
+fold=4 epoch=020 train_mse_norm=0.043472 val_mse_raw=1.0784e+06 best=407333
+fold=4 epoch=030 train_mse_norm=0.047476 val_mse_raw=568658 best=407333
+fold=4 epoch=040 train_mse_norm=0.047119 val_mse_raw=528652 best=407251
+fold=4 epoch=050 train_mse_norm=0.049069 val_mse_raw=751343 best=407251
+fold=4 epoch=060 train_mse_norm=0.050012 val_mse_raw=3.27973e+06 best=407251
+fold=4 GNN_v2 best_epoch=33 MSE_raw=407251
+===== exp14_v2 succeeded =====

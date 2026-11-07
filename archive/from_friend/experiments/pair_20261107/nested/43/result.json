@@ -1,0 +1,73 @@
+{
+  "seed": 43,
+  "metrics": {
+    "MSE": 4047317.25669502,
+    "RMSE": 2011.7945364015234,
+    "MAE": 221.60235385469414,
+    "MSE_zero": 17724.31858663819,
+    "MSE_positive": 5458524.910125382,
+    "MSE_high": 183803626.55598375,
+    "max_target_error_share": 0.9540871919592822,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 186406.21972315837
+  },
+  "reference_metrics": {
+    "MSE": 4046878.6413873397,
+    "RMSE": 2011.6855224878811,
+    "MAE": 215.24810164457205,
+    "MSE_zero": 5438.982071145686,
+    "MSE_positive": 5462235.146548709,
+    "MSE_high": 184000176.30716774,
+    "max_target_error_share": 0.9541905993713492,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 185966.22944586162
+  },
+  "selections": [
+    {
+      "fold": 1,
+      "selected_pair_weight": 0.0,
+      "inner_MSE": {
+        "0.0": 5260710.854665202,
+        "0.1": 5263560.228723763,
+        "0.3": 5271913.866106648
+      }
+    },
+    {
+      "fold": 2,
+      "selected_pair_weight": 0.3,
+      "inner_MSE": {
+        "0.0": 5235853.232929508,
+        "0.1": 5230735.655364677,
+        "0.3": 5224128.611266756
+      }
+    },
+    {
+      "fold": 3,
+      "selected_pair_weight": 0.3,
+      "inner_MSE": {
+        "0.0": 4985992.825712974,
+        "0.1": 4930406.537492453,
+        "0.3": 4824930.818449122
+      }
+    },
+    {
+      "fold": 4,
+      "selected_pair_weight": 0.0,
+      "inner_MSE": {
+        "0.0": 5255075.219550675,
+        "0.1": 5281871.016681669,
+        "0.3": 5482280.093817496
+      }
+    },
+    {
+      "fold": 5,
+      "selected_pair_weight": 0.0,
+      "inner_MSE": {
+        "0.0": 251207.3742674597,
+        "0.1": 253748.87279835844,
+        "0.3": 260351.86966330706
+      }
+    }
+  ],
+  "extreme_prediction": 914.4560019600759,
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "note": "Conditional nested check of fixed pair-ridge family. Test not read."
+}

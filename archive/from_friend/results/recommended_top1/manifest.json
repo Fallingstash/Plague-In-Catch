@@ -1,0 +1,9 @@
+{
+  "status": "pending_kaggle",
+  "public_mse": null,
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "test_sha256": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+  "submission_sha256": "1b1e7782915e50b1bcb51f9746215b516324c667f5ac60f496e66416ad3772d0",
+  "prediction_model_sha256": "beeab6ffdb27f9a47e71bd39cf1a3e25f2d228f02d25939d19ebe4cd7f9907ff",
+  "prediction_model_path": "C:\\vscode\\chumahack\\versions\\top1\\blend_model.joblib"
+}

@@ -1,0 +1,92 @@
+{
+  "chembl_campaigns": [
+    {
+      "query": "vaccinia",
+      "targets": [
+        {
+          "target_chembl_id": "CHEMBL613493",
+          "pref_name": "Vaccinia virus",
+          "organism": "Orthopoxvirus vaccinia"
+        },
+        {
+          "target_chembl_id": "CHEMBL613168",
+          "pref_name": "Vaccinia virus WR",
+          "organism": "Vaccinia virus WR"
+        }
+      ],
+      "activity_count": 4935,
+      "candidate_molecules_with_ic50": 375
+    },
+    {
+      "query": "cowpox",
+      "targets": [
+        {
+          "target_chembl_id": "CHEMBL612672",
+          "pref_name": "Cowpox virus",
+          "organism": "Cowpox virus"
+        }
+      ],
+      "activity_count": 469,
+      "candidate_molecules_with_ic50": 64
+    },
+    {
+      "query": "monkeypox",
+      "targets": [
+        {
+          "target_chembl_id": "CHEMBL613120",
+          "pref_name": "Monkeypox virus",
+          "organism": "Monkeypox virus"
+        }
+      ],
+      "activity_count": 87,
+      "candidate_molecules_with_ic50": 6
+    },
+    {
+      "query": "variola",
+      "targets": [
+        {
+          "target_chembl_id": "CHEMBL613494",
+          "pref_name": "Variola virus",
+          "organism": "Variola virus"
+        },
+        {
+          "target_chembl_id": "CHEMBL6195439",
+          "pref_name": "Variola major virus",
+          "organism": "Variola major virus"
+        }
+      ],
+      "activity_count": 147,
+      "candidate_molecules_with_ic50": 9
+    }
+  ],
+  "bindingdb": {
+    "status": "skipped",
+    "reason": "The provided bulk archive is about 500 MB and the API route requires a target sequence; no suitable VACV sequence endpoint was provided."
+  },
+  "raw_chembl_rows": 454,
+  "source_row_counts": {
+    "ChEMBL (Vaccinia)": 0,
+    "ChEMBL (Cowpox)": 0,
+    "ChEMBL (Monkeypox)": 0,
+    "ChEMBL (Variola)": 0
+  },
+  "valid_smiles_before_deduplication": 454,
+  "invalid_smiles": 0,
+  "duplicates_with_train": 63,
+  "duplicates_within_collected": 0,
+  "final_rows": 0,
+  "is_censored_counts": {
+    "0": 0,
+    "1": 0
+  },
+  "si_distribution": {},
+  "note": "Incomplete IC50/CC50 pairs were excluded because SI cannot be computed reliably; collected records therefore have is_censored=0.",
+  "raw_candidate_counts_by_virus": {
+    "Vaccinia": 375,
+    "Cowpox": 64,
+    "Variola": 9,
+    "Monkeypox": 6
+  },
+  "duplicate_raw_structures_across_sources": 71,
+  "incomplete_ic50_cc50_pairs_dropped": 454
+}

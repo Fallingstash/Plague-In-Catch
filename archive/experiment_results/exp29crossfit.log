@@ -1,0 +1,11 @@
+fold=0 weights=[0.37849, 0.21269, 0.40882] MSE_raw=1.12744e+07
+fold=1 weights=[0.59088, 0.31019, 0.09893] MSE_raw=7.81097e+06
+fold=2 weights=[0.47864, 0.32999, 0.19137] MSE_raw=1.39078e+07
+fold=3 weights=[0.37784, 0.25276, 0.3694] MSE_raw=2.66666e+07
+fold=4 weights=[0.50738, 0.01769, 0.47494] MSE_raw=9.1876e+06
+Comparison MSE: {
+  "equal_50_50_gnn_lgbm": 13520671.234680092,
+  "fixed_0.5688_0.4312_gnn_lgbm": 13504199.076735286,
+  "cross_fitted_optimized_3_model": 13743314.95078403
+}
+Saved result: C:\Users\sashk\OneDrive\Desktop\PlagueIn\experiments\results\exp29crossfit.json

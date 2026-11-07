@@ -1,0 +1,1505 @@
+{
+  "chembl_vaccinia": {
+    "targets": [
+      {
+        "target_chembl_id": "CHEMBL613493",
+        "pref_name": "Vaccinia virus",
+        "organism": "Orthopoxvirus vaccinia",
+        "activity_count": 4849,
+        "paired_count": 0
+      },
+      {
+        "target_chembl_id": "CHEMBL613168",
+        "pref_name": "Vaccinia virus WR",
+        "organism": "Vaccinia virus WR",
+        "activity_count": 86,
+        "paired_count": 0
+      }
+    ],
+    "target_search_count": 2,
+    "failures": []
+  },
+  "chembl_vaccinia_stats": {
+    "file": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\data\\chembl_expanded_v3.csv",
+    "rows": 0,
+    "unique_smiles": 0,
+    "rows_with_si": 0,
+    "invalid_smiles_removed": 0
+  },
+  "europepmc": {
+    "query": "(Vaccinia OR VACV) AND IC50 AND CC50 AND OPEN_ACCESS:Y",
+    "search_failures": [],
+    "hit_count": 299,
+    "results_checked": 100,
+    "articles": [
+      {
+        "pmcid": "PMC13226137",
+        "title": "Antiviral potential of black tea and blueberry extracts against monkeypox virus by targeting orthopoxvirus surface proteins",
+        "doi": "10.1016/j.crmicr.2026.100608",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC13469305",
+        "title": "Bruton's tyrosine kinase inhibitor BTKi-2 inhibits mpox virus and vaccinia virus infection",
+        "doi": "10.1016/j.virs.2026.06.011",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12584693",
+        "title": "Disulfiram inhibits poxvirus extracellular virus production by targeting the palmitoylation sites on F13",
+        "doi": "10.1128/spectrum.01752-25",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC13286052",
+        "title": "Discovery and characterization of a hydroxypyridone-3-carboxamide analog as an antiviral lead against orthopoxviruses",
+        "doi": "10.1128/aac.01922-25",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12736150",
+        "title": "Repurposing of FDA-Approved Antiviral Drugs Against Monkeypox Virus: Comparative In Vitro Screening and Structure Based In Silico Studies",
+        "doi": "10.3390/ph18121857",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12673143",
+        "title": "AI-driven discovery of antiretroviral drug bictegravir and etravirine as inhibitors against monkeypox and related poxviruses",
+        "doi": "10.1038/s42003-025-09129-x",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12757852",
+        "title": "Monkeypox Virus: Epidemiology, Virology, Diagnosis, Vaccine, and Therapeutics",
+        "doi": "10.1002/mco2.70525",
+        "status": "ok",
+        "tables_seen": 5,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12319496",
+        "title": "The Antiviral Activity of Polyphenols",
+        "doi": "10.1002/mnfr.70042",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC11894989",
+        "title": "Narciclasine inhibits vaccinia virus infection by activating the RhoA signaling pathway",
+        "doi": "10.1016/j.bsheal.2024.11.002",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10995631",
+        "title": "Cardiac glycosides inhibit early and late vaccinia virus protein expression",
+        "doi": "10.1099/jgv.0.001971",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC13517417",
+        "title": "Human Coronavirus Photodynamic Inactivation and In Silico Mechanisms Induced by Ga(III) vs. Zn(II) Phthalocyanines",
+        "doi": "10.3390/v18080815",
+        "status": "ok",
+        "tables_seen": 5,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC13449819",
+        "title": "Calycosin targets the MAPK-EGR1 signaling axis to inhibit enterovirus 71 replication in cells and human colonic organoids",
+        "doi": "10.1080/21505594.2026.2711500",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC13109404",
+        "title": "Biological activities (antimicrobial, anti-inflammatory, anti-coronavirus (229E)) and chemical composition of some essential oils",
+        "doi": "10.1038/s41598-026-48032-1",
+        "status": "ok",
+        "tables_seen": 4,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12858068",
+        "title": "Anti-orthopoxvirus drugs inhibit lumpy skin disease virus replication by targeting viral DNA polymerase",
+        "doi": "10.1371/journal.ppat.1013903",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 5,
+        "unresolved_compound_names": [
+          "ENR"
+        ]
+      },
+      {
+        "pmcid": "PMC13668948",
+        "title": "1,3-Dioxolane derived nucleos(t)ides: synthetic strategies, current position, and future promise in antiviral and anticancer drug discovery",
+        "doi": "10.1007/s00044-026-03555-0",
+        "status": "ok",
+        "tables_seen": 10,
+        "extracted_rows": 5,
+        "unresolved_compound_names": [
+          "( \u00b1 )-D- DOT",
+          "(-)-D-DOT",
+          "AZT-resistant 9 F",
+          "HIV-1 LAI",
+          "K65Rb",
+          "L-BHDU (3)",
+          "L-BHDU-isopropyl-L-alanine-phosphoramidate (94)",
+          "L-Valyl-L-BHDU (92)",
+          "M184Vb",
+          "POM-L-BHDU-MP (96)"
+        ]
+      },
+      {
+        "pmcid": "PMC13709689",
+        "title": "Antiviral Sesquiterpene Lactones from Laurus nobilis L.: Inhibition of Hepatitis C Virus and Dengue Virus Replication",
+        "doi": "10.3390/v18101056",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC13483473",
+        "title": "Rotavirus-NSP5 interacts with and hijacks host ATP citrate lyase to viroplasms, enhancing lipid biosynthesis for facilitating rotavirus infection",
+        "doi": "10.1080/21505594.2026.2709258",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10986486",
+        "title": "Bisbenzimide compounds inhibit the replication of prototype and pandemic potential poxviruses",
+        "doi": "10.1128/spectrum.04072-23",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12640769",
+        "title": "Plant-Derived Carotenoid Lutein Demonstrates Multifunctional Antiviral Activity against Influenza A Virus in vitro",
+        "doi": "10.4014/jmb.2507.07017",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12445440",
+        "title": "A Pyrido\u2010Quinoxaline Derivative That Downregulates Reticulon 3 Protein Exhibits Potent Antiviral Activity Against Zika Virus",
+        "doi": "10.1002/jmv.70605",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 2,
+        "unresolved_compound_names": [
+          "C6/36",
+          "CHIKV (Huh\u20107)",
+          "CVB5 (A549)",
+          "HMC3",
+          "HSV2 (A549)",
+          "Huh\u20107",
+          "PS1097",
+          "PS1240",
+          "PS462",
+          "SARS\u2010CoV\u20102Mi (Vero TMPRSS)",
+          "SOF",
+          "TOSV (VeroE6)",
+          "USUV (Huh\u20107)",
+          "VSV (Huh\u20107)",
+          "VV\u2010IND\u2010G (Huh\u20107)",
+          "Vero TMPRSS",
+          "VeroE6",
+          "WNV (Huh\u20107)",
+          "ZIKVUg (Huh\u20107)"
+        ]
+      },
+      {
+        "pmcid": "PMC9674569",
+        "title": "Synthesis of esters and amides of 2-aryl-1-hydroxy-4-methyl-1H-imidazole-5-carboxylic acids and study of their antiviral activity against orthopoxviruses",
+        "doi": "10.1016/j.bmcl.2022.129080",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 4,
+        "unresolved_compound_names": [
+          "1a",
+          "1a53",
+          "1b",
+          "1d",
+          "1e",
+          "1f",
+          "2c",
+          "2g",
+          "2i",
+          "2j",
+          "2k",
+          "2l"
+        ]
+      },
+      {
+        "pmcid": "PMC12217544",
+        "title": "In vitro antiviral activities of thymol and Limonin against influenza a viruses and SARS-CoV-2",
+        "doi": "10.1038/s41598-025-06967-x",
+        "status": "ok",
+        "tables_seen": 4,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12245108",
+        "title": "Dynamic Cap\u2010Mediated Substrate Access and Potent Inhibitor Design of Monkeypox Virus I7L Protease",
+        "doi": "10.1002/advs.202501625",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12915423",
+        "title": "Assessment of three antiviral compounds against Borealpox virus infection in a mouse model",
+        "doi": "10.1080/22221751.2026.2623694",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC13198240",
+        "title": "Mechanistic insights and therapeutic advances in antiviral strategies against African swine fever virus",
+        "doi": "10.1016/j.apsb.2025.12.031",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "43",
+          "44",
+          "45",
+          "46",
+          "47",
+          "48",
+          "49",
+          "50",
+          "51",
+          "52",
+          "53",
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63",
+          "64",
+          "65",
+          "9"
+        ]
+      },
+      {
+        "pmcid": "PMC11261124",
+        "title": "Canthin-6-one analogs block Newcastle disease virus proliferation via suppressing the Akt and ERK pathways",
+        "doi": "10.1016/j.psj.2024.103944",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "11",
+          "15",
+          "16",
+          "20",
+          "22",
+          "34",
+          "36",
+          "7"
+        ]
+      },
+      {
+        "pmcid": "PMC13640157",
+        "title": "Triphosphate and diphosphate nucleoside prodrugs: broadening the therapeutic potential of nucleoside-based treatments",
+        "doi": "10.1039/d6md00584e",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10290961",
+        "title": "Disulfide-incorporated lipid prodrugs of cidofovir: Synthesis, antiviral activity, and release mechanism",
+        "doi": "10.1016/j.ejmech.2023.115601",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 10,
+        "unresolved_compound_names": [
+          "1a",
+          "1b",
+          "1c",
+          "1d",
+          "1e",
+          "1f",
+          "1g",
+          "1j",
+          "1k",
+          "1l",
+          "1m",
+          "1n",
+          "1q"
+        ]
+      },
+      {
+        "pmcid": "PMC12881426",
+        "title": "Chlorinated bis-4-hydroxycoumarins suppress flavivirus replication by inhibiting dengue virus type 2 translation and replication",
+        "doi": "10.1038/s41598-026-35654-8",
+        "status": "ok",
+        "tables_seen": 4,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC11123935",
+        "title": "N-Heterocycles as Promising Antiviral Agents: A Comprehensive Overview",
+        "doi": "10.3390/molecules29102232",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC9803393",
+        "title": "Development of a rapid image-based high-content imaging screening assay to evaluate therapeutic antibodies against the monkeypox virus",
+        "doi": "10.1016/j.antiviral.2022.105513",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10747412",
+        "title": "Pre-Clinical Evaluation of the Antiviral Activity of Epigalocatechin-3-Gallate, a Component of Green Tea, against Influenza A(H1N1)pdm Viruses",
+        "doi": "10.3390/v15122447",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12724303",
+        "title": "Targeting envelope lipids with 2,6\u2011di\u2011O\u2011methyl\u20113\u2011acetyl\u2011\u03b2\u2011cyclodextrin impairs infectivity of SARS\u2011CoV\u20112 and Japanese encephalitis virus",
+        "doi": "10.1128/jvi.01357-25",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC13487286",
+        "title": "Substrate and target selectivity of 4\u2032-fluoroadenosine against viral and host polymerases",
+        "doi": "10.1016/j.jbc.2026.113316",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "DENV-2",
+          "HRV-16",
+          "SARS-CoV-2"
+        ]
+      },
+      {
+        "pmcid": "PMC13049427",
+        "title": "Targeting the lethal weakness of SFTSV: Latest advances in antiviral strategies and immune prevention",
+        "doi": "10.1016/j.isci.2026.115154",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "M\u03b2CD"
+        ]
+      },
+      {
+        "pmcid": "PMC12692169",
+        "title": "Identification of Novel TAT-I24-Related Peptides with Antiviral Activities",
+        "doi": "10.3390/ijms262311433",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12321756",
+        "title": "Rapid generation of HCoV-229E and HCoV-OC43 reporter viruses and replicons for antiviral research",
+        "doi": "10.3389/fcimb.2025.1614369",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC13030883",
+        "title": "Advances in Nanotechnology for the Treatment of Herpes Virus Infections",
+        "doi": "10.3390/v18030351",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC11229746",
+        "title": "Novel transcription and replication-competent virus-like particles system modelling the Nipah virus life cycle",
+        "doi": "10.1080/22221751.2024.2368217",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10878086",
+        "title": "An RNA replicon system to investigate promising inhibitors of feline coronavirus",
+        "doi": "10.1128/jvi.01216-23",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 4,
+        "unresolved_compound_names": [
+          "0.2 \u00b5M Amodiaquine + GC376",
+          "0.2 \u00b5M Amodiaquine + Nirmatrelvir",
+          "0.5 \u00b5M Amodiaquine + GC376",
+          "Remdesivir + GC376 (1:1)",
+          "Remdesivir + Nirmatrelvir (1:1)"
+        ]
+      },
+      {
+        "pmcid": "PMC13025031",
+        "title": "Primary human intestinal organoids model enteric infection of monkeypox virus and enable scalable drug discovery",
+        "doi": "10.1126/sciadv.aea8280",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC11240954",
+        "title": "Exploring the Efficacy of Peptides and Mimics against Influenza A Virus, Adenovirus, and Murine Norovirus",
+        "doi": "10.3390/ijms25137030",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "1",
+          "10",
+          "11",
+          "12",
+          "13",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ]
+      },
+      {
+        "pmcid": "PMC12071598",
+        "title": "Piperazine-Substituted Pyranopyridines Exhibit Antiproliferative Activity and Act as Inhibitors of HBV Virion Production",
+        "doi": "10.3390/ijms26093991",
+        "status": "ok",
+        "tables_seen": 6,
+        "extracted_rows": 1,
+        "unresolved_compound_names": [
+          "DO11-37",
+          "DO11-42",
+          "DO11-45",
+          "DO11-46",
+          "DO11-47",
+          "DO11-48",
+          "DO11-49",
+          "DO11-50"
+        ]
+      },
+      {
+        "pmcid": "PMC12291837",
+        "title": "Elephant Cathelicidin-Derived Peptides Inhibit Herpes Simplex Virus 1 Infection",
+        "doi": "10.3390/antibiotics14070655",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12501644",
+        "title": "Advancements in vaccine development and therapeutic approaches for severe fever with Thrombocytopenia Syndrome",
+        "doi": "10.3389/fcimb.2025.1650652",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC11477294",
+        "title": "In Vitro Profiling of the Antiviral Peptide TAT-I24",
+        "doi": "10.3390/ijms251910463",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "C14A",
+          "C14A, C20R, C22M",
+          "C14G",
+          "C14L",
+          "C14P",
+          "C14R",
+          "C14del",
+          "C20R, C22del",
+          "C22G",
+          "C22S",
+          "TAT-I24"
+        ]
+      },
+      {
+        "pmcid": "PMC11680393",
+        "title": "Interaction Between the Matrix Protein and the Polymerase Complex of Respiratory Syncytial Virus",
+        "doi": "10.3390/v16121881",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 2,
+        "unresolved_compound_names": [
+          "PC751 *"
+        ]
+      },
+      {
+        "pmcid": "PMC12326988",
+        "title": "Synthetic host defense peptide inhibits SARS-CoV-2 replication in vitro",
+        "doi": "10.1128/aac.01700-24",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC11266174",
+        "title": "Inhibition of porcine reproductive and respiratory syndrome virus replication by rifampicin in vitro",
+        "doi": "10.3389/fvets.2024.1439015",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC13290951",
+        "title": "The implications of FASN in viral infection and related diseases: a promising target in antiviral therapies",
+        "doi": "10.3389/fcimb.2026.1846176",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12291726",
+        "title": "Multifaceted Biological Properties of Verbascoside/Acteoside: Antimicrobial, Cytotoxic, Anti-Inflammatory, and Immunomodulatory Effects",
+        "doi": "10.3390/antibiotics14070697",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC8622370",
+        "title": "The Fellowship of Privileged Scaffolds\u2014One Structure to Inhibit Them All",
+        "doi": "10.3390/ph14111164",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10434032",
+        "title": "Identification of IMP Dehydrogenase as a Potential Target for Anti-Mpox Virus Agents",
+        "doi": "10.1128/spectrum.00566-23",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC11985979",
+        "title": "Novel derivatives of brincidofovir and (S)-9-(3-hydroxy-2-phosphonylmethoxypropyl)adenine inhibit orthopoxviruses and human adenoviruses more potently than brincidofovir",
+        "doi": "10.1038/s41392-025-02207-w",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10747301",
+        "title": "The Antiviral Effect of Berdazimer Sodium on Molluscum Contagiosum Virus Using a Novel In Vitro Methodology",
+        "doi": "10.3390/v15122360",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC8534698",
+        "title": "Antiviral Properties of Polyphenols from Plants",
+        "doi": "10.3390/foods10102277",
+        "status": "ok",
+        "tables_seen": 4,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "141 diverse plant and fungal species belonging to 66 different families, with asteraceae (10%), lamiaceae (10%), apiaceae (6%), and fabaceae (4%)",
+          "Ajuga iva (L.) aerial part extracts",
+          "Arachis hypogaea (L.) skin, ethanol extract",
+          "Canarium album",
+          "Cassia alata",
+          "Cornus canadensis",
+          "Euphorbia cooperi (euphorbiaceae), Morus alba (moraceae)",
+          "Juglans regia, pellicle extract (WPE)",
+          "Solieria filiformis,Ecklonia arborea",
+          "Vaccinium oldhamii ethanol extracts",
+          "adlay tea",
+          "almond skin extracts",
+          "blueberry",
+          "cranberry (Vaccinium macrocarpon aiton) extracts",
+          "eucalyptus bark extract",
+          "flos caryophylli",
+          "fruits and vegetables (plant-based polyphenols)",
+          "grapefruit mesocarp extract",
+          "green tea, cranberry plant",
+          "honey, tea, red wine",
+          "magnolia officinalis",
+          "plant based polyphenols",
+          "plant-based extract",
+          "plant-based polyphenol",
+          "plant-based polyphenols",
+          "plants and natural products based on polyphenols",
+          "rhoeo discolor leaves and their methanol extract",
+          "spice and common food colorant, turmeric",
+          "tea polyphenols found in fruits, nuts and seeds"
+        ]
+      },
+      {
+        "pmcid": "",
+        "status": "no_pmcid"
+      },
+      {
+        "pmcid": "PMC12118553",
+        "title": "Plants used in Ayurveda for Jwara or fever: A review of their antiviral studies",
+        "doi": "10.1016/j.jaim.2024.101085",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC11323531",
+        "title": "Brincidofovir inhibits polyomavirus infection in vivo",
+        "doi": "10.1128/mbio.01049-24",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10165934",
+        "title": "A universal fluorescence polarization high throughput screening assay to target the SAM-binding sites of SARS-CoV-2 and other viral methyltransferases",
+        "doi": "10.1080/22221751.2023.2204164",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "111552",
+          "288387"
+        ]
+      },
+      {
+        "pmcid": "PMC10170872",
+        "title": "A review of the antiviral activity of cationic antimicrobial peptides",
+        "doi": "10.1016/j.peptides.2023.171024",
+        "status": "ok",
+        "tables_seen": 10,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "AR-23 [52]",
+          "Acetyl-Hecate [58]",
+          "BF-30 [69]",
+          "BMAP-18 [34]",
+          "BMAP-18P9 [34]",
+          "BMAP-18X6X10 [34]",
+          "BmKDfsin3 [59]",
+          "Bomidin [53]",
+          "DRS-S1 [51]",
+          "DRS-S1(1\u201313)-NH2 [51]",
+          "DRS-S1(1\u201314)-NH2 [51]",
+          "DRS-S1(1\u201319)-NH2 [51]",
+          "DRS-S1(1\u201329)-NH2 [51]",
+          "Dermaseptin-S4 [32]",
+          "FK-13 [34]",
+          "GA-Hecate [58]",
+          "GA2-Hecate [58]",
+          "GF-17 [34]",
+          "GI-20 [34]",
+          "GI-20EF [34]",
+          "GI-20Q16 [34]",
+          "GI-20W17 [34]",
+          "Glu-Hecate [58]",
+          "Hecate [58]",
+          "K4-S4 [32]",
+          "K4-S4-(1\u201316)a [32]",
+          "KR-12 [34]",
+          "KR-20 [34]",
+          "Kn2\u20137 [37]",
+          "LL-23 [34]",
+          "LL-37 [33], [34]",
+          "LL-37 [92]",
+          "Lipopeptide [68]",
+          "Lys-Hecate [58]",
+          "MOD-1 [41]",
+          "Magainin 1 [47]",
+          "Magainin 2 [47]",
+          "Melittin [47]",
+          "P179 [55]",
+          "P9 [62], [63]",
+          "P9 [63]",
+          "P9R [63]",
+          "Polyphemusin I [9]",
+          "Polyphemusin II [9]",
+          "Retro-FK-13 [34]",
+          "S4-(1\u201312)a [32]",
+          "S4-(1\u201316)a [32]",
+          "S4-(1\u20139)a [32]",
+          "S4-(6\u201328) [32]",
+          "S4a [32]",
+          "SK-21 [34]",
+          "T11 [9]",
+          "T12 [9]",
+          "T121 [15]",
+          "T123 [15]",
+          "T13 [9]",
+          "T130 [15]",
+          "T131 [15]",
+          "T22 [9]",
+          "T5 [9]",
+          "T8 [9]",
+          "T9 [9]",
+          "TL-1 [39]",
+          "TW70 [15]",
+          "Tachyplesin I [9]",
+          "Tachyplesin II [9]",
+          "Temporin L[39]",
+          "Urumin [67]",
+          "[1Nal3]-DRS-S1(1\u201315)-NH2 [51]",
+          "[His3]-DRS-S1(1\u201315)-NH2 [51]",
+          "[Lys01Nal3]-DRS-S1(1\u201315)-NH2 [51]",
+          "[Thr4Lys12]-DRS-S1(1\u201329)-NH2 [51]",
+          "mucroporin-M1 [61]"
+        ]
+      },
+      {
+        "pmcid": "PMC11739841",
+        "title": "Dynamic Combinatorial Chemistry Unveils Nsp10 Inhibitors with Antiviral Potential Against SARS\u2010CoV\u20102",
+        "doi": "10.1002/chem.202403390",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC7190985",
+        "title": "Discovery of Retro-1 Analogs Exhibiting Enhanced Anti-vaccinia Virus Activity",
+        "doi": "10.3389/fmicb.2020.00603",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 2,
+        "unresolved_compound_names": [
+          "PA104",
+          "PA24",
+          "PA63",
+          "Retro 1"
+        ]
+      },
+      {
+        "pmcid": "PMC12886504",
+        "title": "Research progress on antiviral drugs and vaccines for severe fever with thrombocytopenia syndrome",
+        "doi": "10.3389/fimmu.2026.1730089",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10975954",
+        "title": "Marine-Derived Bioactive Metabolites as a Potential Therapeutic Intervention in Managing Viral Diseases: Insights from the SARS-CoV-2 In Silico and Pre-Clinical Studies",
+        "doi": "10.3390/ph17030328",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 5,
+        "unresolved_compound_names": [
+          "Alkaloids",
+          "Cembrane-type diterpenoids",
+          "Diterpenoids",
+          "Enantiomeric alkaloid dimer",
+          "Enzyme",
+          "Macrodiolide",
+          "Naphthopyrones",
+          "Nortopsentin alkaloids",
+          "Peptide",
+          "Peptidesthiodiketopiper-azine-type alkaloid",
+          "Polyhydroxylated steroids",
+          "Polyketone",
+          "Polysaccharide",
+          "Prenylated indole diketopiperazine",
+          "Proteins/peptides",
+          "Spirocyclic \u03b3 -lactam",
+          "Sulfatedsteroids",
+          "Terpenoid"
+        ]
+      },
+      {
+        "pmcid": "PMC11427655",
+        "title": "Expanding horizons of iminosugars as broad-spectrum anti-virals: mechanism, efficacy and novel developments",
+        "doi": "10.1007/s13659-024-00477-5",
+        "status": "ok",
+        "tables_seen": 7,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "100",
+          "101",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "66",
+          "67",
+          "68",
+          "69",
+          "70",
+          "71",
+          "72",
+          "73",
+          "74",
+          "75",
+          "76",
+          "77",
+          "78",
+          "79",
+          "9",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95",
+          "99",
+          "MOI = 0.01"
+        ]
+      },
+      {
+        "pmcid": "PMC9331314",
+        "title": "Synthesis and Antiviral Properties of Camphor-Derived Iminothiazolidine-4-Ones and 2,3-Dihydrothiazoles",
+        "doi": "10.3390/molecules27154761",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 16,
+        "unresolved_compound_names": [
+          "2\u2032a",
+          "2\u2032b",
+          "2\u2032c",
+          "2\u2032d",
+          "3a",
+          "3b",
+          "3d",
+          "3\u2032a",
+          "3\u2032b",
+          "3\u2032c",
+          "4a",
+          "4b",
+          "4c",
+          "4d",
+          "5a",
+          "5b",
+          "5d",
+          "6b",
+          "6d",
+          "7d",
+          "8a",
+          "8b",
+          "8c",
+          "8d"
+        ]
+      },
+      {
+        "pmcid": "PMC8070564",
+        "title": "Synthesis and Antiviral Activity of Camphene Derivatives against Different Types of Viruses",
+        "doi": "10.3390/molecules26082235",
+        "status": "ok",
+        "tables_seen": 5,
+        "extracted_rows": 14,
+        "unresolved_compound_names": [
+          "3a",
+          "3b",
+          "4a",
+          "4b",
+          "5a",
+          "5b",
+          "6b",
+          "8a",
+          "8b"
+        ]
+      },
+      {
+        "pmcid": "PMC11738791",
+        "title": "Efficient and robust reverse genetics system for bovine rotavirus generation and its application for antiviral screening",
+        "doi": "10.1016/j.virs.2024.09.010",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC6130675",
+        "title": "Isolation and identification of compounds from Kalanchoe pinnata having human alphaherpesvirus and vaccinia virus antiviral activity",
+        "doi": "10.1080/13880209.2017.1310907",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC9410304",
+        "title": "A Review with Updated Perspectives on the Antiviral Potentials of Traditional Medicinal Plants and Their Prospects in Antiviral Therapy",
+        "doi": "10.3390/life12081287",
+        "status": "ok",
+        "tables_seen": 7,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10112268",
+        "title": "Inhibition of Human Coronaviruses by Combinations of Host-Targeted and Direct-Acting Antivirals",
+        "doi": "10.1128/aac.01703-22",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10145550",
+        "title": "Phytochemicals as Invaluable Sources of Potent Antimicrobial Agents to Combat Antibiotic Resistance",
+        "doi": "10.3390/life13040948",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "10",
+          "11",
+          "12",
+          "13",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ]
+      },
+      {
+        "pmcid": "PMC10311270",
+        "title": "ASFV transcription reporter screening system identifies ailanthone as a broad antiviral compound",
+        "doi": "10.1016/j.virs.2023.03.004",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 18,
+        "unresolved_compound_names": [
+          "1-Acetyltagitinin A",
+          "2\u2033-O-Acetylsprengerinin C",
+          "8\u03b2-Tigloyloxyreynosin",
+          "Deoxylapacholssss",
+          "Epitulipinolide diepoxide",
+          "Ethyl (1-hydroxy-4-oxo cyclohexa-2,5-dien-1-yl) acetate",
+          "Methyl 2-(5-acetyl-2,3-dihydrobenzofuran-2-yl) propenoate",
+          "Rabdoternin F",
+          "ent-6,9-Dihydroxy-15-oxokaur-16-en-19-oic acid \u03b2-D-glucopyranosyl ester"
+        ]
+      },
+      {
+        "pmcid": "PMC9159504",
+        "title": "Different Aspects of Emetine\u2019s Capabilities as a Highly Potent SARS-CoV-2 Inhibitor against COVID-19",
+        "doi": "10.1021/acsptsci.2c00045",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "FIP-CoVb",
+          "HCoV-NL63",
+          "HCoV-OC43",
+          "MERS-CoV",
+          "MHV-A59",
+          "SARS-CoV-2",
+          "\u2022 inhibits SARS-CoV-2 cytopathicity",
+          "\u2022 inhibits SARS-CoV-2 nucleocapsid protein expression",
+          "\u2022 inhibits SARS-CoV-2 replication by reduction in viral RNA copy",
+          "\u2022 inhibits interaction of viral mRNA with eIF4E",
+          "\u2022 inhibits viral protein synthesis through interaction with the host ribosomes"
+        ]
+      },
+      {
+        "pmcid": "PMC10039358",
+        "title": "The 8-bromobaicalein inhibited the replication of dengue, and Zika viruses and targeted the dengue polymerase",
+        "doi": "10.1038/s41598-023-32049-x",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC9865139",
+        "title": "Structure-Based Design, Synthesis, and Biological Evaluation of the Cage\u2013Amide Derived Orthopox Virus Replication Inhibitors",
+        "doi": "10.3390/v15010029",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC6240113",
+        "title": "Carbenoxolone-mediated cytotoxicity inhibits Vaccinia virus replication in a human keratinocyte cell line",
+        "doi": "10.1038/s41598-018-34732-w",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC9337989",
+        "title": "Imidazole derivatives: Impact and prospects in antiviral drug discovery",
+        "doi": "10.1016/B978-0-323-85479-5.00001-0",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC5698801",
+        "title": "Suppression of Poxvirus Replication by Resveratrol",
+        "doi": "10.3389/fmicb.2017.02196",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "HFF",
+          "HeLa"
+        ]
+      },
+      {
+        "pmcid": "PMC12206632",
+        "title": "Antiviral activity of nitazoxanide against pseudorabies virus infection in vitro",
+        "doi": "10.3389/fvets.2025.1623545",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC9697025",
+        "title": "Discovery of N-Containing (-)-Borneol Esters as Respiratory Syncytial Virus Fusion Inhibitors",
+        "doi": "10.3390/ph15111390",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 13,
+        "unresolved_compound_names": [
+          "10b",
+          "10c",
+          "11a",
+          "11b",
+          "11c",
+          "12a",
+          "12b",
+          "13a",
+          "13c",
+          "14a",
+          "14b",
+          "14c",
+          "15a",
+          "15b",
+          "3a",
+          "3b",
+          "4a",
+          "4b",
+          "4c",
+          "5a",
+          "5b",
+          "6b",
+          "8a",
+          "8b",
+          "8c",
+          "9c"
+        ]
+      },
+      {
+        "pmcid": "PMC8118681",
+        "title": "Antiviral Agents \u2013 Benzazine Derivatives",
+        "doi": "10.1007/s10593-021-02915-5",
+        "status": "ok",
+        "tables_seen": 8,
+        "extracted_rows": 11,
+        "unresolved_compound_names": [
+          "13a",
+          "14",
+          "15",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41c",
+          "42b",
+          "5",
+          "6",
+          "7",
+          "8",
+          "CVB3",
+          "Strain HXB2"
+        ]
+      },
+      {
+        "pmcid": "PMC7697553",
+        "title": "Differential Efficacy of Novel Antiviral Substances in 3D and Monolayer Cell Culture",
+        "doi": "10.3390/v12111294",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 5,
+        "unresolved_compound_names": [
+          "cetuximab"
+        ]
+      },
+      {
+        "pmcid": "PMC10469127",
+        "title": "Potential Anti-Mpox Virus Activity of Atovaquone, Mefloquine, and Molnupiravir, and Their Potential Use as Treatments",
+        "doi": "10.1093/infdis/jiad058",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10661853",
+        "title": "Veratramine inhibits porcine epidemic diarrhea virus entry through macropinocytosis by suppressing PI3K/Akt pathway",
+        "doi": "10.1016/j.virusres.2023.199260",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "VAM"
+        ]
+      },
+      {
+        "pmcid": "PMC10460048",
+        "title": "Components of the Nucleotide Salvage Pathway Increase Frog Virus 3 (FV3) Replication",
+        "doi": "10.3390/v15081716",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC12031635",
+        "title": "The Virus Entry Pathway Determines Sensitivity to the Antiviral Peptide TAT-I24",
+        "doi": "10.3390/v17040458",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC8149581",
+        "title": "Synthesis, structure, and antiviral properties of novel 2-adamantyl-5-aryl-2H-tetrazoles",
+        "doi": "10.1007/s10593-021-02931-5",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC8894184",
+        "title": "Anti-influenza Virus Activity of Methylthio-Formycin Distinct From That of T-705",
+        "doi": "10.3389/fmicb.2022.802671",
+        "status": "ok",
+        "tables_seen": 3,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC8765048",
+        "title": "Sangivamycin is highly effective against SARS-CoV-2 in vitro and has favorable drug properties",
+        "doi": "10.1172/jci.insight.153165",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC10974348",
+        "title": "Inhibitors of Cyclophilin A: Current and Anticipated Pharmaceutical Agents for Inflammatory Diseases and Cancers",
+        "doi": "10.3390/molecules29061235",
+        "status": "ok",
+        "tables_seen": 2,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC7824103",
+        "title": "A Novel Ebola Virus VP40 Matrix Protein-Based Screening for Identification of Novel Candidate Medical Countermeasures",
+        "doi": "10.3390/v13010052",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC8271800",
+        "title": "Flavonoids as Promising Antiviral Agents against SARS-CoV-2 Infection: A Mechanistic Review",
+        "doi": "10.3390/molecules26133900",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC9966946",
+        "title": "Targeting Human Proteins for Antiviral Drug Discovery and Repurposing Efforts: A Focus on Protein Kinases",
+        "doi": "10.3390/v15020568",
+        "status": "ok",
+        "tables_seen": 6,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC8316115",
+        "title": "Discovery of a Novel Respiratory Syncytial Virus Replication Inhibitor",
+        "doi": "10.1128/AAC.02576-20",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "EV71 (Shenzhen/120F1/09)a",
+          "Influenza (A/Weiss/43)",
+          "Vaccinia (VP13)"
+        ]
+      },
+      {
+        "pmcid": "PMC10541190",
+        "title": "Anticancer pan-ErbB inhibitors reduce inflammation and tissue injury and exert broad-spectrum antiviral effects",
+        "doi": "10.1172/JCI169510",
+        "status": "ok",
+        "tables_seen": 0,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC8754539",
+        "title": "Isatin derivatives as broad-spectrum antiviral agents: the current landscape",
+        "doi": "10.1007/s00044-021-02832-4",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 0,
+        "unresolved_compound_names": []
+      },
+      {
+        "pmcid": "PMC8616010",
+        "title": "1-Formyl-\u03b2-carboline Derivatives Block Newcastle Disease Virus Proliferation through Suppressing Viral Adsorption and Entry Processes",
+        "doi": "10.3390/biom11111687",
+        "status": "ok",
+        "tables_seen": 4,
+        "extracted_rows": 0,
+        "unresolved_compound_names": [
+          "6",
+          "7",
+          "9"
+        ]
+      },
+      {
+        "pmcid": "PMC9533879",
+        "title": "Adamantane derivatives as potential inhibitors of p37 major envelope protein and poxvirus reproduction. Design, synthesis and antiviral activity",
+        "doi": "10.1016/j.ejmech.2021.113485",
+        "status": "ok",
+        "tables_seen": 1,
+        "extracted_rows": 1,
+        "unresolved_compound_names": [
+          "Image 1017",
+          "Image 1118",
+          "Image 1220",
+          "Image 1325",
+          "Image 1427",
+          "Image 1528",
+          "Image 1631",
+          "Image 1732",
+          "Image 1936",
+          "Image 2037",
+          "Image 25",
+          "Image 36",
+          "Image 47",
+          "Image 58",
+          "Image 69",
+          "Image 711",
+          "Image 812",
+          "Image 916"
+        ]
+      }
+    ]
+  },
+  "europepmc_stats": {
+    "file": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\data\\europepmc_v3.csv",
+    "rows": 114,
+    "unique_smiles": 78,
+    "rows_with_si": 85,
+    "invalid_smiles_removed": 0
+  },
+  "other_orthopox": {
+    "Cowpox": {
+      "targets": [
+        {
+          "target_chembl_id": "CHEMBL612672",
+          "pref_name": "Cowpox virus",
+          "organism": "Cowpox virus",
+          "activity_count": 469,
+          "paired_count": 0
+        }
+      ],
+      "target_search_count": 1,
+      "failures": []
+    },
+    "Monkeypox": {
+      "targets": [
+        {
+          "target_chembl_id": "CHEMBL613120",
+          "pref_name": "Monkeypox virus",
+          "organism": "Monkeypox virus",
+          "activity_count": 87,
+          "paired_count": 0
+        }
+      ],
+      "target_search_count": 1,
+      "failures": []
+    },
+    "Variola": {
+      "targets": [
+        {
+          "target_chembl_id": "CHEMBL613494",
+          "pref_name": "Variola virus",
+          "organism": "Variola virus",
+          "activity_count": 146,
+          "paired_count": 0
+        },
+        {
+          "target_chembl_id": "CHEMBL6195439",
+          "pref_name": "Variola major virus",
+          "organism": "Variola major virus",
+          "activity_count": 1,
+          "paired_count": 0
+        }
+      ],
+      "target_search_count": 2,
+      "failures": []
+    }
+  },
+  "other_orthopox_stats": {
+    "file": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\data\\other_orthopox_v3.csv",
+    "rows": 0,
+    "unique_smiles": 0,
+    "rows_with_si": 0,
+    "invalid_smiles_removed": 0
+  },
+  "outputs": {
+    "chembl_vaccinia": {
+      "file": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\data\\chembl_expanded_v3.csv",
+      "rows": 0,
+      "unique_smiles": 0,
+      "rows_with_si": 0,
+      "invalid_smiles_removed": 0
+    },
+    "europepmc": {
+      "file": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\data\\europepmc_v3.csv",
+      "rows": 114,
+      "unique_smiles": 78,
+      "rows_with_si": 85,
+      "invalid_smiles_removed": 0
+    },
+    "other_orthopox": {
+      "file": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\data\\other_orthopox_v3.csv",
+      "rows": 0,
+      "unique_smiles": 0,
+      "rows_with_si": 0,
+      "invalid_smiles_removed": 0
+    }
+  }
+}

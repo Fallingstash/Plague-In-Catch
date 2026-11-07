@@ -1,0 +1,15 @@
+{
+  "rows": 320,
+  "descriptor_shape": [
+    320,
+    217
+  ],
+  "fingerprint_shape": [
+    320,
+    2048
+  ],
+  "train_graphs": 320,
+  "test_graphs": 597,
+  "parsed_train_smiles": 320,
+  "warning_file": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\warnings_v2.log"
+}

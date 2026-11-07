@@ -1,0 +1,21 @@
+{
+  "model": "Ridge stacking",
+  "selected_lgbm": "exp31 tuned",
+  "gin_epochs": 12,
+  "lgbm_iterations": 102,
+  "classifier_iterations": 60,
+  "candidate_oof_mse": {
+    "stacking": 13298524.296332609,
+    "weighted_gnn_lgbm_reference": 13504199.074496644
+  },
+  "prediction_summary": {
+    "min": 0.094,
+    "max": 10999.624395171983,
+    "median": 1254.4165685718617,
+    "mean": 2456.5180869182564
+  },
+  "rows": 597,
+  "file_size_bytes": 12069,
+  "output": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\submissionmlfinal.csv",
+  "notes": "Test CC50/IC50 columns are not used in features or predictions."
+}

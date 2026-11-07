@@ -1,0 +1,131 @@
+{
+  "model": "lgbm_raw_vs_log1p_vs_smearing",
+  "params": {
+    "objective": "regression",
+    "n_estimators": 1000,
+    "learning_rate": 0.03,
+    "num_leaves": 15,
+    "max_depth": 5,
+    "min_child_samples": 10,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "random_state": 42,
+    "verbose": -1,
+    "n_jobs": -1
+  },
+  "outlier": {
+    "index": 14,
+    "title": "8e-as-555-15-16",
+    "IC50_uM_VACV": 0.03,
+    "CC50_uM": 1082.0,
+    "SI_VACV": 36066.667,
+    "CC50_div_IC50": 36066.66666666667,
+    "consistent": true
+  },
+  "outlier_fold": 3,
+  "global_smearing_factor": 6.607602049551007,
+  "fold_smearing_factors": [
+    {
+      "fold": 0,
+      "smearing_factor": 6.964325835570691
+    },
+    {
+      "fold": 1,
+      "smearing_factor": 7.350988072969585
+    },
+    {
+      "fold": 2,
+      "smearing_factor": 6.358339329515793
+    },
+    {
+      "fold": 3,
+      "smearing_factor": 5.17419340810306
+    },
+    {
+      "fold": 4,
+      "smearing_factor": 7.190163601595904
+    }
+  ],
+  "cv_mse_raw": {
+    "raw_si": {
+      "mse_all": 4231074.186407227,
+      "mse_without_outlier": 205773.91909132892
+    },
+    "log1p_backtransform": {
+      "mse_all": 4251600.345281983,
+      "mse_without_outlier": 201132.49556030787
+    },
+    "log1p_global_smearing": {
+      "mse_all": 4174809.454259054,
+      "mse_without_outlier": 201946.21997456046
+    },
+    "log1p_fold_cross_fitted_smearing": {
+      "mse_all": 4183929.083230981,
+      "mse_without_outlier": 191267.32587553104
+    }
+  },
+  "foldmetrics_raw_si": {
+    "raw_si": [
+      132206.33169369356,
+      59906.813531098065,
+      359916.6120317487,
+      20200232.622874863,
+      403108.55190473364
+    ],
+    "log1p_backtransform": [
+      111280.00987489113,
+      17888.517303552733,
+      482481.3840158966,
+      20342180.060683876,
+      304171.7545317069
+    ],
+    "log1p_global_smearing": [
+      117663.25484994226,
+      170434.24813161802,
+      465913.1128231359,
+      20098683.966461405,
+      21352.68902917699
+    ],
+    "log1p_fold_cross_fitted_smearing": [
+      121456.11583570027,
+      209046.54809381295,
+      465299.0745997642,
+      20097912.56150806,
+      25931.11611757003
+    ]
+  },
+  "foldmetrics_model_target": {
+    "raw_si": [
+      132206.33169369356,
+      59906.813531098065,
+      359916.6120317487,
+      20200232.622874863,
+      403108.55190473364
+    ],
+    "log1p": [
+      2.724769975344368,
+      2.0883087360459873,
+      2.6986391042255087,
+      2.4350854797806427,
+      2.423677969946782
+    ],
+    "best_iterations_raw": [
+      1,
+      1,
+      125,
+      137,
+      6
+    ],
+    "best_iterations_log1p": [
+      106,
+      88,
+      408,
+      198,
+      281
+    ]
+  },
+  "selected_target": "log1p_global_smearing",
+  "notes": "Global smearing follows the requested mean(exp(OOF residual)) formula and is optimistic because the factor uses all OOF labels. Fold-cross-fitted smearing estimates each validation factor using residuals from other folds."
+}

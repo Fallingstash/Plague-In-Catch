@@ -1,0 +1,5 @@
+{
+  "prediction_checkpoint": "model_bundle.joblib",
+  "sha256": "6fe85f56da392ea0b9106617e617a31543b78bdd4b40444625a3d43bd5ce0cff",
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8"
+}

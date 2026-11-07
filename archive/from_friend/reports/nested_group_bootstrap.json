@@ -1,0 +1,14 @@
+{
+  "250": {
+    "mean_squared_error_delta": 41440.5119917947,
+    "group_bootstrap_95_low": -2924.635706481302,
+    "group_bootstrap_95_high": 104658.81657193923,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  },
+  "350": {
+    "mean_squared_error_delta": 41619.30637329895,
+    "group_bootstrap_95_low": -2697.279687612989,
+    "group_bootstrap_95_high": 105282.61082109777,
+    "note": "Diagnostic paired group bootstrap; repeated seeds are averaged per row, not treated as independent objects. Extreme-observation uncertainty remains large."
+  }
+}

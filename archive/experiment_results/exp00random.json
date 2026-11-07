@@ -1,0 +1,19 @@
+{
+  "model": "Log-uniform random baseline",
+  "params": {
+    "distribution": "10**Uniform(-1.0, 4.5)",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42,
+    "prediction_seed": 42
+  },
+  "cvmetric": 46610889.76107848,
+  "foldmetrics": [
+    46978578.60660392,
+    34158845.37466216,
+    51507335.36792007,
+    65984628.01016389,
+    34539155.254519306
+  ],
+  "notes": "Out-of-fold predictions scored by MSE on raw SI VACV."
+}

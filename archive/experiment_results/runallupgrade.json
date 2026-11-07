@@ -1,0 +1,61 @@
+{
+  "task": "TASK 30 global upgrade and stacking pipeline",
+  "started_at": "2026-11-06T21:03:43.560288+00:00",
+  "completed_at": "2026-11-06T21:04:10.453604+00:00",
+  "steps": [
+    {
+      "step": "exp29crossfit",
+      "script": "experiments/exp29crossfit.py",
+      "status": "success",
+      "detail": null,
+      "started_at": "2026-11-06T21:03:43.560288+00:00",
+      "completed_at": "2026-11-06T21:03:46.871941+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp29crossfit.log"
+    },
+    {
+      "step": "exp30stacking",
+      "script": "experiments/exp30stacking.py",
+      "status": "success",
+      "detail": null,
+      "started_at": "2026-11-06T21:03:46.872175+00:00",
+      "completed_at": "2026-11-06T21:03:50.172797+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp30stacking.log"
+    },
+    {
+      "step": "exp31tuning",
+      "script": "experiments/exp31tuning.py",
+      "status": "success",
+      "detail": "Reused completed 30-trial tuning report and OOF predictions.",
+      "started_at": null,
+      "completed_at": "2026-11-06T21:03:50.173762+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp31tuning.log",
+      "best_mse_raw": 14138667.485061262
+    },
+    {
+      "step": "exp30stacking_refit_tuned",
+      "script": "experiments/exp30stacking.py",
+      "status": "success",
+      "detail": null,
+      "started_at": "2026-11-06T21:03:50.174768+00:00",
+      "completed_at": "2026-11-06T21:03:53.449295+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp30stacking_refit_tuned.log"
+    },
+    {
+      "step": "makesubmissionfinal",
+      "script": "makesubmissionfinal.py",
+      "status": "success",
+      "detail": null,
+      "started_at": "2026-11-06T21:03:53.449570+00:00",
+      "completed_at": "2026-11-06T21:04:10.453423+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\makesubmissionfinal.log"
+    }
+  ],
+  "all_steps_succeeded": true,
+  "outputs": [
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp29crossfit.json",
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp30stacking.json",
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp31tuning.json",
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\makesubmissionfinal.json",
+    "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\submissionmlfinal.csv"
+  ]
+}

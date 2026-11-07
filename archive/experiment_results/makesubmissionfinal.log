@@ -1,0 +1,24 @@
+C:\Users\sashk\OneDrive\Desktop\PlagueIn\.venv\Lib\site-packages\torch\jit\_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+GIN epoch=001/12 train_mse_norm=0.226417
+GIN epoch=002/12 train_mse_norm=0.201684
+GIN epoch=003/12 train_mse_norm=0.184340
+GIN epoch=004/12 train_mse_norm=0.172763
+GIN epoch=005/12 train_mse_norm=0.170227
+GIN epoch=006/12 train_mse_norm=0.166984
+GIN epoch=007/12 train_mse_norm=0.153953
+GIN epoch=008/12 train_mse_norm=0.162554
+GIN epoch=009/12 train_mse_norm=0.135292
+GIN epoch=010/12 train_mse_norm=0.151079
+GIN epoch=011/12 train_mse_norm=0.143368
+GIN epoch=012/12 train_mse_norm=0.139048
+Selected model: Ridge stacking; CV comparison={'stacking': 13298524.296332609, 'weighted_gnn_lgbm_reference': 13504199.074496644}
+Submission preview:
+ index     SI VACV
+     0  333.533731
+     1 1385.854881
+     2    0.094000
+     3    0.094000
+     4 8060.690913
+Prediction summary: {'min': 0.094, 'max': 10999.624395171983, 'median': 1254.4165685718617, 'mean': 2456.5180869182564}
+Saved C:\Users\sashk\OneDrive\Desktop\PlagueIn\submissionmlfinal.csv (12069 bytes)

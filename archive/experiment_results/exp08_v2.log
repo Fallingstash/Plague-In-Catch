@@ -1,0 +1,8 @@
+
+===== exp08_v2 started =====
+fold=0 LGBM_v2 MSE_raw=132206, trees=1
+fold=1 LGBM_v2 MSE_raw=59906.8, trees=1
+fold=2 LGBM_v2 MSE_raw=359917, trees=125
+fold=3 LGBM_v2 MSE_raw=2.02002e+07, trees=137
+fold=4 LGBM_v2 MSE_raw=403109, trees=6
+===== exp08_v2 succeeded =====

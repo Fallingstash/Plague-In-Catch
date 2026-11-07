@@ -1,0 +1,240 @@
+{
+  "mode": "kernel_raw",
+  "seed": 43,
+  "pair_metrics": {
+    "MSE": 4776977.1423458895,
+    "RMSE": 2185.6296901227092,
+    "MAE": 412.7858021757781,
+    "MSE_zero": 40055.02011541791,
+    "MSE_positive": 6435899.235785254,
+    "MSE_high": 185461210.95724246,
+    "max_target_error_share": 0.8251276080783132,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 837980.106871223
+  },
+  "add10_metrics": {
+    "MSE": 4057485.453989897,
+    "RMSE": 2014.320097201509,
+    "MAE": 231.76960672696615,
+    "MSE_zero": 6336.168323502434,
+    "MSE_positive": 5476242.376818211,
+    "MSE_high": 184112624.72169802,
+    "max_target_error_share": 0.953661767817988,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 188606.09709554407
+  },
+  "replace30_metrics": {
+    "MSE": 4221757.3832821045,
+    "RMSE": 2054.691554292786,
+    "MAE": 272.0449041873502,
+    "MSE_zero": 10610.904857197742,
+    "MSE_positive": 5696547.078257915,
+    "MSE_high": 188949643.21882346,
+    "max_target_error_share": 0.9441505484170956,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 236521.96571524208
+  },
+  "reference_metrics": {
+    "MSE": 4046878.6413873397,
+    "RMSE": 2011.6855224878811,
+    "MAE": 215.24810164457205,
+    "MSE_zero": 5438.982071145686,
+    "MSE_positive": 5462235.146548709,
+    "MSE_high": 184000176.30716774,
+    "max_target_error_share": 0.9541905993713492,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 185966.22944586162
+  },
+  "extreme_pair_prediction": 551.6415676739717,
+  "extreme_add10_prediction": 878.1745585314654,
+  "extreme_replace30_prediction": 352.35816464508,
+  "pair_counts": [
+    {
+      "fold": 1,
+      "training_molecules": 256,
+      "directed_pairs": 3736
+    },
+    {
+      "fold": 2,
+      "training_molecules": 256,
+      "directed_pairs": 3674
+    },
+    {
+      "fold": 3,
+      "training_molecules": 256,
+      "directed_pairs": 3726
+    },
+    {
+      "fold": 4,
+      "training_molecules": 256,
+      "directed_pairs": 3696
+    },
+    {
+      "fold": 5,
+      "training_molecules": 256,
+      "directed_pairs": 3694
+    }
+  ],
+  "fold_metrics": {
+    "1": {
+      "pair": {
+        "MSE": 143616.1853521903,
+        "RMSE": 378.9672615836232,
+        "MAE": 191.65451276156736,
+        "MSE_zero": 34704.96684916539,
+        "MSE_positive": 183009.60481073128,
+        "MSE_high": 2000117.4552759505,
+        "max_target_error_share": 0.21760663787335513,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 114147.91122641634
+      },
+      "add10": {
+        "MSE": 83517.60475219839,
+        "RMSE": 288.9941258091562,
+        "MAE": 88.68821066979991,
+        "MSE_zero": 12301.226084186645,
+        "MSE_positive": 109276.72044062817,
+        "MSE_high": 4651035.430434837,
+        "max_target_error_share": 0.8701450288974124,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 11017.32180485491
+      },
+      "replace30": {
+        "MSE": 83434.97855757957,
+        "RMSE": 288.85113563491416,
+        "MAE": 114.3856611750044,
+        "MSE_zero": 22790.127847728105,
+        "MSE_positive": 105370.3500909301,
+        "MSE_high": 3954001.145143583,
+        "max_target_error_share": 0.7404720293687428,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 21997.420357801733
+      }
+    },
+    "2": {
+      "pair": {
+        "MSE": 742579.2908536452,
+        "RMSE": 861.7304049722542,
+        "MAE": 350.8229769601512,
+        "MSE_zero": 36039.98718258944,
+        "MSE_positive": 998136.0602665805,
+        "MSE_high": 17067104.174481224,
+        "max_target_error_share": 0.3591178827781608,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 483459.8482563821
+      },
+      "add10": {
+        "MSE": 358336.85573280975,
+        "RMSE": 598.6124420130354,
+        "MAE": 139.5128204606798,
+        "MSE_zero": 4477.841577313993,
+        "MSE_positive": 486328.41404437216,
+        "MSE_high": 21433299.8576663,
+        "max_target_error_share": 0.9345823766611024,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 23813.633479897275
+      },
+      "replace30": {
+        "MSE": 390250.46745924186,
+        "RMSE": 624.7003021123344,
+        "MAE": 190.05278441691019,
+        "MSE_zero": 9083.874568736777,
+        "MSE_positive": 528119.2351004883,
+        "MSE_high": 20507449.220108885,
+        "max_target_error_share": 0.82108522803414,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 70929.85233781897
+      }
+    },
+    "3": {
+      "pair": {
+        "MSE": 981443.2252872293,
+        "RMSE": 990.6781643335182,
+        "MAE": 350.8000580745886,
+        "MSE_zero": 77233.559316605,
+        "MSE_positive": 1308497.7853191574,
+        "MSE_high": 3281872.820836,
+        "max_target_error_share": 0.05224883264190357,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 944928.4698023283
+      },
+      "add10": {
+        "MSE": 67612.26679071033,
+        "RMSE": 260.02358891206455,
+        "MAE": 85.12562749744856,
+        "MSE_zero": 1353.191933380201,
+        "MSE_positive": 91578.31514336167,
+        "MSE_high": 3208812.8021424375,
+        "max_target_error_share": 0.741547390929427,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 17751.940832746408
+      },
+      "replace30": {
+        "MSE": 143207.8180335868,
+        "RMSE": 378.4280883253605,
+        "MAE": 144.2873709636441,
+        "MSE_zero": 7806.043324488194,
+        "MSE_positive": 192182.9280347501,
+        "MSE_high": 3212876.43764132,
+        "max_target_error_share": 0.3505478613351391,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 94482.91930965454
+      }
+    },
+    "4": {
+      "pair": {
+        "MSE": 2226187.724322849,
+        "RMSE": 1492.0414619985763,
+        "MAE": 456.2888861329144,
+        "MSE_zero": 48446.75402176599,
+        "MSE_positive": 2952101.3810898773,
+        "MSE_high": 7278645.9931413,
+        "max_target_error_share": 0.09007297784018825,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 2057821.8329008943
+      },
+      "add10": {
+        "MSE": 378011.1952070021,
+        "RMSE": 614.82615039294,
+        "MAE": 202.34896296420288,
+        "MSE_zero": 13378.662709158323,
+        "MSE_positive": 499555.37270628335,
+        "MSE_high": 10358201.995218065,
+        "max_target_error_share": 0.769316420866279,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 88585.11793063303
+      },
+      "replace30": {
+        "MSE": 518361.12792713323,
+        "RMSE": 719.973004998891,
+        "MAE": 255.85794878296701,
+        "MSE_zero": 12374.201042923632,
+        "MSE_positive": 687023.4368885363,
+        "MSE_high": 9681457.316929542,
+        "max_target_error_share": 0.5210336463148519,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 252218.45265816333
+      }
+    },
+    "5": {
+      "pair": {
+        "MSE": 19791059.285913542,
+        "RMSE": 4448.714340785835,
+        "MAE": 714.3625769496693,
+        "MSE_zero": 2111.4923943321255,
+        "MSE_positive": 26387375.21708661,
+        "MSE_high": 630661045.1319107,
+        "max_target_error_share": 0.9958071638222313,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 84297.82285240633
+      },
+      "add10": {
+        "MSE": 19399949.34746677,
+        "RMSE": 4404.537359072661,
+        "MAE": 643.1724120426995,
+        "MSE_zero": 224.68464944966485,
+        "MSE_positive": 25866524.235072542,
+        "MSE_high": 619389410.4856032,
+        "max_target_error_share": 0.9972883644289124,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 53440.602136260895
+      },
+      "replace30": {
+        "MSE": 19973532.524432972,
+        "RMSE": 4469.175821606594,
+        "MAE": 655.6407555982255,
+        "MSE_zero": 509.8193040270065,
+        "MSE_positive": 26631206.75947595,
+        "MSE_high": 637805130.5475056,
+        "max_target_error_share": 0.9978141182171477,
+        "MSE_without_max_DIAGNOSTIC_ONLY": 44352.793279358426
+      }
+    }
+  },
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "source_sha256": "08467d9e3860278008cf9e3bc0d8f4bc0d57d172eb2ea96f9e776bba61ac856d",
+  "seconds": 6.4483059998601675,
+  "status": "screening_only_no_Kaggle_score"
+}

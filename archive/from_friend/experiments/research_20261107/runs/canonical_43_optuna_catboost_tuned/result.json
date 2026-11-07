@@ -1,0 +1,100 @@
+{
+  "model": "optuna_catboost_tuned",
+  "cv": "canonical",
+  "seed": 43,
+  "config": {
+    "family": "catboost",
+    "depth": 5,
+    "iterations": 300,
+    "l2": 1.0636066512540283,
+    "lr": 0.09591442461979317,
+    "target": "raw",
+    "tabular_keys": [
+      "morgan2_1024",
+      "maccs",
+      "desc"
+    ]
+  },
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "seconds": 9.716858400031924,
+  "metrics": {
+    "MSE": 4292984.0207877485,
+    "RMSE": 2071.9517419061062,
+    "MAE": 300.8380771494343,
+    "MSE_zero": 90310.74900063543,
+    "MSE_positive": 5764806.305843996,
+    "MSE_high": 190407871.90366855,
+    "max_target_error_share": 0.9337421866138149,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 285335.4072669388
+  },
+  "fold_metrics": {
+    "1": {
+      "MSE": 433695.53757741983,
+      "RMSE": 658.5556450121886,
+      "MAE": 255.21748028535654,
+      "MSE_zero": 380877.8391951497,
+      "MSE_positive": 452799.8114603686,
+      "MSE_high": 4948479.640224565,
+      "max_target_error_share": 0.17828173840664957,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 362032.297852862
+    },
+    "2": {
+      "MSE": 369299.68416610337,
+      "RMSE": 607.7003243096908,
+      "MAE": 180.75778607945097,
+      "MSE_zero": 30176.896102352817,
+      "MSE_positive": 491961.1181466088,
+      "MSE_high": 20897983.52125602,
+      "max_target_error_share": 0.8841897421519548,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 43447.559767850675
+    },
+    "3": {
+      "MSE": 67949.15225773724,
+      "RMSE": 260.6705818801524,
+      "MAE": 113.36751965219145,
+      "MSE_zero": 1608.8736119582125,
+      "MSE_positive": 91944.57219344455,
+      "MSE_high": 2715373.8716555117,
+      "max_target_error_share": 0.6244039157940519,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 25926.53766412177
+    },
+    "4": {
+      "MSE": 493279.0792893197,
+      "RMSE": 702.3382940501818,
+      "MAE": 279.9253598160437,
+      "MSE_zero": 29055.80763461051,
+      "MSE_positive": 648020.1698408895,
+      "MSE_high": 10340116.698668312,
+      "max_target_error_share": 0.5901041623646596,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 205402.45474873425
+    },
+    "5": {
+      "MSE": 20100696.65064816,
+      "RMSE": 4483.380047536475,
+      "MAE": 674.9222399141291,
+      "MSE_zero": 976.1183398838066,
+      "MSE_positive": 26800603.494750928,
+      "MSE_high": 641806516.4476037,
+      "max_target_error_share": 0.9971147658057069,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 58915.77631041837
+    }
+  },
+  "code_sha256": {
+    "src\\artifacts.py": "f3d1f08d0422adfecf1e8f6df638efc313b3584869ef224c43fc5cc8921db230",
+    "src\\cli.py": "8b7644e0dac5e29a250889a798dd66927d5dd919d1164403175255fddce733d1",
+    "src\\features.py": "1d722e8e9b0addcb0562dbc5b7a361734b6787f506d49935f9d747f664deb350",
+    "src\\inference.py": "79c891369bb6d2f6a21f1821b234a948018c95c088a55747ae6859c714f9e50d",
+    "src\\models.py": "b5f8b2cbbe2eeacb18d7f1c980c98690f23038891e707b1472c57819f93ee3d4",
+    "src\\neural_models.py": "7175b59d1047876155dc93ef3d15c04916b3a1a7d1e4d17636b2190b7f34f64e",
+    "src\\registry.py": "d2f360a3be2f6ee211a9ef7a0ff8be068f996405f8812c225e5f48f39efee190",
+    "src\\reporting.py": "3616c166e2c104d29ff0cb6fba6c416cacdb8c04ba99eefe223ef4fc9f6afa9f",
+    "src\\research.py": "62aa1af7ea104d4649a5d27530608eae108083a857b0d3bd70123586bc88f8cc",
+    "src\\validation.py": "3c4c9e84fafc076fb40faef8b99f28e97fa25e33e83aba3891a5112ed3445c14",
+    "src\\__init__.py": "d717a1306ccf343f98d15afa433513e157c5cbbb46f75bd4819f90126805a7af",
+    "competition_data.py": "228a0909f561f2cf7a7886c70665958da74a5fb747917fbb2feaf43034557138",
+    "vacv_cpu_improved.py": "f1c871d339cc092587ea577294435fc9d7813c48fed16ea0364fd195eea8ad39",
+    "versions\\test\\training.py": "208cc87c7b7af1229db099dec05cc6ae45706abb36817a2b8bd8ea40bd7f467f"
+  },
+  "feature_version": "rdkit-2026.09.1-smiles-only-v1",
+  "selection_note": "Screening OOF only; not an independent estimate after selecting a configuration."
+}

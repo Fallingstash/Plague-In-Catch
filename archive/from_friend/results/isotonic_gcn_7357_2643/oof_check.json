@@ -1,0 +1,20 @@
+{
+  "protocol": "existing nested outer-fold isotonic calibrators; ratio fixed by user; no test labels/predictions used to select ratio",
+  "results": [
+    {
+      "seed": 42,
+      "mse_7357_2643": 4065244.699432511,
+      "mse_reference_70_30": 4101813.4988606917,
+      "max_pred": 2560.7747892384486,
+      "extreme_pred": 921.315585552082
+    },
+    {
+      "seed": 43,
+      "mse_7357_2643": 4142620.4985219366,
+      "mse_reference_70_30": 4046878.6413873397,
+      "max_pred": 1453.5189629354504,
+      "extreme_pred": 429.1161940135984
+    }
+  ],
+  "mean_mse": 4103932.598977224
+}

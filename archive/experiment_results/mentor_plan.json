@@ -1,0 +1,31 @@
+{
+  "task": "TASK 35 mentor priority plan",
+  "completed_at": "2026-11-07T08:38:48.342804+00:00",
+  "steps": [
+    {
+      "step": "exp35outlier",
+      "script": "experiments/exp35outlier.py",
+      "status": "success",
+      "detail": null,
+      "started_at": "2026-11-07T08:38:05.060536+00:00",
+      "completed_at": "2026-11-07T08:38:11.386017+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp35outlier.log"
+    },
+    {
+      "step": "exp36chembl",
+      "script": "experiments/exp36chembl_feature.py",
+      "status": "success",
+      "detail": null,
+      "started_at": "2026-11-07T08:38:11.386179+00:00",
+      "completed_at": "2026-11-07T08:38:48.342505+00:00",
+      "log": "C:\\Users\\sashk\\OneDrive\\Desktop\\PlagueIn\\experiments\\results\\exp36chembl.log"
+    },
+    {
+      "step": "exp37teammate_ensemble",
+      "status": "skipped",
+      "detail": "\u0416\u0434\u0435\u043c \u0444\u0430\u0439\u043b \u043e\u0442 \u0441\u043e\u043a\u043e\u043c\u0430\u043d\u0434\u043d\u0438\u043a\u0430. \u041f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u0435\u043c",
+      "input_present": false
+    }
+  ],
+  "priorities_1_and_2_succeeded": true
+}

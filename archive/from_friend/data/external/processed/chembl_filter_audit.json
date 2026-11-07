@@ -1,0 +1,9 @@
+{
+  "pairs": 260,
+  "test_structure_excluded": 0,
+  "not_exact_or_units": 182,
+  "not_explicit_vacv": 0,
+  "not_cytotoxicity": 0,
+  "cell_mismatch": 19,
+  "eligible_pending": 59
+}

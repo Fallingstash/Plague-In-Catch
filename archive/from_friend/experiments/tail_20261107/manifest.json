@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "targets_modified": false,
+  "test_used": false,
+  "grouped_seeds": [
+    42,
+    43
+  ],
+  "folds": 5,
+  "training_configurations": 8,
+  "calibration_configurations": 4,
+  "improvement_confirmed": false,
+  "recommended_submission": "versions/top1/submission.csv",
+  "code_sha256": {
+    "src\\tail_research.py": "f14d427dc1a71a0972173984864aa11f7f0023595de37b1a530b8d29e24839c7",
+    "src\\tail_calibration.py": "d07b449836056ffd7efbd64116aea9149303f9c94bf68ab594fcd479650c0243",
+    "src\\tail_report.py": "21894fa94779f4baaeffe05f5cc6777557e3140c7632ed47e10cf8d2105d355f"
+  },
+  "pytest": {
+    "tests": 12,
+    "failures": 0,
+    "errors": 0
+  },
+  "restart_prediction_max_delta": 0.0
+}

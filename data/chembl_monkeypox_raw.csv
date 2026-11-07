@@ -1,0 +1,7 @@
+chemblid,SMILES,IC50uM,CC50_uM,SI,DOI,source,virus_source
+CHEMBL112159,Nc1ncnc2c1ncn2C[C@H]1COP(=O)(O)CO1,48.0,,,10.1016/j.bmcl.2003.12.107,ChEMBL,Monkeypox
+CHEMBL113930,Nc1ncnc2c1ncn2C[C@@H](CO)OP(=O)(O)O,22.0,,,10.1016/j.bmcl.2003.12.107,ChEMBL,Monkeypox
+CHEMBL494759,Nc1ncnc2c1ncn2C[C@H](O)CO,54.0,,,10.1016/j.bmcl.2003.12.107,ChEMBL,Monkeypox
+CHEMBL1643,NC(=O)c1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)n1,145.0,,,10.1016/j.bmc.2008.11.075,ChEMBL,Monkeypox
+CHEMBL392630,Nc1ccn(C[C@H]2COP(=O)(O)CO2)c(=O)n1,760.0,,,10.1016/j.bmc.2008.11.075,ChEMBL,Monkeypox
+CHEMBL5314375,Nc1ccn(C[C@@H](CO)OCP(=O)(O)O)c(=O)n1.O.O,505.0,,,10.1016/j.bmc.2008.11.075,ChEMBL,Monkeypox

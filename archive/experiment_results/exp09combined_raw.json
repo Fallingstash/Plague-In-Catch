@@ -1,0 +1,10 @@
+{
+  "model": "combined_raw_target",
+  "cvmetric": 18076585.53089,
+  "metricname": "MSE_raw_soft",
+  "mse_hard": 16950347.957466763,
+  "mse_soft": 18076585.53089,
+  "mse_exp05_soft_log_target": 14313081.70438825,
+  "improvement_vs_exp05": -3763503.8265017495,
+  "notes": "Combines existing OOF classifier probabilities and raw-SI OOF regression predictions; no model retraining."
+}

@@ -1,0 +1,79 @@
+{
+  "name": "isotonic_reference",
+  "seed": 43,
+  "metrics": {
+    "MSE": 4229030.065443166,
+    "RMSE": 2056.460567441828,
+    "MAE": 319.6600111628467,
+    "MSE_zero": 117771.06092548912,
+    "MSE_positive": 5668838.071244716,
+    "MSE_high": 186755087.91245428,
+    "max_target_error_share": 0.9415944968517743,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 247772.91917360015
+  },
+  "reference_metrics": {
+    "MSE": 4046878.6413873397,
+    "RMSE": 2011.6855224878811,
+    "MAE": 215.24810164457205,
+    "MSE_zero": 5438.982071145686,
+    "MSE_positive": 5462235.146548709,
+    "MSE_high": 184000176.30716774,
+    "max_target_error_share": 0.9541905993713492,
+    "MSE_without_max_DIAGNOSTIC_ONLY": 185966.22944586162
+  },
+  "extreme_prediction": 370.0276662274923,
+  "fold_metrics": {
+    "1": {
+      "MSE": 185099.32037393382,
+      "RMSE": 430.23170544944014,
+      "MAE": 227.15719534900094,
+      "MSE_zero": 175538.38440601903,
+      "MSE_positive": 188557.53125594556,
+      "MSE_high": 1776768.201725073,
+      "max_target_error_share": 0.14998436026599146,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 159834.7349556618
+    },
+    "2": {
+      "MSE": 405753.3135746244,
+      "RMSE": 636.9876871452261,
+      "MAE": 247.10305308643836,
+      "MSE_zero": 154508.88869458652,
+      "MSE_positive": 496628.9566163403,
+      "MSE_high": 11494428.14658078,
+      "max_target_error_share": 0.4426345609061633,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 229742.60193960607
+    },
+    "3": {
+      "MSE": 56338.69080188623,
+      "RMSE": 237.35772749562258,
+      "MAE": 79.84539932692746,
+      "MSE_zero": 2825.286407112884,
+      "MSE_positive": 75694.60302978297,
+      "MSE_high": 2989660.243349009,
+      "max_target_error_share": 0.8291538308299541,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 9778.031237646184
+    },
+    "4": {
+      "MSE": 536596.4184664636,
+      "RMSE": 732.5274182352928,
+      "MAE": 361.04809089134733,
+      "MSE_zero": 254545.58370849807,
+      "MSE_positive": 630613.3633857855,
+      "MSE_high": 8262349.535045224,
+      "max_target_error_share": 0.42901674791887334,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 311250.8628023532
+    },
+    "5": {
+      "MSE": 19961362.583998922,
+      "RMSE": 4467.814072228042,
+      "MAE": 683.1463171605193,
+      "MSE_zero": 2714.700365525779,
+      "MSE_positive": 26614245.211876724,
+      "MSE_high": 637250029.8627174,
+      "max_target_error_share": 0.9974347742758778,
+      "MSE_without_max_DIAGNOSTIC_ONLY": 52018.18492851334
+    }
+  },
+  "train_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "note": "Calibrator learned only from 3-fold inner OOF of outer training data. Test untouched; no target modification."
+}

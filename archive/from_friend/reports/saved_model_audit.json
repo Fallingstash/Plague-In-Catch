@@ -1,0 +1,21 @@
+{
+  "graph_weight": 0.3,
+  "cpu_weights": {
+    "raw": 0.0,
+    "log": 0.7,
+    "hurdle": 0.0,
+    "knn": 0.0,
+    "extra_trees": 0.3
+  },
+  "cpu_tree_estimators": 350,
+  "cpu_tree_input_features": 1207,
+  "cpu_saved_networks": 6,
+  "cpu_descriptor_columns": 16,
+  "graph_extra_dim": 1207,
+  "graph_epochs": 80,
+  "graph_seed": 4242,
+  "training_reference_rows": 320,
+  "graph_training_rows": 320,
+  "all_scalers_match_official_train": true,
+  "metadata_used": false
+}

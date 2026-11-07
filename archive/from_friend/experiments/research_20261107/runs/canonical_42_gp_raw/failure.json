@@ -1,0 +1,12 @@
+{
+  "config": {
+    "family": "gp",
+    "keys": [
+      "morgan2_2048"
+    ],
+    "alpha": 0.3,
+    "target": "raw"
+  },
+  "error": "RuntimeError(\"scikit-learn kernels should always specify their parameters in the signature of their __init__ (no varargs). <class 'src.models.TanimotoKernel'> doesn't follow this convention.\")",
+  "seconds": 0.004606199916452169
+}

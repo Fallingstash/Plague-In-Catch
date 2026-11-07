@@ -1,0 +1,167 @@
+{
+  "submissions": {
+    "ours": {
+      "path": "submission_final_seed_avg.csv",
+      "min": 0.0,
+      "max": 32831.840625,
+      "mean": 160.8752465581044,
+      "median": 4.486042642593384,
+      "std": 1457.240366549991,
+      "zero_count": 32,
+      "below_0_1_count": 73,
+      "below_1_count": 166,
+      "unique_values": 541,
+      "max_exact_value_frequency": 32,
+      "repeated_exact_value_count": 26
+    },
+    "friend": {
+      "path": "from_friend\\results\\isotonic_gcn_7357_2643\\submission.csv",
+      "min": 2.6036445739535723,
+      "max": 9335.15607221246,
+      "mean": 211.8550930308037,
+      "median": 25.388816133859258,
+      "std": 972.0497492725924,
+      "zero_count": 0,
+      "below_0_1_count": 0,
+      "below_1_count": 0,
+      "unique_values": 567,
+      "max_exact_value_frequency": 2,
+      "repeated_exact_value_count": 30
+    }
+  },
+  "prediction_correlation": 0.6766438966088939,
+  "top10_absolute_prediction_differences": [
+    {
+      "index": 160,
+      "title": "8b-as-556",
+      "smiles": "CC1(C)[C@@H]2CC[C@@]1(C)[C@@H](NC(=O)C1=CC=C(Cl)C=C1)C2",
+      "ours": 32831.840625,
+      "friend": 9335.15607221246,
+      "absolute_difference": 23496.684552787538
+    },
+    {
+      "index": 297,
+      "title": "12",
+      "smiles": "O=C(NN1C(=O)[C@@H]2[C@@H]3C=C[C@@H]([C@H]4C[C@@H]34)[C@@H]2C1=O)C1=CC(Br)=CC=C1",
+      "ours": 1913.9131103515624,
+      "friend": 5860.675043500173,
+      "absolute_difference": 3946.7619331486108
+    },
+    {
+      "index": 320,
+      "title": "9",
+      "smiles": "O=C(NN1C(=O)[C@@H]2[C@@H]3C=C[C@@H]([C@H]4C[C@@H]34)[C@@H]2C1=O)C1=CC(Cl)=CC=C1",
+      "ours": 2504.421875,
+      "friend": 5879.478386115511,
+      "absolute_difference": 3375.056511115511
+    },
+    {
+      "index": 70,
+      "title": "tecovirimat",
+      "smiles": "O=C(NN1C(=O)[C@@H]2[C@@H]3C=C[C@@H]([C@H]4C[C@@H]34)[C@@H]2C1=O)c1ccc(C(F)(F)F)cc1",
+      "ours": 2902.159228515625,
+      "friend": 6243.044549602996,
+      "absolute_difference": 3340.8853210873713
+    },
+    {
+      "index": 100,
+      "title": "14",
+      "smiles": "O=C(NN1C(=O)[C@@H]2[C@@H]3C=C[C@@H]([C@H]4C[C@@H]34)[C@@H]2C1=O)C1=CC=C(C(F)(F)F)C=C1",
+      "ours": 2902.159228515625,
+      "friend": 6243.044549602996,
+      "absolute_difference": 3340.8853210873713
+    },
+    {
+      "index": 62,
+      "title": "13",
+      "smiles": "O=C(NN1C(=O)[C@@H]2[C@@H]3C=C[C@@H]([C@H]4C[C@@H]34)[C@@H]2C1=O)C1=CC=C(Br)C=C1",
+      "ours": 3094.023095703125,
+      "friend": 6375.827340362271,
+      "absolute_difference": 3281.8042446591458
+    },
+    {
+      "index": 155,
+      "title": "3a (repeat)",
+      "smiles": "CC1(C)CC(=O)C2=C(C1)N=C(C1=CC=C([N+](=O)[O-])C=C1)N2O",
+      "ours": 2023.782763671875,
+      "friend": 5220.090342256117,
+      "absolute_difference": 3196.307578584242
+    },
+    {
+      "index": 448,
+      "title": "CHEMBL6148232",
+      "smiles": "CC1(C)CC(=O)c2c(nc(-c3ccc([N+](=O)[O-])cc3)n2O)C1",
+      "ours": 2023.782763671875,
+      "friend": 5220.090342256117,
+      "absolute_difference": 3196.307578584242
+    },
+    {
+      "index": 361,
+      "title": "Methotrexate",
+      "smiles": "CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1",
+      "ours": 18.202997779846193,
+      "friend": 3204.209004200343,
+      "absolute_difference": 3186.0060064204968
+    },
+    {
+      "index": 202,
+      "title": "24a07",
+      "smiles": "CN1C(=O)N(O)C(=O)C2=C1C=CC(C1=CN(CC3=CC(F)=C(F)C=C3)N=N1)=C2",
+      "ours": 0.9584538578987122,
+      "friend": 3175.5767024234588,
+      "absolute_difference": 3174.61824856556
+    }
+  ],
+  "threshold_check": {
+    "detected": false,
+    "rule": "At least 5 teammate predictions share an exact value or a listed sentinel.",
+    "candidate_exact_counts": {
+      "0.0": 0,
+      "0.1": 0,
+      "1.0": 0,
+      "10.0": 0,
+      "100.0": 0,
+      "10000.0": 0
+    },
+    "candidate_rounded_2dp_counts": {
+      "0.0": 0,
+      "0.1": 0,
+      "1.0": 0,
+      "10.0": 0,
+      "100.0": 0,
+      "10000.0": 0
+    },
+    "maximum_exact_value_frequency": 2,
+    "sentinel_threshold": null,
+    "decision": "No supported threshold; leave our predictions unchanged."
+  },
+  "thresholded_submission": null,
+  "train_zero_target_error": {
+    "ours_seed_averaged_oof": {
+      "rows": 320,
+      "zero_target_rows": 83,
+      "zero_target_fraction_rows": 0.259375,
+      "oof_mse_all_rows": 3948203.7702149823,
+      "mse_on_zero_target_rows": 2042.6239319151862,
+      "zero_row_sse_contribution_to_overall_mse": 529.8055823405014,
+      "zero_row_share_of_total_oof_squared_error": 0.00013418901687327377,
+      "mse_on_nonzero_target_rows": 5330192.6948626395
+    },
+    "friend_gcn_oof": {
+      "rows": 320,
+      "zero_target_rows": 83,
+      "zero_target_fraction_rows": 0.259375,
+      "oof_mse_all_rows": 3831981.9529758967,
+      "mse_on_zero_target_rows": 4280.765042403983,
+      "zero_row_sse_contribution_to_overall_mse": 1110.323432873533,
+      "zero_row_share_of_total_oof_squared_error": 0.0002897517385256112,
+      "mse_on_nonzero_target_rows": 5172484.900648808
+    },
+    "note": "The friend submission is a CPU+isotonic-GCN blend; its available OOF file is the raw GCN component, not the complete submitted blend."
+  },
+  "interpretation": {
+    "test_target_labels_are_unavailable": true,
+    "score_gap_cannot_be_attributed_to_a_threshold_from_submissions_alone": true,
+    "friend_submission_is_not_the_same_model_as_ours": "Friend submission is the fixed CPU/isotonic-GCN blend; ours is a five-seed raw GCN average."
+  }
+}

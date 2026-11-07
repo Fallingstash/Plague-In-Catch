@@ -1,0 +1,68 @@
+{
+  "pool": {
+    "krr_mix_0.03": {
+      "family": "krr",
+      "keys": [
+        "morgan2_2048",
+        "morgan3_2048"
+      ],
+      "alpha": 0.03,
+      "target": "log"
+    },
+    "krr_mix_0.3": {
+      "family": "krr",
+      "keys": [
+        "morgan2_2048",
+        "morgan3_2048"
+      ],
+      "alpha": 0.3,
+      "target": "log"
+    },
+    "krr_morgan2_2048_raw": {
+      "family": "krr",
+      "keys": [
+        "morgan2_2048"
+      ],
+      "alpha": 1.0,
+      "target": "raw"
+    },
+    "gp_log": {
+      "family": "gp",
+      "keys": [
+        "morgan2_2048"
+      ],
+      "alpha": 0.3,
+      "target": "log"
+    },
+    "catboost_d4_raw": {
+      "family": "catboost",
+      "depth": 4,
+      "target": "raw",
+      "iterations": 180,
+      "lr": 0.05,
+      "l2": 5.0
+    },
+    "catboost_d4_log": {
+      "family": "catboost",
+      "depth": 4,
+      "target": "log",
+      "iterations": 180,
+      "lr": 0.05,
+      "l2": 5.0
+    }
+  },
+  "weights": [
+    0,
+    0.1,
+    0.2,
+    0.3,
+    1.0
+  ],
+  "gates": [
+    "static",
+    "similarity",
+    "ridge_stacking"
+  ],
+  "inner_folds": 3,
+  "note": "The search space was fixed before evaluating outer-fold targets. Global Optuna results are not imported."
+}

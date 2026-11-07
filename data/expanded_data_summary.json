@@ -1,0 +1,44 @@
+{
+  "collected_rows": 485,
+  "chembl_rows": 454,
+  "figshare_rows": 31,
+  "expanded_train_rows": 349,
+  "expanded_active_rows": 268,
+  "classifier_rows": 803,
+  "classifier_active_rows": 722,
+  "parsed_expanded_train_smiles": 349,
+  "parsed_chembl_smiles": 454,
+  "feature_shapes": {
+    "expanded_train_descriptors": [
+      349,
+      217
+    ],
+    "expanded_train_fingerprints": [
+      349,
+      2048
+    ],
+    "classifier_chembl_descriptors": [
+      454,
+      217
+    ],
+    "classifier_chembl_fingerprints": [
+      454,
+      2048
+    ]
+  },
+  "fold_counts_349": [
+    70,
+    70,
+    70,
+    70,
+    69
+  ],
+  "fold_counts_803": [
+    161,
+    161,
+    161,
+    160,
+    160
+  ],
+  "preexisting_canonical_groups_crossing_original_folds": 5
+}

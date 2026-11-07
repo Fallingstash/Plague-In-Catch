@@ -1,0 +1,6 @@
+{
+  "model": "combinedhard",
+  "cvmetric": 17589558.46812719,
+  "metricname": "MSE_raw",
+  "notes": "threshold=0.5, inactive=10000"
+}

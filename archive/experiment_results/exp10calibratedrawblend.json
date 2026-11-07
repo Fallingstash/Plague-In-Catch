@@ -1,0 +1,71 @@
+{
+  "model": "platt_and_linear_calibrated_raw_blend",
+  "cvmetric": 14250756.711630119,
+  "metricname": "MSE_raw",
+  "mse_calibrated": 14250756.711630119,
+  "mse_uncalibrated_recomputed": 18076585.53089,
+  "mse_exp09_soft": 18076585.53089,
+  "improvement_vs_uncalibrated": 3825828.81925988,
+  "foldmetrics": [
+    13112543.440017074,
+    6396805.912876949,
+    13601802.980871538,
+    28047793.336547468,
+    10247871.503728429
+  ],
+  "platt_calibrators": [
+    {
+      "fold": 0,
+      "intercept": -1.7428710229743238,
+      "coefficient": 4.805300932392886
+    },
+    {
+      "fold": 1,
+      "intercept": -1.7691065456526327,
+      "coefficient": 4.684409204917899
+    },
+    {
+      "fold": 2,
+      "intercept": -1.8565960520976403,
+      "coefficient": 4.894418189073942
+    },
+    {
+      "fold": 3,
+      "intercept": -1.7530628687957783,
+      "coefficient": 4.735681671324621
+    },
+    {
+      "fold": 4,
+      "intercept": -1.6827919986975965,
+      "coefficient": 4.592047500234222
+    }
+  ],
+  "linear_calibrators": [
+    {
+      "fold": 0,
+      "intercept": 364.2344880147792,
+      "coefficient": -0.02204993188016525
+    },
+    {
+      "fold": 1,
+      "intercept": 384.8682815239904,
+      "coefficient": -0.019999640590628694
+    },
+    {
+      "fold": 2,
+      "intercept": 396.1592851234601,
+      "coefficient": -0.04545242746125592
+    },
+    {
+      "fold": 3,
+      "intercept": 89.68875032784965,
+      "coefficient": 0.02038647850143215
+    },
+    {
+      "fold": 4,
+      "intercept": 370.6522372882992,
+      "coefficient": -0.028245141828107466
+    }
+  ],
+  "notes": "Fold-local logistic calibration of classifier OOF probabilities and fold-local linear calibration of raw-SI OOF regression; predictions for each validation fold are calibrated using only other-fold OOF predictions."
+}

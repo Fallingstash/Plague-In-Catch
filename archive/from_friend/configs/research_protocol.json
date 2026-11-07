@@ -1,0 +1,18 @@
+{
+  "training_source": "official SHA256-pinned train.csv only",
+  "inputs": ["SMILES"],
+  "target": "SI VACV",
+  "selection_reads_test": false,
+  "canonical_folds": 5,
+  "split_seeds": [42, 43],
+  "nested_inner_folds": 3,
+  "new_reference_tree_estimators": 350,
+  "legacy_reference_tree_estimators": 250,
+  "reference_cpu_weight": 0.7,
+  "reference_gcn_weight": 0.3,
+  "gcn_epochs": 80,
+  "catboost_optuna_trials": 8,
+  "optuna_timeout_seconds": 180,
+  "main_metric": "MSE on original SI scale",
+  "drop_folds": false
+}

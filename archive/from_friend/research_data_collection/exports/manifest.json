@@ -1,0 +1,53 @@
+{
+  "source_file": "data\\external\\processed\\chembl_quarantine.csv",
+  "source_sha256": "8524dfb6037a4812c4a6c5f60f58e14301313d1268d9d7e823794257df5b7269",
+  "cached_download_manifests": [
+    {
+      "path": "data\\external\\raw\\chembl_all\\manifest.json",
+      "sha256": "59822750441f3cd28f21a845b9d4bf03f30c99ab954ac961f038600b18059c22",
+      "metadata": {
+        "source": "ChEMBL REST API",
+        "api_documentation": "https://www.ebi.ac.uk/chembl/api/data/docs",
+        "query": "assay organism contains Vaccinia",
+        "created_utc": "2026-11-07T05:07:56.152305+00:00",
+        "status": "complete",
+        "assay_count": 621,
+        "molecule_count": 3713,
+        "document_count": 284
+      }
+    },
+    {
+      "path": "data\\external\\raw\\chembl_batch\\manifest.json",
+      "sha256": "760ea2e0838468a188920d8178be5638e2f0373fa3717f5007c0d8ff3e824e22",
+      "metadata": {
+        "source": "ChEMBL REST API",
+        "api_documentation": "https://www.ebi.ac.uk/chembl/api/data/docs",
+        "query": "assay organism contains Vaccinia",
+        "created_utc": "2026-11-07T04:31:11.919996+00:00",
+        "status": "complete",
+        "assay_count": 621,
+        "molecule_count": 534,
+        "document_count": 34
+      }
+    },
+    {
+      "path": "data\\external\\raw\\chembl_full\\manifest.json",
+      "sha256": "28dddaf588588cbc3919a2ba52ccfe41a445639f0e3ed7d81828fdafb0bef701",
+      "metadata": {
+        "source": "ChEMBL REST API",
+        "api_documentation": "https://www.ebi.ac.uk/chembl/api/data/docs",
+        "query": "assay organism contains Vaccinia",
+        "created_utc": "2026-11-07T05:10:25.512284+00:00",
+        "status": "complete",
+        "assay_count": 621,
+        "molecule_count": 3713,
+        "document_count": 284
+      }
+    }
+  ],
+  "exported_utc": "2026-11-07T08:33:02.554803+00:00",
+  "candidate_count": 59,
+  "validated_count": 0,
+  "training_allowed": false,
+  "note": "Real existing ChEMBL records; candidate pairs are not validated labels. No competition model imports this module."
+}
