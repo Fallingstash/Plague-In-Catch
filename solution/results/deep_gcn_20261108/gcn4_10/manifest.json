@@ -1,0 +1,17 @@
+{
+  "status": "experimental_pending_kaggle",
+  "public_mse": null,
+  "weights": {
+    "cpu": 0.6,
+    "gcn1": 0.15,
+    "gcn2": 0.15,
+    "gcn3": 0.0,
+    "gcn4": 0.1
+  },
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "test_sha256": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+  "submission_sha256": "89e0b14be3febbe2927f6fd72cb2c3cbb801084e85d082fac52bc1886d221dd1",
+  "prediction_model_sha256": "56f92149cff4ad090f42e5fb39645f7eedd62df498a789ecc961143146ae209a",
+  "prediction_model_path": "prediction_bundle.joblib",
+  "validation": "paired canonical grouped OOF, seeds 42 and 43; train only; not an independent model-selection estimate"
+}

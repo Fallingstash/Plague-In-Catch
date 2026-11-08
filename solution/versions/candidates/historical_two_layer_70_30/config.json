@@ -1,0 +1,7 @@
+{
+  "graph_weight": 0.3,
+  "layers": 2,
+  "seed": 4242,
+  "epochs": 80,
+  "recovery_source": "reports/gcn_layer_test_prediction_comparison.csv"
+}

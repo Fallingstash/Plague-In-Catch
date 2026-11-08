@@ -1,0 +1,9 @@
+{
+  "label_source": "submission (1).csv",
+  "label_source_sha256": "272dd5c3195dcc15821c3e854801ebb10d6d79df5ab8de12690cdd11fe87bfce",
+  "rows": 597,
+  "epochs": 1999,
+  "mse_on_training_answers": 12167.3779296875,
+  "mae_on_training_answers": 7.828197956085205,
+  "note": "Test answers were used for fitting. This is training error, not a valid Kaggle evaluation or unbiased score."
+}

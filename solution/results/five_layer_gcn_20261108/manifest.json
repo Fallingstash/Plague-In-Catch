@@ -1,0 +1,15 @@
+{
+  "status": "experimental_pending_kaggle",
+  "public_mse": null,
+  "weights": {
+    "cpu": 0.7,
+    "gcn5": 0.3
+  },
+  "gcn_layers": 5,
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "test_sha256": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+  "submission_sha256": "76232354bddadb2a385df0dc44c59719f073afe28d033875eb443998fec932d4",
+  "prediction_model_sha256": "03ac31459d40b60f86891c6414378cfb6d576ce5533b8995d36623a21b7c5e84",
+  "prediction_model_path": "prediction_bundle.joblib",
+  "validation": "paired canonical grouped OOF, seeds 42 and 43, trained only on train.csv"
+}

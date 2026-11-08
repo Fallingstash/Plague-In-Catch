@@ -3,3 +3,4 @@ solution/**/.pytest_cache/
 solution/output/
 solution/research_data_collection/raw/
 solution/.venv/
+solution/experiments/research_20261107/feature_cache/

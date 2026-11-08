@@ -9,7 +9,13 @@ def predict_bundle(bundle, frame):
     if 'SMILES' not in frame or not len(frame):raise ValueError('A nonempty SMILES table is required')
     for sm in frame.SMILES:canonical(sm)
     kind=bundle.get('model_type')
-    if kind=='isotonic_gcn_blend':
+    if kind=='multi_graph_blend':
+        import vacv_cpu_improved as cpu
+        from gcn_predict import predict
+        p=bundle['cpu_weight']*cpu.bundle_predict(bundle['base_bundle'],frame)
+        for weight, graph_bundle in zip(bundle['graph_weights'],bundle['graph_bundles']):
+            p=p+weight*predict(graph_bundle,frame.SMILES)
+    elif kind=='isotonic_gcn_blend':
         import vacv_cpu_improved as cpu
         gcn=np.mean([model.predict(frame) for model in bundle['gcn_models']],axis=0)
         calibrated=bundle['calibrator'].predict(gcn)

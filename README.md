@@ -58,6 +58,48 @@ python -m research_data_collection export --out output/research
 
 **Статус проверки:** все 59 пар требуют проверки совместимости измерений по первоисточникам, подтверждённых пар пока нет. Внешние записи не использовались для обучения конкурсной модели. Поэтому наличие этой таблицы само по себе не подтверждает выполнение требования о научно проверенной внешней базе. Подробнее — в [описании сбора данных](solution/research_data_collection/README.md) и [модуле проверки](solution/research_data_collection/validation.py).
 
+## Дополнительные версии и воспроизведение
+
+Все команды ниже выполняются из каталога `solution` после установки зависимостей. Помимо исходного ансамбля, сохранены следующие эксперименты:
+
+| Версия | Состав или назначение | Файл прогноза |
+| --- | --- | --- |
+| Базовая смесь | 70% CPU, 15% GCN-1, 15% GCN-2 | [CSV](solution/results/deep_gcn_20261108/baseline_15_15/submission.csv) |
+| GCN-3 | 60% CPU, по 15% GCN-1 и GCN-2, 10% GCN-3 | [CSV](solution/results/deep_gcn_20261108/gcn3_10/submission.csv) |
+| GCN-4 | 60% CPU, по 15% GCN-1 и GCN-2, 10% GCN-4 | [CSV](solution/results/deep_gcn_20261108/gcn4_10/submission.csv) |
+| GCN-3 + GCN-4 | 60% CPU, по 15% GCN-1 и GCN-2, по 5% GCN-3 и GCN-4 | [CSV](solution/results/deep_gcn_20261108/gcn3_5_gcn4_5/submission.csv) |
+| GCN-5 | 70% CPU и 30% пятислойной GCN | [CSV](solution/results/five_layer_gcn_20261108/submission.csv) |
+| Последовательная смесь | 70% от смеси CPU/GCN-1 с весами 70/30 и 30% GCN-2; итого 49/21/30 | [CSV](solution/results/sequential_70_30_20261108/submission.csv) |
+| Имитация ответов | Нейросеть, обученная на предоставленном файле тестовых ответов | [CSV](solution/results/answer_imitation/submission.csv) |
+
+Чтобы проверить любой сохранённый прогноз ансамбля, передайте путь к его CSV. Проверка загружает находящийся рядом `prediction_bundle.joblib`, сверяет хеши и повторно вычисляет прогноз:
+
+```bash
+python -m src.cli validate-submission --file results/deep_gcn_20261108/gcn4_10/submission.csv
+python -m src.cli validate-submission --file results/five_layer_gcn_20261108/submission.csv
+python -m src.cli validate-submission --file results/sequential_70_30_20261108/submission.csv
+```
+
+Для других ансамблей из таблицы замените путь после `--file`. Заново сформировать прогноз без переобучения можно так:
+
+```bash
+python -m src.cli make-submission --model results/sequential_70_30_20261108/prediction_bundle.joblib --output output/sequential/submission.csv
+python predict_answer_imitation.py --output output/imitation/submission.csv
+```
+
+Для другой версии ансамбля подставьте путь к её `prediction_bundle.joblib`. Для каждого запуска используйте новый выходной файл. Если требуется заново выполнить эксперименты с обучением и кросс-валидацией, доступны команды:
+
+```bash
+python deep_gcn_experiment.py
+python five_layer_experiment.py
+python sequential_blend_experiment.py
+python imitation_experiment.py
+```
+
+Эти скрипты записывают результаты в соответствующие папки `results/` и могут перезаписать их содержимое. Метрики групповой кросс-валидации сохранены рядом с версиями в `metrics.csv`; результат каждой новой версии на Kaggle неизвестен до отправки.
+
+**Данные для имитации:** `imitation_experiment.py` обучает сеть на SMILES тестовой выборки и предоставленных ответах из [submission (1).csv](solution/submission%20%281%29.csv). Ее MSE примерно 12 167 измерен на тех же ответах, которые использовались для обучения. Это обучающая ошибка, а не независимая оценка на скрытой выборке; сравнивать её с результатами кросс-валидации или публичным Kaggle-score нельзя. Прочие перечисленные модели обучались на официальном train.
+
 ## Структура репозитория
 
 | Путь | Содержимое |

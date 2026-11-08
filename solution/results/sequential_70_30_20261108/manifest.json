@@ -1,0 +1,15 @@
+{
+  "status": "experimental_pending_kaggle",
+  "public_mse": null,
+  "weights": {
+    "cpu": 0.49,
+    "gcn1": 0.21,
+    "gcn2": 0.3
+  },
+  "recipe": "0.70 * (0.70 * CPU + 0.30 * GCN1) + 0.30 * GCN2",
+  "training_sha256": "d9a876a67b5623d9cdb6592fc53d31ffaa7c535b09968c3a538138740fe246e8",
+  "test_sha256": "1b0c6a014bbe556c42ef2277e867d2e1a647ad31c157a9cd81bbc7e262481abd",
+  "submission_sha256": "d4501837991079c0aab33463135b76d34a6266409f0d2a4dade07c6518f9e0c5",
+  "prediction_model_sha256": "4f54ce1099b2d62745ccf6b1447eb726df513c4a8b96075d3069809ca57513cf",
+  "prediction_model_path": "prediction_bundle.joblib"
+}

@@ -17,10 +17,12 @@ from competition_data import read_competition_csv, require_safe_output
 torch.set_num_threads(4)
 class GraphNet(nn.Module):
  def __init__(self,extra_dim=0,layers=1):
-  super().__init__(); self.layers=layers; self.first=nn.Linear(10,64); self.conv=nn.Linear(64,64); self.conv2=nn.Linear(64,64) if layers==2 else None; self.head=nn.Sequential(nn.Linear(64+extra_dim,64),nn.GELU(),nn.Dropout(.2),nn.Linear(64,1))
+  if layers not in (1,2,3,4,5): raise ValueError('layers must be between 1 and 5')
+  super().__init__(); self.layers=layers; self.first=nn.Linear(10,64); self.conv=nn.Linear(64,64); self.conv2=nn.Linear(64,64) if layers>=2 else None; self.extra_convs=nn.ModuleList(nn.Linear(64,64) for _ in range(max(0,layers-2))); self.head=nn.Sequential(nn.Linear(64+extra_dim,64),nn.GELU(),nn.Dropout(.2),nn.Linear(64,1))
  def forward(self,atoms,adj,mask,extra):
   x=torch.relu(self.first(atoms)); x=torch.relu(self.conv(torch.bmm(adj,x)))
   if self.conv2 is not None: x=x+torch.relu(self.conv2(torch.bmm(adj,x)))
+  for conv in self.extra_convs: x=x+torch.relu(conv(torch.bmm(adj,x)))
   x=(x*mask[:,:,None]).sum(dim=1)/mask.sum(dim=1,keepdim=True).clamp_min(1)
   if extra is not None: x=torch.cat([x,extra],dim=1)
   return self.head(x).squeeze(1)
