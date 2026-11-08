@@ -1,70 +1,72 @@
-# VACV Selectivity Index Prediction
+# Прогноз индекса селективности против вируса вакцинии
 
-## Hackathon submission: best saved solution
+Модель машинного обучения предсказывает индекс селективности **SI VACV** по SMILES-записи молекулы. Решение подготовлено для хакатона по поиску потенциальных противовирусных соединений. Качество оценивается по среднеквадратичной ошибке (**MSE**) на исходной шкале SI: чем меньше значение, тем лучше.
 
-The reproducible 70/30 CPU/GCN ensemble and the data collection workflow are in [solution/](solution/README.md). Its reported Kaggle MSE is 886520.98398. The description below documents the earlier two-stage GCN experiment, not the best saved ensemble.
+## Результат
 
-Predict the selectivity index (SI) against vaccinia virus from molecular SMILES.
-The competition metric is MSE on raw SI values.
+| Показатель | Значение |
+| --- | --- |
+| Публичный результат Kaggle, по данным команды | **886 520,98398 MSE** |
+| Обучающая выборка | 320 строк |
+| Тестовая выборка | 597 строк |
+| Итоговая модель | 70% CPU-модели и 30% графовой нейросети GCN |
+| Готовый файл для отправки | [submission.csv](solution/versions/top1/submission.csv) |
 
-## Pipeline
+Лучший результат получен сохранённым ансамблем. Его веса и итоговый CSV включены в репозиторий. При локальной проверке модель воспроизвела все 597 прогнозов с точностью до численной погрешности. Значение Kaggle указано со слов команды; локальная проверка подтверждает воспроизводимость файла, а не саму оценку на платформе.
 
-The final workflow is a two-stage GCN:
+## Быстрый запуск
 
-1. A graph classifier estimates whether SI is positive.
-2. A separate regressor predicts `log1p(SI)` for positive-SI molecules.
-3. An isotonic calibrator, fitted on out-of-fold classifier probabilities,
-   calibrates the test probabilities. The final estimate is
-   `calibrated_probability * expm1(regressor_log1p_SI)`.
-
-The GCN uses one message-passing layer (64 hidden units), mean pooling, and
-Morgan, MACCS, and RDKit descriptor features. Five seeds (42-46) and five
-stratified group folds are used. Folds group identical canonical SMILES.
-Only SMILES-derived features are used; assay measurements and hidden test
-columns are not model inputs.
-
-The teammate's isotonic implementation calibrates continuous SI regression
-outputs to SI targets. This pipeline instead calibrates the activity
-probability, as required by the final two-stage prediction formula; it does
-not claim to reproduce the teammate's fitted regression calibrator.
-
-## Results and prior experiments
-
-The reproduced teammate GCN baseline reached about 3.832M raw-SI OOF MSE.
-Earlier LGBM (about 14M), GIN, multi-task, and Figshare augmentation
-experiments did not improve on that baseline. Figshare augmentation and the
-ChEMBL multi-task experiment showed negative transfer and were excluded from
-the final model. Previous scripts and artifacts are retained under `archive/`.
-The current five-seed two-stage run has classifier ROC-AUC about 0.912 and
-diagnostic calibrated-blend OOF MSE about 4.181M, so it does not beat the
-3.832M baseline. The test prediction maximum is about 25,330, above the
-requested ~9,000 target. It is reported as-is; predictions are not artificially
-clipped. Detailed prior experiment results are in `archive/`.
-
-## Data
-
-Place the required inputs in `data/inputs/`:
-
-- `train_v2.csv` — 320 labeled molecules with `SMILES` and `SI VACV`.
-- `test_clean.csv` — 597 molecules with `index` and `SMILES`.
-
-Additional collected ChEMBL, Figshare, and article data are retained under
-`data/`; they are not used in the final model because prior validation did not
-show reliable improvement.
-
-## Run
-
-Install dependencies from `requirements.txt`, then run:
+Перейдите в каталог решения и установите зависимости в виртуальное окружение. Пример для Windows PowerShell:
 
 ```powershell
-python src/pipeline.py
-python experiments/validation.py
+cd solution
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m src.cli validate-submission --file versions/top1/submission.csv
+.\.venv\Scripts\python.exe -m src.cli make-submission --output output/submission.csv
 ```
 
-For the existing Windows virtual environment, use
-`.\\.venv\\Scripts\\python.exe` in place of `python`.
+На Linux и macOS после `cd solution` можно создать окружение через `python3 -m venv .venv`, активировать его командой `source .venv/bin/activate` и выполнять те же команды с `python` вместо пути к интерпретатору.
 
-The pipeline writes `submission/submission_final.csv`, fitted models, OOF
-arrays, and a JSON report under `experiments/results/`. Predictions are
-validated for row count, finite values, and nonnegativity. The observed test
-maximum is reported, not artificially clipped to a target value.
+Первая команда проверяет формат и контрольные суммы сохранённого результата, затем пересчитывает прогнозы из весов модели. Вторая создаёт и проверяет новый `output/submission.csv`: в нём 597 строк, столбцы `index,SI VACV` и порядок индексов исходной тестовой выборки. Если файл уже существует, укажите другой путь. Отправка файла на Kaggle выполняется вручную.
+
+Список зависимостей находится в [requirements.txt](solution/requirements.txt), а версии локального окружения, в котором проверялось решение, — в [environment.txt](solution/experiments/research_20261107/environment.txt). Воспроизводимость на других версиях библиотек и платформах требует отдельной проверки.
+
+## Обучение и проверка модели
+
+Команды запускаются из каталога `solution`:
+
+```bash
+python -m src.cli train --device cpu --out output/training
+python -m src.cli evaluate --cv canonical --seeds 42,43
+```
+
+Обучение создаёт новый набор весов по фиксированному рецепту. Он может отличаться от исторического ансамбля и не гарантирует тот же результат Kaggle; для воспроизведения сохранённого результата используйте быстрый запуск выше. При кросс-валидации одинаковые канонические SMILES остаются в одной группе, а все фолды учитываются в метрике. Тестовая выборка используется только для итогового прогнозирования.
+
+Модель обучалась на официальном [train.csv](solution/train.csv); фактически использованные SMILES и значения SI сохранены в [official_training_used.csv](solution/experiments/research_20261107/official_training_used.csv). Скрипт проверяет контрольную сумму исходного train. Для прогноза используются признаки молекул, полученные из SMILES.
+
+## Сбор и проверка открытых данных
+
+В рамках задачи подготовлены скрипты для сбора записей из открытых источников и проверки их происхождения. Основной источник — [ChEMBL API](https://www.ebi.ac.uk/chembl/api/data/docs); также в проекте есть инструменты для работы с [PubChem](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest).
+
+```bash
+python -m research_data_collection collect
+python -m research_data_collection export --out output/research
+```
+
+Сбор требует доступа к интернету. Экспорт использует включённый промежуточный файл и формирует таблицы в указанном каталоге. В [таблице кандидатов](solution/research_data_collection/exports/research_candidates.csv) сохранены 59 пар измерений с полями SMILES, IC50, CC50, SI, DOI и ссылкой на источник; дополнительные поля описывают условия и статус проверки.
+
+**Статус проверки:** все 59 пар требуют проверки совместимости измерений по первоисточникам, подтверждённых пар пока нет. Внешние записи не использовались для обучения конкурсной модели. Поэтому наличие этой таблицы само по себе не подтверждает выполнение требования о научно проверенной внешней базе. Подробнее — в [описании сбора данных](solution/research_data_collection/README.md) и [модуле проверки](solution/research_data_collection/validation.py).
+
+## Структура репозитория
+
+| Путь | Содержимое |
+| --- | --- |
+| [solution/](solution/) | Основное решение и инструкции по запуску |
+| [solution/src/](solution/src/) | Модель, обучение, оценка и формирование результата |
+| [solution/versions/top1/](solution/versions/top1/) | Сохранённые веса, контрольные суммы и лучший CSV |
+| [solution/data_collection/](solution/data_collection/) | Скрипты загрузки и обработки открытых данных |
+| [solution/research_data_collection/](solution/research_data_collection/) | Экспорт кандидатных записей и их проверка |
+| [archive/](archive/) | Предыдущие эксперименты и артефакты |
+
+В репозитории сохранена и более ранняя двухэтапная GCN-модель. Она относится к предыдущим экспериментам; приведённый выше результат относится к ансамблю в `solution/versions/top1/`.
