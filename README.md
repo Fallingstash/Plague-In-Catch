@@ -1,5 +1,9 @@
 # VACV Selectivity Index Prediction
 
+## Hackathon submission: best saved solution
+
+The reproducible 70/30 CPU/GCN ensemble and the data collection workflow are in [solution/](solution/README.md). Its reported Kaggle MSE is 886520.98398. The description below documents the earlier two-stage GCN experiment, not the best saved ensemble.
+
 Predict the selectivity index (SI) against vaccinia virus from molecular SMILES.
 The competition metric is MSE on raw SI values.
 

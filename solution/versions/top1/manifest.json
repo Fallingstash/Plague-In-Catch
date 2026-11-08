@@ -1,0 +1,12 @@
+{
+  "rank": 1,
+  "status": "confirmed_kaggle_result",
+  "public_mse": 886520.98398,
+  "score_source": "user-reported Kaggle submission; exact uploaded file copied from reference",
+  "graph_weight": 0.3,
+  "submission_sha256": "a201fd15bd04487de8c5b15cd2994c712b75a7acb8a3bdd73bcd247183895390",
+  "model_sha256": "beeab6ffdb27f9a47e71bd39cf1a3e25f2d228f02d25939d19ebe4cd7f9907ff",
+  "base_model": "cpu_model.joblib",
+  "graph_model": "gcn_model.joblib",
+  "note": "Training/CV use train.csv SI VACV only; test is inference only."
+}

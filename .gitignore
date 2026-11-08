@@ -1,0 +1,5 @@
+solution/**/__pycache__/
+solution/**/.pytest_cache/
+solution/output/
+solution/research_data_collection/raw/
+solution/.venv/
